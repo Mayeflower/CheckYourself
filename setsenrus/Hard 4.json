@@ -1,0 +1,352 @@
+[
+  {
+    "word": "valiant",
+    "transcription": "вЭльент",
+    "translation": "доблестный, храбрый",
+    "image": "images/valiant.png",
+    "level": "C2"
+  },
+  {
+    "word": "smear of rouge",
+    "transcription": "смир ов руж",
+    "translation": "мазок румян, пятно румян",
+    "image": "images/smear_of_rouge.png",
+    "level": "C2"
+  },
+  {
+    "word": "stampede",
+    "transcription": "стэмпИд",
+    "translation": "паническое бегство, массовое бегство",
+    "image": "images/stampede.png",
+    "level": "C2"
+  },
+  {
+    "word": "insidious",
+    "transcription": "инсИдиэс",
+    "translation": "коварный, предательский",
+    "image": "images/insidious.png",
+    "level": "C2"
+  },
+  {
+    "word": "rotund",
+    "transcription": "роутАнд",
+    "translation": "пухлый, округлый",
+    "image": "images/rotund.png",
+    "level": "C2"
+  },
+  {
+    "word": "which had lain embedded in the future",
+    "transcription": "уич хэд лЭйн имбЭдид ин зэ фьЮчэр",
+    "translation": "которое было заложено (скрыто) в будущем",
+    "image": "images/which_had_lain_embedded_in_the_future.png",
+    "level": "C2"
+  },
+  {
+    "word": "respite",
+    "transcription": "рЕспит",
+    "translation": "передышка, отсрочка",
+    "image": "images/respite.png",
+    "level": "C2"
+  },
+  {
+    "word": "unrepentant",
+    "transcription": "анрипЕнтэнт",
+    "translation": "нераскаявшийся",
+    "image": "images/unrepentant.png",
+    "level": "C2"
+  },
+  {
+    "word": "erroneous",
+    "transcription": "ироунИэс",
+    "translation": "ошибочный",
+    "image": "images/erroneous.png",
+    "level": "C2"
+  },
+  {
+    "word": "penitence",
+    "transcription": "пЕнитэнс",
+    "translation": "покаяние",
+    "image": "images/penitence.png",
+    "level": "C2"
+  },
+  {
+    "word": "clamped themselves against his temples",
+    "transcription": "клЭмпт зэмсЕлвз агЕнст хиз тЕмплз",
+    "translation": "прижались к его вискам",
+    "image": "images/clamped_themselves_against_his_temples.png",
+    "level": "C2"
+  },
+  {
+    "word": "insurrection",
+    "transcription": "инсэрЕкшн",
+    "translation": "восстание, мятеж",
+    "image": "images/insurrection.png",
+    "level": "C2"
+  },
+  {
+    "word": "paucity",
+    "transcription": "пОсити",
+    "translation": "нехватка, дефицит",
+    "image": "images/paucity.png",
+    "level": "C2"
+  },
+  {
+    "word": "fastidious",
+    "transcription": "фастИдиэс",
+    "translation": "привередливый, брезгливый",
+    "image": "images/fastidious.png",
+    "level": "C2"
+  },
+  {
+    "word": "obsequious",
+    "transcription": "обсИквиэс",
+    "translation": "подобострастный, заискивающий",
+    "image": "images/obsequious.png",
+    "level": "C2"
+  },
+  {
+    "word": "Cheeping feebly",
+    "transcription": "чИпин фИбли",
+    "translation": "слабо попискивая",
+    "image": "images/Cheeping_feebly.png",
+    "level": "C2"
+  },
+  {
+    "word": "Paddock",
+    "transcription": "пЭдэк",
+    "translation": "загон (для лошадей)",
+    "image": "images/Paddock.png",
+    "level": "C2"
+  },
+  {
+    "word": "Lest",
+    "transcription": "лест",
+    "translation": "дабы не; чтобы не",
+    "image": "images/Lest.png",
+    "level": "C2"
+  },
+  {
+    "word": "Stave off",
+    "transcription": "стЭйв оф",
+    "translation": "предотвратить, отсрочить",
+    "image": "images/Stave_off.png",
+    "level": "C2"
+  },
+  {
+    "word": "Alacrity",
+    "transcription": "алЭкрити",
+    "translation": "готовность, рвение",
+    "image": "images/Alacrity.png",
+    "level": "C2"
+  },
+  {
+    "word": "Pernicious",
+    "transcription": "пёрнИшэс",
+    "translation": "губительный, пагубный",
+    "image": "images/Pernicious.png",
+    "level": "C2"
+  },
+  {
+    "word": "Snubbing",
+    "transcription": "снАбин",
+    "translation": "игнорирование, пренебрежение",
+    "image": "images/Snubbing.png",
+    "level": "C2"
+  },
+  {
+    "word": "Inroad",
+    "transcription": "Инроуд",
+    "translation": "вторжение, посягательство",
+    "image": "images/Inroad.png",
+    "level": "C2"
+  },
+  {
+    "word": "Finagling",
+    "transcription": "файнЭглин",
+    "translation": "махинации, жульничество, выцыганивание",
+    "image": "images/Finagling.png",
+    "level": "C2"
+  },
+  {
+    "word": "Arcane",
+    "transcription": "аркЕйн",
+    "translation": "таинственный, секретный",
+    "image": "images/Arcane.png",
+    "level": "C2"
+  },
+  {
+    "word": "Punctuated",
+    "transcription": "пАнктюэйтэд",
+    "translation": "прерываемый (чем-либо), периодически повторяющийся",
+    "image": "images/Punctuated.png",
+    "level": "C2"
+  },
+  {
+    "word": "Aloofness",
+    "transcription": "алУфнис",
+    "translation": "отстраненность, холодность",
+    "image": "images/Aloofness.png",
+    "level": "C2"
+  },
+  {
+    "word": "Scraggly beard",
+    "transcription": "скрЭгли бирд",
+    "translation": "косматая, всклокоченная борода",
+    "image": "images/Scraggly_beard.png",
+    "level": "C2"
+  },
+  {
+    "word": "With prosecutors contending there were",
+    "transcription": "уиз прОсикуторз кэнтЕндинг зЭр уЁр",
+    "translation": "при том, что прокуроры утверждали, что были",
+    "image": "images/With_prosecutors_contending_there_were.png",
+    "level": "C2"
+  },
+  {
+    "word": "Reclusive",
+    "transcription": "реклУсив",
+    "translation": "замкнутый, уединенный",
+    "image": "images/Reclusive.png",
+    "level": "C2"
+  },
+  {
+    "word": "Demise",
+    "transcription": "димАйз",
+    "translation": "кончина, смерть",
+    "image": "images/Demise.png",
+    "level": "C2"
+  },
+  {
+    "word": "Runt",
+    "transcription": "рант",
+    "translation": "карлик, самый маленький в помете, заморыш",
+    "image": "images/Runt.png",
+    "level": "C2"
+  },
+  {
+    "word": "Stricken from the record",
+    "transcription": "стрИкэн фром зэ рЕкорд",
+    "translation": "вычеркнуто из протокола",
+    "image": "images/Stricken_from_the_record.png",
+    "level": "C2"
+  },
+  {
+    "word": "Blasphemy",
+    "transcription": "блЭсфэми",
+    "translation": "богохульство",
+    "image": "images/Blasphemy.png",
+    "level": "C2"
+  },
+  {
+    "word": "Dungeon",
+    "transcription": "дАнджэн",
+    "translation": "подземелье, темница",
+    "image": "images/Dungeon.png",
+    "level": "C2"
+  },
+  {
+    "word": "Tether",
+    "transcription": "тЕзэр",
+    "translation": "привязь, предел возможностей",
+    "image": "images/Tether.png",
+    "level": "C2"
+  },
+  {
+    "word": "Garrulous",
+    "transcription": "гЕррэлэс",
+    "translation": "болтливый, многословный",
+    "image": "images/Garrulous.png",
+    "level": "C2"
+  },
+  {
+    "word": "Incorrigible",
+    "transcription": "инкОрриджибл",
+    "translation": "неисправимый",
+    "image": "images/Incorrigible.png",
+    "level": "C2"
+  },
+  {
+    "word": "Mellifluous",
+    "transcription": "мелИфлуэс",
+    "translation": "сладкозвучный, медоточивый",
+    "image": "images/Mellifluous.png",
+    "level": "C2"
+  },
+  {
+    "word": "Vicissitude",
+    "transcription": "висИсситуд",
+    "translation": "превратность, перемена",
+    "image": "images/Vicissitude.png",
+    "level": "C2"
+  },
+  {
+    "word": "Magnanimous",
+    "transcription": "мэгнАнимэс",
+    "translation": "великодушный",
+    "image": "images/Magnanimous.png",
+    "level": "C2"
+  },
+  {
+    "word": "Paunch",
+    "transcription": "понч",
+    "translation": "пузо, брюшко",
+    "image": "images/Paunch.png",
+    "level": "C2"
+  },
+  {
+    "word": "Gabble",
+    "transcription": "гЭбл",
+    "translation": "тараторить, бормотать",
+    "image": "images/Gabble.png",
+    "level": "C2"
+  },
+  {
+    "word": "Strident",
+    "transcription": "стрАйдэнт",
+    "translation": "пронзительный, резкий",
+    "image": "images/Strident.png",
+    "level": "C2"
+  },
+  {
+    "word": "Pudgy",
+    "transcription": "пАджи",
+    "translation": "пухлый, пухленький",
+    "image": "images/Pudgy.png",
+    "level": "C2"
+  },
+  {
+    "word": "Gravy",
+    "transcription": "грЕйви",
+    "translation": "подливка, соус",
+    "image": "images/Gravy.png",
+    "level": "C2"
+  },
+  {
+    "word": "Inextricably",
+    "transcription": "инэкстрИкабли",
+    "translation": "неотрывно, неразрывно",
+    "image": "images/Inextricably.png",
+    "level": "C2"
+  },
+  {
+    "word": "Fornication",
+    "transcription": "форникЕйшн",
+    "translation": "блуд, прелюбодеяние",
+    "image": "images/Fornication.png",
+    "level": "C2"
+  },
+  {
+    "word": "Consorting with",
+    "transcription": "консОртин уиз",
+    "translation": "якшаться с, водить компанию с",
+    "image": "images/Consorting_with.png",
+    "level": "C2"
+  },
+  {
+    "word": "Beget",
+    "transcription": "бигЕт",
+    "translation": "порождать, вызывать",
+    "image": "images/Beget.png",
+    "level": "C2"
+  }
+]

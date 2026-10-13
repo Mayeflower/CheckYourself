@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Elementary",
+    "file": "setsenrus/Elementary.json",
+    "cefr": "A2"
+  },
+  {
+    "id": "Beginner 1",
+    "file": "setsenrus/Beginner 1.json",
+    "cefr": "B1"
+  },
+  {
+    "id": "Beginner 2",
+    "file": "setsenrus/Beginner 2.json",
+    "cefr": "B1"
+  },
+  {
+    "id": "Medium 1",
+    "file": "setsenrus/Medium 1.json",
+    "cefr": "B2"
+  },
+  {
+    "id": "Medium 2",
+    "file": "setsenrus/Medium 2.json",
+    "cefr": "B2"
+  },
+  {
+    "id": "Medium 3",
+    "file": "setsenrus/Medium 3.json",
+    "cefr": "B2"
+  },
+  {
+    "id": "Medium 4",
+    "file": "setsenrus/Medium 4.json",
+    "cefr": "B2"
+  },
+  {
+    "id": "Upper 1",
+    "file": "setsenrus/Upper 1.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Upper 2",
+    "file": "setsenrus/Upper 2.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Upper 3",
+    "file": "setsenrus/Upper 3.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Upper 4",
+    "file": "setsenrus/Upper 4.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Upper 5",
+    "file": "setsenrus/Upper 5.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Upper 6",
+    "file": "setsenrus/Upper 6.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Upper 7",
+    "file": "setsenrus/Upper 7.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Hard 1",
+    "file": "setsenrus/Hard 1.json",
+    "cefr": "C2"
+  },
+  {
+    "id": "Hard 2",
+    "file": "setsenrus/Hard 2.json",
+    "cefr": "C2"
+  },
+  {
+    "id": "Hard 3",
+    "file": "setsenrus/Hard 3.json",
+    "cefr": "C2"
+  },
+  {
+    "id": "Hard 4",
+    "file": "setsenrus/Hard 4.json",
+    "cefr": "C2"
+  },
+  {
+    "id": "Hard 5",
+    "file": "setsenrus/Hard 5.json",
+    "cefr": "C2"
+  },
+  {
+    "id": "Expert 1",
+    "file": "setsenrus/Expert 1.json",
+    "cefr": "C2+"
+  }
+]

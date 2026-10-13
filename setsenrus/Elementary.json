@@ -1,0 +1,289 @@
+[
+  {
+    "word": "Fill out",
+    "transcription": "филАут",
+    "translation": "заполнить, заполнять",
+    "image": "images/Fill_out.png",
+    "level": "A2"
+  },
+  {
+    "word": "Box of tissues",
+    "transcription": "бокс оф тИшьюс",
+    "translation": "коробка салфеток, коробка с салфетками",
+    "image": "images/Box_of_tissues.png",
+    "level": "A2"
+  },
+  {
+    "word": "Knocking",
+    "transcription": "нОкин",
+    "translation": "стук",
+    "image": "images/Knocking.png",
+    "level": "A2"
+  },
+  {
+    "word": "Stove",
+    "transcription": "стоув",
+    "translation": "кухонная плита",
+    "image": "images/Stove.png",
+    "level": "A2"
+  },
+  {
+    "word": "Sharp knife",
+    "transcription": "шарп найф",
+    "translation": "острый нож",
+    "image": "images/Sharp_knife.png",
+    "level": "A2"
+  },
+  {
+    "word": "cod",
+    "transcription": "кАд",
+    "translation": "треска",
+    "image": "images/Cod.png",
+    "level": "A2"
+  },
+  {
+    "word": "slime",
+    "transcription": "слАйм",
+    "translation": "слизь",
+    "image": "images/Slime.png",
+    "level": "A2"
+  },
+  {
+    "word": "hoe",
+    "transcription": "хОу",
+    "translation": "мотыга",
+    "image": "images/Hoe.png",
+    "level": "A2"
+  },
+  {
+    "word": "wiener",
+    "transcription": "уИнер",
+    "translation": "сосиска",
+    "image": "images/Wiener.png",
+    "level": "A2"
+  },
+  {
+    "word": "hunch",
+    "transcription": "хАнч",
+    "translation": "предчувствие, догадка",
+    "image": "images/Hunch.png",
+    "level": "A2"
+  },
+  {
+    "word": "itinerary",
+    "transcription": "айтИнэрэри",
+    "translation": "маршрут, план поездки",
+    "image": "images/Itinerary.png",
+    "level": "A2"
+  },
+  {
+    "word": "mushy",
+    "transcription": "мАши",
+    "translation": "мягкий, кашеобразный",
+    "image": "images/Mushy.png",
+    "level": "A2"
+  },
+  {
+    "word": "tame",
+    "transcription": "тЕйм",
+    "translation": "ручной, приручать",
+    "image": "images/Tame.png",
+    "level": "A2"
+  },
+  {
+    "word": "tremble",
+    "transcription": "трЕмбул",
+    "translation": "дрожать",
+    "image": "images/Tremble.png",
+    "level": "A2"
+  },
+  {
+    "word": "nutty",
+    "transcription": "нАри",
+    "translation": "ореховый, сумасшедший",
+    "image": "images/Nutty.png",
+    "level": "A2"
+  },
+  {
+    "word": "bagel",
+    "transcription": "бЕйгл",
+    "translation": "бублик",
+    "image": "images/Bagel.png",
+    "level": "A2"
+  },
+  {
+    "word": "tumble",
+    "transcription": "тАмбл",
+    "translation": "кувыркаться",
+    "image": "images/Tumble.png",
+    "level": "A2"
+  },
+  {
+    "word": "detour",
+    "transcription": "дИтур",
+    "translation": "объезд",
+    "image": "images/Detour.png",
+    "level": "A2"
+  },
+  {
+    "word": "saucer",
+    "transcription": "сОсер",
+    "translation": "блюдце",
+    "image": "images/Saucer.png",
+    "level": "A2"
+  },
+  {
+    "word": "dome",
+    "transcription": "дОум",
+    "translation": "купол",
+    "image": "images/Dome.png",
+    "level": "A2"
+  },
+  {
+    "word": "sub",
+    "transcription": "сАб",
+    "translation": "подводная лодка, замещающий, подлодка, под",
+    "image": "images/Sub.png",
+    "level": "A2"
+  },
+  {
+    "word": "trout",
+    "transcription": "трАут",
+    "translation": "форель",
+    "image": "images/Trout.png",
+    "level": "A2"
+  },
+  {
+    "word": "soak",
+    "transcription": "сОук",
+    "translation": "замачивать, промокать, замочить",
+    "image": "images/Soak.png",
+    "level": "A2"
+  },
+  {
+    "word": "lap",
+    "transcription": "лЭп",
+    "translation": "колени, круг (по стадиону), круг",
+    "image": "images/Lap.png",
+    "level": "A2"
+  },
+  {
+    "word": "slug",
+    "transcription": "слАг",
+    "translation": "слизень, сильно ударить, слизняк, сильный удар",
+    "image": "images/Slug.png",
+    "level": "A2"
+  },
+  {
+    "word": "pulp",
+    "transcription": "пАлп",
+    "translation": "мякоть",
+    "image": "images/Pulp.png",
+    "level": "A2"
+  },
+  {
+    "word": "cane",
+    "transcription": "кЕйн",
+    "translation": "трость",
+    "image": "images/Cane.png",
+    "level": "A2"
+  },
+  {
+    "word": "rip",
+    "transcription": "рИп",
+    "translation": "рвать",
+    "image": "images/Rip.png",
+    "level": "A2"
+  },
+  {
+    "word": "mugger",
+    "transcription": "мАгр",
+    "translation": "уличный грабитель",
+    "image": "images/Mugger.png",
+    "level": "A2"
+  },
+  {
+    "word": "flea",
+    "transcription": "флИ",
+    "translation": "блоха",
+    "image": "images/Flea.png",
+    "level": "A2"
+  },
+  {
+    "word": "pantry",
+    "transcription": "пЭнчри",
+    "translation": "кладовая, кладовка",
+    "image": "images/Pantry.png",
+    "level": "A2"
+  },
+  {
+    "word": "ballpoint pen",
+    "transcription": "бОлпоинт пэн",
+    "translation": "шариковая ручка",
+    "image": "images/Ballpoint_Pen.png",
+    "level": "A2"
+  },
+  {
+    "word": "thrill",
+    "transcription": "срИл",
+    "translation": "трепет, трепетать",
+    "image": "images/Thrill.png",
+    "level": "A2"
+  },
+  {
+    "word": "bargain",
+    "transcription": "бАргин",
+    "translation": "выгодная сделка, торговаться",
+    "image": "images/Bargain.png",
+    "level": "A2"
+  },
+  {
+    "word": "cot",
+    "transcription": "кАт",
+    "translation": "раскладушка",
+    "image": "images/Cot.png",
+    "level": "A2"
+  },
+  {
+    "word": "suggest",
+    "transcription": "саджЕст",
+    "translation": "предлагать",
+    "image": "images/Suggest.png",
+    "level": "A2"
+  },
+  {
+    "word": "suppose",
+    "transcription": "сапОуз",
+    "translation": "предполагать",
+    "image": "images/Suppose.png",
+    "level": "A2"
+  },
+  {
+    "word": "sewing kit",
+    "transcription": "сОуин кит",
+    "translation": "швейный набор",
+    "image": "images/Sewing_Kit.png",
+    "level": "A2"
+  },
+  {
+    "word": "spatula",
+    "transcription": "спЭчула",
+    "translation": "кулинарная лопатка, лопатка",
+    "image": "images/Spatula.png",
+    "level": "A2"
+  },
+  {
+    "word": "tissue",
+    "transcription": "тИшью",
+    "translation": "бумажная салфетка, салфетка",
+    "image": "images/Tissue.png",
+    "level": "A2"
+  },
+  {
+    "word": "vent",
+    "transcription": "вЕнт",
+    "translation": "вентиляционное отверстие, вентиляционная шахта, вентиляция",
+    "image": "images/Vent.png",
+    "level": "A2"
+  }
+]

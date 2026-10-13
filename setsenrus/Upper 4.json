@@ -1,0 +1,352 @@
+[
+  {
+    "word": "subdued",
+    "transcription": "сабдьЮд",
+    "translation": "приглушенный, смягченный, покорный",
+    "image": "images/subdued.png",
+    "level": "C1"
+  },
+  {
+    "word": "Wrench off",
+    "transcription": "рэнч оф",
+    "translation": "оторвать с силой, вырвать",
+    "image": "images/Wrench_off.png",
+    "level": "C1"
+  },
+  {
+    "word": "Grudge",
+    "transcription": "градж",
+    "translation": "обида, неохотно давать",
+    "image": "images/Grudge.png",
+    "level": "C1"
+  },
+  {
+    "word": "hypodermic syringe",
+    "transcription": "хАйподёрмик сИриндж",
+    "translation": "подкожный шприц",
+    "image": "images/hypodermic_syringe.png",
+    "level": "C1"
+  },
+  {
+    "word": "Weep",
+    "transcription": "уИп",
+    "translation": "плакать, рыдать",
+    "image": "images/Weep.png",
+    "level": "C1"
+  },
+  {
+    "word": "implicate",
+    "transcription": "Импликэйт",
+    "translation": "впутывать, вовлекать",
+    "image": "images/implicate.png",
+    "level": "C1"
+  },
+  {
+    "word": "he was strapped into",
+    "transcription": "хи уоз стрэпт Инту",
+    "translation": "он был пристегнут к",
+    "image": "images/he_was_strapped_into.png",
+    "level": "C1"
+  },
+  {
+    "word": "weariness",
+    "transcription": "уИринэс",
+    "translation": "усталость, утомление",
+    "image": "images/weariness.png",
+    "level": "C1"
+  },
+  {
+    "word": "soothing ointment",
+    "transcription": "сУзин Ойнтмэнт",
+    "translation": "успокаивающая мазь",
+    "image": "images/soothing_ointment.png",
+    "level": "C1"
+  },
+  {
+    "word": "fallacy",
+    "transcription": "фЭлэси",
+    "translation": "заблуждение, ошибка",
+    "image": "images/fallacy.png",
+    "level": "C1"
+  },
+  {
+    "word": "groan",
+    "transcription": "грОун",
+    "translation": "стон, стонать",
+    "image": "images/groan.png",
+    "level": "C1"
+  },
+  {
+    "word": "Brood of ducklings",
+    "transcription": "бруд ов дАклинз",
+    "translation": "выводок утят",
+    "image": "images/Brood_of_ducklings.png",
+    "level": "C1"
+  },
+  {
+    "word": "Grazing",
+    "transcription": "грЕйзин",
+    "translation": "выпас, пасущийся",
+    "image": "images/Grazing.png",
+    "level": "C1"
+  },
+  {
+    "word": "Stout",
+    "transcription": "стАут",
+    "translation": "плотный, крепкий, тучный",
+    "image": "images/Stout.png",
+    "level": "C1"
+  },
+  {
+    "word": "Rosier outcome",
+    "transcription": "рОузир ауткам",
+    "translation": "более радужный исход",
+    "image": "images/Rosier_outcome.png",
+    "level": "C1"
+  },
+  {
+    "word": "Distinctions",
+    "transcription": "дистИнкшнс",
+    "translation": "различия, отличия",
+    "image": "images/Distinctions.png",
+    "level": "C1"
+  },
+  {
+    "word": "We are compelled",
+    "transcription": "уи ар кампЕлд",
+    "translation": "нас вынуждают, мы вынуждены",
+    "image": "images/We_are_compelled.png",
+    "level": "C1"
+  },
+  {
+    "word": "Staggering",
+    "transcription": "стЕгэрин",
+    "translation": "ошеломляющий, шаткий",
+    "image": "images/Staggering.png",
+    "level": "C1"
+  },
+  {
+    "word": "Recapture",
+    "transcription": "рикЕпчэр",
+    "translation": "повторный захват, отвоевание",
+    "image": "images/Recapture.png",
+    "level": "C1"
+  },
+  {
+    "word": "Side hustle",
+    "transcription": "сайд хАсл",
+    "translation": "подработка, побочный заработок",
+    "image": "images/Side_hustle.png",
+    "level": "C1"
+  },
+  {
+    "word": "Roster",
+    "transcription": "рАстэр",
+    "translation": "список, график дежурств, состав",
+    "image": "images/Roster.png",
+    "level": "C1"
+  },
+  {
+    "word": "Fiddling with",
+    "transcription": "фИдлин уиз",
+    "translation": "возиться с, играть с",
+    "image": "images/Fiddling_with.png",
+    "level": "C1"
+  },
+  {
+    "word": "Crop up",
+    "transcription": "кроп ап",
+    "translation": "возникать, появляться неожиданно",
+    "image": "images/Crop_up.png",
+    "level": "C1"
+  },
+  {
+    "word": "Reconciliation",
+    "transcription": "рэкансилиЕйшн",
+    "translation": "примирение, согласование",
+    "image": "images/Reconciliation.png",
+    "level": "C1"
+  },
+  {
+    "word": "Deferral",
+    "transcription": "дифЁрэл",
+    "translation": "отсрочка, откладывание",
+    "image": "images/Deferral.png",
+    "level": "C1"
+  },
+  {
+    "word": "Hashed out",
+    "transcription": "хэшт аут",
+    "translation": "обсудили, пришли к согласию",
+    "image": "images/Hashed_out.png",
+    "level": "C1"
+  },
+  {
+    "word": "Steeper tariffs",
+    "transcription": "стИпэр тЕрифс",
+    "translation": "более высокие тарифы",
+    "image": "images/Steeper_tariffs.png",
+    "level": "C1"
+  },
+  {
+    "word": "Cagey",
+    "transcription": "кЕйджи",
+    "translation": "скрытный, осторожный, уклончивый",
+    "image": "images/Cagey.png",
+    "level": "C1"
+  },
+  {
+    "word": "Revamp",
+    "transcription": "ривЕмп",
+    "translation": "реконструкция, обновление",
+    "image": "images/Revamp.png",
+    "level": "C1"
+  },
+  {
+    "word": "Turmoil",
+    "transcription": "тЁрмойл",
+    "translation": "суматоха, беспорядок, смятение",
+    "image": "images/Turmoil.png",
+    "level": "C1"
+  },
+  {
+    "word": "Defiant",
+    "transcription": "дифАйэнт",
+    "translation": "вызывающий, непокорный",
+    "image": "images/Defiant.png",
+    "level": "C1"
+  },
+  {
+    "word": "Vigorously",
+    "transcription": "вИгэрасли",
+    "translation": "энергично, решительно",
+    "image": "images/Vigorously.png",
+    "level": "C1"
+  },
+  {
+    "word": "Whim",
+    "transcription": "уим",
+    "translation": "прихоть, каприз",
+    "image": "images/Whim.png",
+    "level": "C1"
+  },
+  {
+    "word": "Severance",
+    "transcription": "сЕвэранс",
+    "translation": "разрыв, увольнение с выплатой",
+    "image": "images/Severance.png",
+    "level": "C1"
+  },
+  {
+    "word": "Sanctuary",
+    "transcription": "сЕнкчуэри",
+    "translation": "убежище, заповедник",
+    "image": "images/Sanctuary.png",
+    "level": "C1"
+  },
+  {
+    "word": "Cog",
+    "transcription": "ког",
+    "translation": "зубец шестерни, винтик",
+    "image": "images/Cog.png",
+    "level": "C1"
+  },
+  {
+    "word": "But you gonna make good on his busted arm",
+    "transcription": "бат ю гОнэ мэйк гуд он хиз бАстид арм",
+    "translation": "Но ты возместишь ущерб за его сломанную руку",
+    "image": "images/But_you_gonna_make_good_on_his_busted_arm.png",
+    "level": "C1"
+  },
+  {
+    "word": "Kennel",
+    "transcription": "кЕнл",
+    "translation": "собачья будка, питомник",
+    "image": "images/Kennel.png",
+    "level": "C1"
+  },
+  {
+    "word": "Thorns",
+    "transcription": "сОрнз",
+    "translation": "шипы, колючки",
+    "image": "images/Thorns.png",
+    "level": "C1"
+  },
+  {
+    "word": "Debris",
+    "transcription": "дэбрИ",
+    "translation": "обломки, мусор",
+    "image": "images/Debris.png",
+    "level": "C1"
+  },
+  {
+    "word": "Juncture",
+    "transcription": "джАнкчэр",
+    "translation": "момент, стечение обстоятельств",
+    "image": "images/Juncture.png",
+    "level": "C1"
+  },
+  {
+    "word": "Never attribute to malice",
+    "transcription": "нЕвэр Этрибьют ту мЕлис",
+    "translation": "Никогда не приписывай злому умыслу",
+    "image": "images/Never_attribute_to_malice.png",
+    "level": "C1"
+  },
+  {
+    "word": "Diverge",
+    "transcription": "дайвЁрдж",
+    "translation": "расходиться, отклоняться",
+    "image": "images/Diverge.png",
+    "level": "C1"
+  },
+  {
+    "word": "Be right as rain",
+    "transcription": "би райт эз рэйн",
+    "translation": "Быть в полном порядке, здоровым",
+    "image": "images/Be_right_as_rain.png",
+    "level": "C1"
+  },
+  {
+    "word": "They were liable to hold up the meeting",
+    "transcription": "зэй уёр лАйабл ту хоулд ап зэ мИтин",
+    "translation": "Они могли задержать собрание",
+    "image": "images/They_were_liable_to_hold_up.png",
+    "level": "C1"
+  },
+  {
+    "word": "Inherently",
+    "transcription": "инхЕрэнтли",
+    "translation": "По своей сути, неотъемлемо",
+    "image": "images/Inherently.png",
+    "level": "C1"
+  },
+  {
+    "word": "Larynx",
+    "transcription": "лЕринкс",
+    "translation": "гортань",
+    "image": "images/Larynx.png",
+    "level": "C1"
+  },
+  {
+    "word": "Din",
+    "transcription": "дин",
+    "translation": "шум, гам, грохот",
+    "image": "images/Din.png",
+    "level": "C1"
+  },
+  {
+    "word": "Clung to him",
+    "transcription": "клАн ту хим",
+    "translation": "Вцепился в него, привязался к нему",
+    "image": "images/Clung_to_him.png",
+    "level": "C1"
+  },
+  {
+    "word": "Dabbling",
+    "transcription": "дЕблин",
+    "translation": "поверхностное увлечение, баловство",
+    "image": "images/Dabbling.png",
+    "level": "C1"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "word": "Lattice",
+    "transcription": "лЭтис",
+    "translation": "решетка, шпалера",
+    "image": "images/Lattice.png",
+    "level": "C2"
+  },
+  {
+    "word": "Engulfed in major row",
+    "transcription": "ингАлфт ин мЭйджа рау",
+    "translation": "втянут в крупную ссору",
+    "image": "images/Engulfed_in_major_row.png",
+    "level": "C2"
+  },
+  {
+    "word": "Farrier",
+    "transcription": "фЭриэр",
+    "translation": "коваль, ветеринар по копытам",
+    "image": "images/Farrier.png",
+    "level": "C2"
+  },
+  {
+    "word": "Contrived",
+    "transcription": "кэнтрАйвд",
+    "translation": "надуманный, искусственный",
+    "image": "images/Contrived.png",
+    "level": "C2"
+  },
+  {
+    "word": "Pig iron",
+    "transcription": "пиг айэрн",
+    "translation": "чугун",
+    "image": "images/Pig_iron.png",
+    "level": "C2"
+  },
+  {
+    "word": "Oblong metal plaque",
+    "transcription": "Облонг мЕтл плэк",
+    "translation": "продолговатая металлическая табличка",
+    "image": "images/Oblong_metal_plaque.png",
+    "level": "C2"
+  },
+  {
+    "word": "Meagerness",
+    "transcription": "мИгрнис",
+    "translation": "скудость, тощесть",
+    "image": "images/Meagerness.png",
+    "level": "C2"
+  },
+  {
+    "word": "Sanguine",
+    "transcription": "сЭнгвин",
+    "translation": "оптимистичный, уверенный",
+    "image": "images/Sanguine.png",
+    "level": "C2"
+  },
+  {
+    "word": "Skimmed down between the roofs",
+    "transcription": "скимд даун битвИн зэ руфс",
+    "translation": "скользнул (пролетел) вниз между крышами",
+    "image": "images/Skimmed_down_between_the_roofs.png",
+    "level": "C2"
+  },
+  {
+    "word": "Vistas of houses",
+    "transcription": "вИстэз оф хАузиз",
+    "translation": "виды на дома, панорамы домов",
+    "image": "images/Vistas_of_houses.png",
+    "level": "C2"
+  },
+  {
+    "word": "Shored up",
+    "transcription": "шорд Ап",
+    "translation": "подперт, укреплен",
+    "image": "images/Shored_up.png",
+    "level": "C2"
+  },
+  {
+    "word": "Corrugated",
+    "transcription": "кОругэйтид",
+    "translation": "гофрированный, рифленый",
+    "image": "images/Corrugated.png",
+    "level": "C2"
+  },
+  {
+    "word": "Sprung up sordid colonies",
+    "transcription": "спран Ап сОрдид кОлониз",
+    "translation": "выросли жалкие (убогие) поселения",
+    "image": "images/Sprung_up_sordid_colonies.png",
+    "level": "C2"
+  },
+  {
+    "word": "Truncheons",
+    "transcription": "трАнчэнз",
+    "translation": "полицейские дубинки",
+    "image": "images/Truncheons.png",
+    "level": "C2"
+  },
+  {
+    "word": "Scamper",
+    "transcription": "скЭмпэр",
+    "translation": "удирать, шмыгать; беготня",
+    "image": "images/Scamper.png",
+    "level": "C2"
+  },
+  {
+    "word": "The streak was snapped two nights later",
+    "transcription": "зэ стрик уоз снэпт ту найтс лЭйтер",
+    "translation": "полоса (везения/невезения) прервалась двумя ночами позже",
+    "image": "images/The_streak_was_snapped_two_nights_later.png",
+    "level": "C2"
+  },
+  {
+    "word": "Obsequious",
+    "transcription": "обсИквиэс",
+    "translation": "раболепный, угодливый",
+    "image": "images/Obsequious.png",
+    "level": "C2"
+  },
+  {
+    "word": "Perfunctory",
+    "transcription": "пёрфАнктори",
+    "translation": "поверхностный, формальный",
+    "image": "images/Perfunctory.png",
+    "level": "C2"
+  },
+  {
+    "word": "Anachronism",
+    "transcription": "анАкронизэм",
+    "translation": "анахронизм",
+    "image": "images/Anachronism.png",
+    "level": "C2"
+  },
+  {
+    "word": "Belligerent",
+    "transcription": "бэлИджэрэнт",
+    "translation": "воинственный, задиристый",
+    "image": "images/Belligerent.png",
+    "level": "C2"
+  },
+  {
+    "word": "Capricious",
+    "transcription": "капрИшэс",
+    "translation": "капризный, переменчивый",
+    "image": "images/Capricious.png",
+    "level": "C2"
+  },
+  {
+    "word": "Elope",
+    "transcription": "илОуп",
+    "translation": "сбежать (чтобы тайно пожениться)",
+    "image": "images/Elope.png",
+    "level": "C2"
+  },
+  {
+    "word": "Rabidly",
+    "transcription": "рЭбидли",
+    "translation": "яростно, фанатично",
+    "image": "images/Rabidly.png",
+    "level": "C2"
+  },
+  {
+    "word": "Abhorrent",
+    "transcription": "эбхОрэнт",
+    "translation": "отвратительный, ненавистный",
+    "image": "images/Abhorrent.png",
+    "level": "C2"
+  },
+  {
+    "word": "Blow back",
+    "transcription": "блоу бэк",
+    "translation": "отдача, негативные последствия",
+    "image": "images/Blow_back.png",
+    "level": "C2"
+  },
+  {
+    "word": "Alluded to",
+    "transcription": "алЮдид ту",
+    "translation": "намекнул на, сослался на",
+    "image": "images/Alluded_to.png",
+    "level": "C2"
+  },
+  {
+    "word": "Bleak",
+    "transcription": "блик",
+    "translation": "мрачный, унылый, безрадостный",
+    "image": "images/Bleak.png",
+    "level": "C2"
+  },
+  {
+    "word": "Those avenues had been exhausted",
+    "transcription": "зоуз Эвэнюз хэд бин игзОстид",
+    "translation": "те возможности (пути) были исчерпаны",
+    "image": "images/Those_avenues_had_been_exhausted.png",
+    "level": "C2"
+  },
+  {
+    "word": "It transpired",
+    "transcription": "ит транcпАйэрд",
+    "translation": "выяснилось, стало известно",
+    "image": "images/It_transpired.png",
+    "level": "C2"
+  },
+  {
+    "word": "Reciprocal",
+    "transcription": "рисИпрокэл",
+    "translation": "взаимный, обоюдный",
+    "image": "images/Reciprocal.png",
+    "level": "C2"
+  },
+  {
+    "word": "Stooge",
+    "transcription": "студж",
+    "translation": "марионетка, подставное лицо, подручный",
+    "image": "images/Stooge.png",
+    "level": "C2"
+  },
+  {
+    "word": "Endowment",
+    "transcription": "индАумэнт",
+    "translation": "дар, способность; пожертвование",
+    "image": "images/Endowment.png",
+    "level": "C2"
+  },
+  {
+    "word": "Homage",
+    "transcription": "хОмидж",
+    "translation": "дань уважения, почтение",
+    "image": "images/Homage.png",
+    "level": "C2"
+  },
+  {
+    "word": "Imbued with faith in man",
+    "transcription": "имбьЮд уиз фэйт ин мэн",
+    "translation": "проникнутый верой в человека",
+    "image": "images/Imbued_with_faith_in_man.png",
+    "level": "C2"
+  },
+  {
+    "word": "To be skittish",
+    "transcription": "ту би скИтиш",
+    "translation": "быть пугливым, нервным, непостоянным",
+    "image": "images/To_be_skittish.png",
+    "level": "C2"
+  },
+  {
+    "word": "Searingly",
+    "transcription": "сИэринли",
+    "translation": "жгуче, пронзительно, обжигающе",
+    "image": "images/Searingly.png",
+    "level": "C2"
+  },
+  {
+    "word": "Relented",
+    "transcription": "рилЕнтид",
+    "translation": "смягчился, сдался, сменил гнев на милость",
+    "image": "images/Relented.png",
+    "level": "C2"
+  },
+  {
+    "word": "Stipulation",
+    "transcription": "стипьюлЭйшн",
+    "translation": "условие, оговорка, требование",
+    "image": "images/Stipulation.png",
+    "level": "C2"
+  },
+  {
+    "word": "Curt",
+    "transcription": "кёрт",
+    "translation": "краткий, отрывистый, грубый",
+    "image": "images/Curt.png",
+    "level": "C2"
+  },
+  {
+    "word": "Erratic",
+    "transcription": "ирЭтик",
+    "translation": "непостоянный, неустойчивый, эксцентричный",
+    "image": "images/Erratic.png",
+    "level": "C2"
+  },
+  {
+    "word": "Lean and tight as a whippet",
+    "transcription": "лин энд тайт эз э уИпит",
+    "translation": "худой и подтянутый как борзая",
+    "image": "images/Lean_and_tight_as_a_whippet.png",
+    "level": "C2"
+  },
+  {
+    "word": "Trawl",
+    "transcription": "трол",
+    "translation": "тралить, тщательно обыскивать, перелопачивать",
+    "image": "images/Trawl.png",
+    "level": "C2"
+  },
+  {
+    "word": "Composure",
+    "transcription": "кампОужэр",
+    "translation": "самообладание, спокойствие",
+    "image": "images/Composure.png",
+    "level": "C2"
+  },
+  {
+    "word": "Severance",
+    "transcription": "сЕвэрэнс",
+    "translation": "разрыв, прекращение; выходное пособие",
+    "image": "images/Severance.png",
+    "level": "C2"
+  },
+  {
+    "word": "Destitute",
+    "transcription": "дЕститут",
+    "translation": "нищий, обездоленный, лишенный",
+    "image": "images/Destitute.png",
+    "level": "C2"
+  },
+  {
+    "word": "Maverick",
+    "transcription": "мЭвэрик",
+    "translation": "инакомыслящий, нонконформист",
+    "image": "images/Maverick.png",
+    "level": "C2"
+  },
+  {
+    "word": "Insolvency",
+    "transcription": "инсОлвэнси",
+    "translation": "неплатежеспособность, банкротство",
+    "image": "images/Insolvency.png",
+    "level": "C2"
+  },
+  {
+    "word": "Insatiable",
+    "transcription": "инсЭйшэбл",
+    "translation": "ненасытный",
+    "image": "images/Insatiable.png",
+    "level": "C2"
+  },
+  {
+    "word": "Quixotic",
+    "transcription": "куиксОттик",
+    "translation": "донкихотский, непрактичный, идеалистичный",
+    "image": "images/Quixotic.png",
+    "level": "C2"
+  },
+  {
+    "word": "Impudence",
+    "transcription": "Импьёдэнс",
+    "translation": "наглость, дерзость, бесстыдство",
+    "image": "images/Impudence.png",
+    "level": "C2"
+  }
+]

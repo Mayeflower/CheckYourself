@@ -1,0 +1,352 @@
+[
+  {
+    "word": "usury",
+    "transcription": "южЕри",
+    "translation": "ростовщичество",
+    "image": "images/Usury.png",
+    "level": "C2"
+  },
+  {
+    "word": "ordnance",
+    "transcription": "Орднэнс",
+    "translation": "артиллерия, боеприпасы",
+    "image": "images/Ordnance.png",
+    "level": "C2"
+  },
+  {
+    "word": "corollary",
+    "transcription": "корОллэри",
+    "translation": "следствие, естественный результат",
+    "image": "images/Corollary.png",
+    "level": "C2"
+  },
+  {
+    "word": "swarthy",
+    "transcription": "свОрзи",
+    "translation": "смуглый",
+    "image": "images/Swarthy.png",
+    "level": "C2"
+  },
+  {
+    "word": "palliative",
+    "transcription": "пЭлиэтив",
+    "translation": "паллиативный, смягчающий",
+    "image": "images/Palliative.png",
+    "level": "C2"
+  },
+  {
+    "word": "soapstone",
+    "transcription": "сОупстоун",
+    "translation": "мыльный камень, стеатит",
+    "image": "images/Soapstone.png",
+    "level": "C2"
+  },
+  {
+    "word": "cogent",
+    "transcription": "кОуджэнт",
+    "translation": "убедительный",
+    "image": "images/Cogent.png",
+    "level": "C2"
+  },
+  {
+    "word": "To eschew material possessions",
+    "transcription": "ту эсчУ мЭтириал пазЕшэнз",
+    "translation": "избегать материальных благ",
+    "image": "images/To_eschew_material_possessions.png",
+    "level": "C2"
+  },
+  {
+    "word": "Entrancing",
+    "transcription": "интрЭнсин",
+    "translation": "очаровательный, приводящий в восторг",
+    "image": "images/Entrancing.png",
+    "level": "C2"
+  },
+  {
+    "word": "Oscillated",
+    "transcription": "Осилэйтэд",
+    "translation": "колебался",
+    "image": "images/Oscillated.png",
+    "level": "C2"
+  },
+  {
+    "word": "Supplicant",
+    "transcription": "сАпликэнт",
+    "translation": "проситель, умоляющий",
+    "image": "images/Supplicant.png",
+    "level": "C2"
+  },
+  {
+    "word": "Reconnaissance",
+    "transcription": "рикОнэсэнс",
+    "translation": "разведка",
+    "image": "images/Reconnaissance.png",
+    "level": "C2"
+  },
+  {
+    "word": "Luster",
+    "transcription": "лАстэр",
+    "translation": "блеск, лоск",
+    "image": "images/Luster.png",
+    "level": "C2"
+  },
+  {
+    "word": "Frailty",
+    "transcription": "фрЭйлти",
+    "translation": "слабость, хрупкость",
+    "image": "images/Frailty.png",
+    "level": "C2"
+  },
+  {
+    "word": "Groveling over",
+    "transcription": "грАвэлин Оувэр",
+    "translation": "пресмыкаясь над",
+    "image": "images/Groveling_over.png",
+    "level": "C2"
+  },
+  {
+    "word": "Her voice is grating",
+    "transcription": "хё вОйс из грЭйтин",
+    "translation": "её голос раздражает (скрежещет)",
+    "image": "images/Her_voice_is_grating.png",
+    "level": "C2"
+  },
+  {
+    "word": "Vesting",
+    "transcription": "вЕстин",
+    "translation": "передача прав, жилет",
+    "image": "images/Vesting.png",
+    "level": "C2"
+  },
+  {
+    "word": "Overzealous",
+    "transcription": "оувэрзЕлэс",
+    "translation": "излишне ретивый, чрезмерно усердный",
+    "image": "images/Overzealous.png",
+    "level": "C2"
+  },
+  {
+    "word": "They were hard-nosed",
+    "transcription": "зэй уёр хард-нОузд",
+    "translation": "они были практичными/непреклонными",
+    "image": "images/They_were_hard_nosed.png",
+    "level": "C2"
+  },
+  {
+    "word": "Delineate",
+    "transcription": "дилИниэйт",
+    "translation": "очерчивать, описывать",
+    "image": "images/Delineate.png",
+    "level": "C2"
+  },
+  {
+    "word": "It often baffles",
+    "transcription": "ит Офэн бЭфлз",
+    "translation": "это часто ставит в тупик",
+    "image": "images/It_often_baffles.png",
+    "level": "C2"
+  },
+  {
+    "word": "Entree",
+    "transcription": "Онтрэй",
+    "translation": "антрэ, главное блюдо или право входа",
+    "image": "images/Entree.png",
+    "level": "C2"
+  },
+  {
+    "word": "Animosity",
+    "transcription": "энимОсити",
+    "translation": "враждебность",
+    "image": "images/Animosity.png",
+    "level": "C2"
+  },
+  {
+    "word": "Ridden with crime",
+    "transcription": "рИдн уиз крайм",
+    "translation": "погрязший в преступности",
+    "image": "images/Ridden_with_crime.png",
+    "level": "C2"
+  },
+  {
+    "word": "Fastidious",
+    "transcription": "фастИдиэс",
+    "translation": "привередливый, щепетильный",
+    "image": "images/Fastidious.png",
+    "level": "C2"
+  },
+  {
+    "word": "Nonchalant",
+    "transcription": "ноншэлАнт",
+    "translation": "беспечный, равнодушный",
+    "image": "images/Nonchalant.png",
+    "level": "C2"
+  },
+  {
+    "word": "Precipice",
+    "transcription": "прЕсипис",
+    "translation": "пропасть, обрыв",
+    "image": "images/Precipice.png",
+    "level": "C2"
+  },
+  {
+    "word": "Resilient",
+    "transcription": "ризИлиэнт",
+    "translation": "устойчивый, жизнестойкий",
+    "image": "images/Resilient.png",
+    "level": "C2"
+  },
+  {
+    "word": "Scrutinize",
+    "transcription": "скрУтинайз",
+    "translation": "тщательно изучать",
+    "image": "images/Scrutinize.png",
+    "level": "C2"
+  },
+  {
+    "word": "Lassitude",
+    "transcription": "лЭситуд",
+    "translation": "вялость, апатия",
+    "image": "images/Lassitude.png",
+    "level": "C2"
+  },
+  {
+    "word": "Leaden",
+    "transcription": "лЕдэн",
+    "translation": "свинцовый",
+    "image": "images/Leaden.png",
+    "level": "C2"
+  },
+  {
+    "word": "Pickax",
+    "transcription": "пИкэкс",
+    "translation": "кирка",
+    "image": "images/Pickax.png",
+    "level": "C2"
+  },
+  {
+    "word": "Flinch",
+    "transcription": "флинч",
+    "translation": "вздрагивать, пасовать",
+    "image": "images/Flinch.png",
+    "level": "C2"
+  },
+  {
+    "word": "Fluted",
+    "transcription": "флЮтид",
+    "translation": "рифленый, желобчатый",
+    "image": "images/Fluted.png",
+    "level": "C2"
+  },
+  {
+    "word": "Wriggled himself sideways",
+    "transcription": "рИглд химсЕлф сАйдвэйз",
+    "translation": "извернулся боком, протиснулся боком",
+    "image": "images/Wriggled_himself_sideways.png",
+    "level": "C2"
+  },
+  {
+    "word": "Ground to pulp",
+    "transcription": "граунд ту палп",
+    "translation": "размолол в кашу, растер в порошок",
+    "image": "images/Ground_to_pulp.png",
+    "level": "C2"
+  },
+  {
+    "word": "Flinging it onto a bough",
+    "transcription": "флИнин ит Онту э бау",
+    "translation": "швырнув это на ветку",
+    "image": "images/Flinging_it_onto_a_bough.png",
+    "level": "C2"
+  },
+  {
+    "word": "Whiff",
+    "transcription": "уиф",
+    "translation": "дуновение, слабый запах",
+    "image": "images/Whiff.png",
+    "level": "C2"
+  },
+  {
+    "word": "Pour forth",
+    "transcription": "пор форс",
+    "translation": "изливать, литься",
+    "image": "images/Pour_forth.png",
+    "level": "C2"
+  },
+  {
+    "word": "Reverence",
+    "transcription": "рЕвэрэнс",
+    "translation": "благоговение",
+    "image": "images/Reverence.png",
+    "level": "C2"
+  },
+  {
+    "word": "Emanation",
+    "transcription": "эмэнЕйшн",
+    "translation": "истечение, эманация",
+    "image": "images/Emanation.png",
+    "level": "C2"
+  },
+  {
+    "word": "Inquisitive",
+    "transcription": "инкуИзэтив",
+    "translation": "любопытный",
+    "image": "images/Inquisitive.png",
+    "level": "C2"
+  },
+  {
+    "word": "Bunting",
+    "transcription": "бАнтин",
+    "translation": "овсянка (птица), флаги, вымпелы",
+    "image": "images/Bunting.png",
+    "level": "C2"
+  },
+  {
+    "word": "Lashed into",
+    "transcription": "лэшт Инту",
+    "translation": "набросился на, вложил средства",
+    "image": "images/Lashed_into.png",
+    "level": "C2"
+  },
+  {
+    "word": "Frenzies",
+    "transcription": "фрЕнзиз",
+    "translation": "безумия, исступления",
+    "image": "images/Frenzies.png",
+    "level": "C2"
+  },
+  {
+    "word": "Foreign extraction",
+    "transcription": "фОрин икстрАкшн",
+    "translation": "иностранное происхождение",
+    "image": "images/Foreign_extraction.png",
+    "level": "C2"
+  },
+  {
+    "word": "Palpable",
+    "transcription": "пАлпэбл",
+    "translation": "осязаемый, очевидный",
+    "image": "images/Palpable.png",
+    "level": "C2"
+  },
+  {
+    "word": "Morsel",
+    "transcription": "мОрсэл",
+    "translation": "кусочек",
+    "image": "images/Morsel.png",
+    "level": "C2"
+  },
+  {
+    "word": "Feeble wail",
+    "transcription": "фИбл уэйл",
+    "translation": "слабый вопль/плач",
+    "image": "images/Feeble_wail.png",
+    "level": "C2"
+  },
+  {
+    "word": "Reclamation",
+    "transcription": "рэклэмЕйшн",
+    "translation": "рекультивация, мелиорация, возврат",
+    "image": "images/Reclamation.png",
+    "level": "C2"
+  }
+]

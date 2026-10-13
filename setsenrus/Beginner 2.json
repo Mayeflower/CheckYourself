@@ -1,0 +1,282 @@
+[
+  {
+    "word": "rant",
+    "transcription": "рэнт",
+    "translation": "гневная тирада",
+    "image": "images/Rant.png",
+    "level": "B1"
+  },
+  {
+    "word": "resentful",
+    "transcription": "резЕнтфул",
+    "translation": "обиженный, полный негодования",
+    "image": "images/Resentful.png",
+    "level": "B1"
+  },
+  {
+    "word": "latch",
+    "transcription": "лэтч",
+    "translation": "задвижка, защелка",
+    "image": "images/Latch.png",
+    "level": "B1"
+  },
+  {
+    "word": "ordeal",
+    "transcription": "ордИл",
+    "translation": "тяжкое испытание",
+    "image": "images/Ordeal.png",
+    "level": "B1"
+  },
+  {
+    "word": "stairwell",
+    "transcription": "стЕрвэл",
+    "translation": "лестничная клетка",
+    "image": "images/Stairwell.png",
+    "level": "B1"
+  },
+  {
+    "word": "oblivious",
+    "transcription": "облИвиэс",
+    "translation": "не замечающий, забывчивый",
+    "image": "images/Oblivious.png",
+    "level": "B1"
+  },
+  {
+    "word": "pristine",
+    "transcription": "прИстин",
+    "translation": "первозданный, нетронутый",
+    "image": "images/Pristine.png",
+    "level": "B1"
+  },
+  {
+    "word": "wicked",
+    "transcription": "уИкид",
+    "translation": "злой, порочный",
+    "image": "images/Wicked.png",
+    "level": "B1"
+  },
+  {
+    "word": "scatter",
+    "transcription": "скАтэр",
+    "translation": "рассеивать, разбрасывать",
+    "image": "images/Scatter.png",
+    "level": "B1"
+  },
+  {
+    "word": "hoarding",
+    "transcription": "хОрдинг",
+    "translation": "накопительство",
+    "image": "images/Hoarding.png",
+    "level": "B1"
+  },
+  {
+    "word": "sifting",
+    "transcription": "сИфтинг",
+    "translation": "просеивание",
+    "image": "images/Sifting.png",
+    "level": "B1"
+  },
+  {
+    "word": "Saucer",
+    "transcription": "сОсер",
+    "translation": "блюдце",
+    "image": "images/Saucer.png",
+    "level": "B1"
+  },
+  {
+    "word": "Sprinkle",
+    "transcription": "спрИнкл",
+    "translation": "брызгать, посыпать",
+    "image": "images/Sprinkle.png",
+    "level": "B1"
+  },
+  {
+    "word": "Saucepan",
+    "transcription": "сОспэн",
+    "translation": "кастрюля",
+    "image": "images/Saucepan.png",
+    "level": "B1"
+  },
+  {
+    "word": "Mist",
+    "transcription": "мист",
+    "translation": "туман, дымка",
+    "image": "images/Mist.png",
+    "level": "B1"
+  },
+  {
+    "word": "Jewel",
+    "transcription": "джУэл",
+    "translation": "драгоценный камень",
+    "image": "images/Jewel.png",
+    "level": "B1"
+  },
+  {
+    "word": "Solar",
+    "transcription": "сОулр",
+    "translation": "солнечный",
+    "image": "images/Solar.png",
+    "level": "B1"
+  },
+  {
+    "word": "Lunar",
+    "transcription": "лУнр",
+    "translation": "лунный",
+    "image": "images/Lunar.png",
+    "level": "B1"
+  },
+  {
+    "word": "To put the fire out",
+    "transcription": "ту пут зэ фАйэр аут",
+    "translation": "потушить огонь",
+    "image": "images/To_put_the_fire_out.png",
+    "level": "B1"
+  },
+  {
+    "word": "Pile of",
+    "transcription": "пАйл оф",
+    "translation": "куча, груда",
+    "image": "images/Pile_of.png",
+    "level": "B1"
+  },
+  {
+    "word": "Hen-House",
+    "transcription": "хЭнхаус",
+    "translation": "курятник",
+    "image": "images/Hen_house.png",
+    "level": "B1"
+  },
+  {
+    "word": "Snoring",
+    "transcription": "снОрин",
+    "translation": "храп",
+    "image": "images/Snoring.png",
+    "level": "B1"
+  },
+  {
+    "word": "Persuade",
+    "transcription": "пёрсвЕйд",
+    "translation": "убеждать",
+    "image": "images/Persuade.png",
+    "level": "B1"
+  },
+  {
+    "word": "Ankle",
+    "transcription": "энкл",
+    "translation": "лодыжка",
+    "image": "images/Ankle.png",
+    "level": "B1"
+  },
+  {
+    "word": "temples",
+    "transcription": "тЭмплз",
+    "translation": "виски",
+    "image": "images/temples.png",
+    "level": "B1"
+  },
+  {
+    "word": "scenery",
+    "transcription": "сИнэри",
+    "translation": "пейзаж, декорации",
+    "image": "images/scenery.png",
+    "level": "B1"
+  },
+  {
+    "word": "Pillar",
+    "transcription": "пИлар",
+    "translation": "колонна, столп",
+    "image": "images/Pillar.png",
+    "level": "B1"
+  },
+  {
+    "word": "Porridge",
+    "transcription": "пОридж",
+    "translation": "каша",
+    "image": "images/Porridge.png",
+    "level": "B1"
+  },
+  {
+    "word": "Chore",
+    "transcription": "чор",
+    "translation": "рутинная работа",
+    "image": "images/Chore.png",
+    "level": "B1"
+  },
+  {
+    "word": "Debt",
+    "transcription": "дэт",
+    "translation": "долг",
+    "image": "images/Debt.png",
+    "level": "B1"
+  },
+  {
+    "word": "Cushion",
+    "transcription": "кУшн",
+    "translation": "подушка",
+    "image": "images/Cushion.png",
+    "level": "B1"
+  },
+  {
+    "word": "Maple",
+    "transcription": "мЕйпл",
+    "translation": "клён",
+    "image": "images/Maple.png",
+    "level": "B1"
+  },
+  {
+    "word": "Herbs",
+    "transcription": "ёрбз",
+    "translation": "травы, специи",
+    "image": "images/Herbs.png",
+    "level": "B1"
+  },
+  {
+    "word": "Passage",
+    "transcription": "пЭсидж",
+    "translation": "проход, отрывок",
+    "image": "images/Passage.png",
+    "level": "B1"
+  },
+  {
+    "word": "Handbook",
+    "transcription": "хЭндбук",
+    "translation": "справочник",
+    "image": "images/Handbook.png",
+    "level": "B1"
+  },
+  {
+    "word": "Boredom",
+    "transcription": "бОрдом",
+    "translation": "скука",
+    "image": "images/Boredom.png",
+    "level": "B1"
+  },
+  {
+    "word": "Fair hair",
+    "transcription": "фЭр хЭр",
+    "translation": "светлые волосы",
+    "image": "images/Fair_hair.png",
+    "level": "B1"
+  },
+  {
+    "word": "Hangers",
+    "transcription": "хЭнгэрз",
+    "translation": "вешалки",
+    "image": "images/Hangers.png",
+    "level": "B1"
+  },
+  {
+    "word": "Flight attendant",
+    "transcription": "флайт атЕндэнт",
+    "translation": "бортпроводник",
+    "image": "images/Flight_attendant.png",
+    "level": "B1"
+  },
+  {
+    "word": "Parcel",
+    "transcription": "пАрсл",
+    "translation": "посылка, пакет",
+    "image": "images/Parcel.png",
+    "level": "B1"
+  }
+]

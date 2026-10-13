@@ -1,0 +1,198 @@
+[
+  {
+    "word": "grapevine",
+    "transcription": "грЕйпвайн",
+    "translation": "виноградная лоза, слухи",
+    "image": "images/Grapevine.png",
+    "level": "C1"
+  },
+  {
+    "word": "aberration",
+    "transcription": "эбэрЕйшн",
+    "translation": "отклонение, аберрация",
+    "image": "images/Aberration.png",
+    "level": "C1"
+  },
+  {
+    "word": "irreconcilable",
+    "transcription": "ирЕконсАйлабл",
+    "translation": "непримиримый",
+    "image": "images/Irreconcilable.png",
+    "level": "C1"
+  },
+  {
+    "word": "claw fluttering",
+    "transcription": "кло флАтэрин",
+    "translation": "трепещущий коготь (лапа)",
+    "image": "images/ClawFluttering.png",
+    "level": "C1"
+  },
+  {
+    "word": "docile",
+    "transcription": "дОусэл",
+    "translation": "покорный, смирный",
+    "image": "images/Docile.png",
+    "level": "C1"
+  },
+  {
+    "word": "nemesis",
+    "transcription": "нЕмэсис",
+    "translation": "немезида, возмездие, заклятый враг",
+    "image": "images/Nemesis.png",
+    "level": "C1"
+  },
+  {
+    "word": "flinch toward",
+    "transcription": "флинч тОуорд",
+    "translation": "вздрагивать в сторону, неохотно тянуться",
+    "image": "images/FlinchToward.png",
+    "level": "C1"
+  },
+  {
+    "word": "mauled",
+    "transcription": "молд",
+    "translation": "растерзанный, избитый",
+    "image": "images/Mauled.png",
+    "level": "C1"
+  },
+  {
+    "word": "contend with",
+    "transcription": "кентЕнд уиз",
+    "translation": "бороться с, считаться с",
+    "image": "images/ContendWith.png",
+    "level": "C1"
+  },
+  {
+    "word": "berated him",
+    "transcription": "берЕйтид хим",
+    "translation": "отчитывал его, ругал",
+    "image": "images/BeratedHim.png",
+    "level": "C1"
+  },
+  {
+    "word": "paltry",
+    "transcription": "пОлтри",
+    "translation": "ничтожный, жалкий",
+    "image": "images/Paltry.png",
+    "level": "C1"
+  },
+  {
+    "word": "outlier",
+    "transcription": "аутлАйэр",
+    "translation": "выброс (в статистике), нечто выходящее за рамки",
+    "image": "images/Outlier.png",
+    "level": "C1"
+  },
+  {
+    "word": "to put mustard on",
+    "transcription": "ту пут мАстэрд он",
+    "translation": "добавить горчички (сделать острее/интереснее)",
+    "image": "images/ToPutMustardOn.png",
+    "level": "C1"
+  },
+  {
+    "word": "grief striken",
+    "transcription": "гриф стрИкэн",
+    "translation": "сраженный горем",
+    "image": "images/GriefStriken.png",
+    "level": "C1"
+  },
+  {
+    "word": "utter torment",
+    "transcription": "Атэр тОрмэнт",
+    "translation": "сущая мука, абсолютное мучение",
+    "image": "images/UtterTorment.png",
+    "level": "C1"
+  },
+  {
+    "word": "lurid",
+    "transcription": "лУрид",
+    "translation": "сенсационный, жуткий, бледный",
+    "image": "images/Lurid.png",
+    "level": "C1"
+  },
+  {
+    "word": "celiac",
+    "transcription": "сИлиэк",
+    "translation": "целиакия (или относящийся к брюшной полости)",
+    "image": "images/Celiac.png",
+    "level": "C1"
+  },
+  {
+    "word": "ruse",
+    "transcription": "руз",
+    "translation": "уловка, хитрость",
+    "image": "images/Ruse.png",
+    "level": "C1"
+  },
+  {
+    "word": "propensity",
+    "transcription": "пропЕнсити",
+    "translation": "склонность, предрасположенность",
+    "image": "images/Propensity.png",
+    "level": "C1"
+  },
+  {
+    "word": "affliction",
+    "transcription": "афлИкшн",
+    "translation": "недуг, беда, страдание",
+    "image": "images/Affliction.png",
+    "level": "C1"
+  },
+  {
+    "word": "abrasiveness",
+    "transcription": "абрЕйсивнис",
+    "translation": "абразивность, резкость, грубость",
+    "image": "images/Abrasiveness.png",
+    "level": "C1"
+  },
+  {
+    "word": "admonish",
+    "transcription": "адмОниш",
+    "translation": "предостерегать, делать выговор",
+    "image": "images/Admonish.png",
+    "level": "C1"
+  },
+  {
+    "word": "ethos",
+    "transcription": "Итос",
+    "translation": "этос, дух, уклад",
+    "image": "images/Ethos.png",
+    "level": "C1"
+  },
+  {
+    "word": "pendulum swing",
+    "transcription": "пЕнджулам суин",
+    "translation": "качание маятника, резкая смена настроений",
+    "image": "images/PendulumSwing.png",
+    "level": "C1"
+  },
+  {
+    "word": "decimated",
+    "transcription": "дЕсимэйтид",
+    "translation": "уничтоженный, истребленный",
+    "image": "images/Decimated.png",
+    "level": "C1"
+  },
+  {
+    "word": "destitution",
+    "transcription": "деститУшн",
+    "translation": "крайняя нищета",
+    "image": "images/Destitution.png",
+    "level": "C1"
+  },
+  {
+    "word": "biding my time",
+    "transcription": "бАйдин май тайм",
+    "translation": "выжидаю подходящий момент",
+    "image": "images/BidingMyTime.png",
+    "level": "C1"
+  },
+  {
+    "word": "stronghold",
+    "transcription": "стрОнгхоулд",
+    "translation": "оплот, твердыня, цитадель",
+    "image": "images/Stronghold.png",
+    "level": "C1"
+  }
+]

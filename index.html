@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vocaster - Learn Words Naturally</title>
+    <meta name="description" content="Master new vocabulary with smart flashcards">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&family=Oswald:wght@500;600&family=Space+Grotesk:wght@500;600;700&family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-container">
+    <header class="header">
+        <div class="header-content">
+            <a href="#" class="logo" id="logoHome" title="Back to default">
+                <img src="favicon.png" class="logo-mark" alt="Logo">
+                <span class="logo-text">Vocabulary Master</span>
+            </a>
+            <div class="header-actions">
+                <button class="header-btn" id="langToggle" title="Switch Language Direction">
+                    <img id="langFlagFrom" src="us.png" alt="From language" class="flag-icon">
+                    <i class="fas fa-arrow-right lang-arrow"></i>
+                    <img id="langFlagTo" src="ru.png" alt="To language" class="flag-icon">
+                </button>
+                <button class="header-btn" id="themeToggle" title="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <aside class="sidebar">
+            <div class="stats-grid">
+                <div class="stat-card stat-total">
+                    <div class="stat-content">
+                        <div class="stat-number" id="totalWords">0</div>
+                        <div class="stat-label">Total Words</div>
+                    </div>
+                    <button class="stat-play-btn" id="statsPlayBtn" title="Start Quiz - 50 random words from all sets">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="sets-section">
+                <div class="sets-header">
+                    <span class="sets-title">Word Sets</span>
+                    <span class="sets-count" id="setsCount">0 sets</span>
+                </div>
+                <ul class="set-list" id="setList"></ul>
+            </div>
+        </aside>
+
+        <section class="cards-area" id="cardsArea">
+            <div class="cards-header" id="cardsHeader">
+                <div class="cards-title-group">
+                    <h1 class="cards-title" id="setTitle">Loading...</h1>
+                    <span class="cards-count" id="cardsBadge">0 cards</span>
+                    <span class="cefr-badge" id="cefrBadge"></span>
+                </div>
+                <div class="cards-actions" id="cardsActions">
+                    <button class="btn-secondary" id="shuffleBtn">
+                        <i class="fas fa-shuffle"></i>
+                        <span>Shuffle</span>
+                    </button>
+                    <button class="btn-secondary" id="flipAllBtn">
+                        <i class="fas fa-clone"></i>
+                        <span>Flip All</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="quiz-progress" id="quizProgress" style="display:none;">
+                <div class="quiz-progress-bar">
+                    <div class="quiz-progress-fill" id="quizProgressFill"></div>
+                </div>
+                <span class="quiz-progress-text" id="quizProgressText">1 / 13</span>
+            </div>
+
+            <div class="cards-grid" id="cardContainer"></div>
+
+            <div class="quiz-input-area" id="quizInputArea" style="display:none;">
+                <div class="quiz-input-wrapper">
+                    <input type="text" class="quiz-input" id="quizInput" placeholder="Type translation..." autocomplete="off">
+                </div>
+                <button class="quiz-check-btn" id="quizCheckBtn" disabled>
+                    <i class="fas fa-check"></i>
+                    <span>Check</span>
+                </button>
+            </div>
+
+            <div class="quiz-feedback" id="quizFeedback"></div>
+        </section>
+    </main>
+</div>
+
+<div class="toast-container" id="toastContainer"></div>
+<div class="reaction-overlay" id="reactionOverlay"></div>
+
+<script>
+    const state = {
+        mode: localStorage.getItem('vocabMode') || 'en-ru',
+        theme: localStorage.getItem('vocabTheme') || 'light',
+        manifest: [],
+        cardsData: {},
+        currentSetId: null,
+        quizActive: false,
+        quizCards: [],
+        quizIndex: 0,
+        quizSource: null,
+        quizSetId: null,
+        quizTimer: null,
+        reactionTimer: null
+    };
+
+    const CEFR_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'C2+'];
+
+    const CEFR_COLORS = {
+        'A1': '#ef4444', 'A2': '#f97316', 'B1': '#f59e0b', 'B2': '#eab308',
+        'C1': '#10b981', 'C2': '#0284c7', 'C2+': '#7c3aed'
+    };
+
+    const elements = {
+        logoHome: document.getElementById('logoHome'),
+        cardContainer: document.getElementById('cardContainer'),
+        setList: document.getElementById('setList'),
+        setTitle: document.getElementById('setTitle'),
+        themeToggle: document.getElementById('themeToggle'),
+        shuffleBtn: document.getElementById('shuffleBtn'),
+        flipAllBtn: document.getElementById('flipAllBtn'),
+        toastContainer: document.getElementById('toastContainer'),
+        reactionOverlay: document.getElementById('reactionOverlay'),
+        totalWords: document.getElementById('totalWords'),
+        setsCount: document.getElementById('setsCount'),
+        cardsBadge: document.getElementById('cardsBadge'),
+        cefrBadge: document.getElementById('cefrBadge'),
+        langToggle: document.getElementById('langToggle'),
+        langFlagFrom: document.getElementById('langFlagFrom'),
+        langFlagTo: document.getElementById('langFlagTo'),
+        cardsHeader: document.getElementById('cardsHeader'),
+        cardsActions: document.getElementById('cardsActions'),
+        quizProgress: document.getElementById('quizProgress'),
+        quizProgressFill: document.getElementById('quizProgressFill'),
+        quizProgressText: document.getElementById('quizProgressText'),
+        quizInputArea: document.getElementById('quizInputArea'),
+        quizInput: document.getElementById('quizInput'),
+        quizCheckBtn: document.getElementById('quizCheckBtn'),
+        quizFeedback: document.getElementById('quizFeedback'),
+        statsPlayBtn: document.getElementById('statsPlayBtn')
+    };
+
+    /* ================= PROGRESS & CEFR LADDER LOGIC ================= */
+    let justMasteredSetId = null;
+
+    function getPassedSets() {
+        try {
+            const raw = localStorage.getItem(`vocabPassedSets_${state.mode}`);
+            return raw ? new Set(JSON.parse(raw)) : new Set();
+        } catch (e) {
+            return new Set();
+        }
+    }
+
+    function savePassedSets(setInstance) {
+        try {
+            localStorage.setItem(`vocabPassedSets_${state.mode}`, JSON.stringify([...setInstance]));
+        } catch (e) {
+            console.error('Failed to save passed sets:', e);
+        }
+    }
+
+    function markSetAsPassed(setId) {
+        const passed = getPassedSets();
+        if (!passed.has(setId)) {
+            passed.add(setId);
+            savePassedSets(passed);
+            justMasteredSetId = setId;
+            generateSetList();
+            justMasteredSetId = null;
+            showToast(`👑 Set "${setId}" mastered!`, 'success');
+        }
+    }
+
+    function resetProgressFromCefr(failedCefr) {
+        const failedIndex = CEFR_ORDER.indexOf(failedCefr);
+        if (failedIndex === -1) return;
+
+        const levelsToReset = new Set(CEFR_ORDER.slice(failedIndex));
+        const passed = getPassedSets();
+        let resetCount = 0;
+
+        state.manifest.forEach(setInfo => {
+            const setCefr = setInfo.cefr || 'A1';
+            if (levelsToReset.has(setCefr) && passed.has(setInfo.id)) {
+                passed.delete(setInfo.id);
+                resetCount++;
+            }
+        });
+
+        if (resetCount > 0) {
+            savePassedSets(passed);
+            generateSetList();
+            const resetLevelsText = CEFR_ORDER.slice(failedIndex).join(', ');
+            showToast(`⚠️ Failed on ${failedCefr}! Progress reset for [${resetLevelsText}]`, 'warning');
+        }
+    }
+
+    function updateCheckButtonState() {
+        const hasText = elements.quizInput.value.trim().length > 0;
+        elements.quizCheckBtn.disabled = elements.quizInput.disabled || !hasText;
+    }
+
+    function getImageCandidates(card, setId) {
+        if (!card.image) return null;
+        if (card.image.startsWith('http')) return [card.image];
+        const cleanFileName = card.image.replace(/^images\//, '').replace(/^.*[\\\/]/, '');
+        const baseFolder = state.mode === 'en-ru' ? 'imagesenrus' : 'imagesrusen';
+        const flat = `${baseFolder}/${encodeURIComponent(cleanFileName)}`;
+        const nested = `${baseFolder}/${encodeURIComponent(setId)}/${encodeURIComponent(cleanFileName)}`;
+        return [flat, nested];
+    }
+
+    function buildCardImageHtml(card, setId) {
+        const candidates = getImageCandidates(card, setId);
+        if (!candidates) {
+            return `<div class="image-placeholder"><i class="fas fa-image"></i></div>`;
+        }
+        const fallbackAttr = candidates[1] ? ` data-fallback="${candidates[1]}"` : '';
+        return `<img data-src="${candidates[0]}"${fallbackAttr} alt="" decoding="async" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback='';}else{this.parentNode.innerHTML='<div class=\\'image-placeholder\\'><i class=\\'fas fa-image\\'></i></div>'}">`;
+    }
+
+    function loadCardImages(card) {
+        card.querySelectorAll('img[data-src]').forEach(img => {
+            if (!img.getAttribute('src')) img.setAttribute('src', img.dataset.src);
+        });
+    }
+
+    function expandCardForAnswer(card) {
+        const back = card.querySelector('.card-back');
+        if (!back) return;
+
+        const measure = () => {
+            const needed = back.scrollHeight;
+            if (needed > card.offsetHeight) {
+                card.style.height = needed + 'px';
+            }
+        };
+
+        const img = card.querySelector('.card-image img');
+        if (img && !(img.complete && img.naturalWidth > 0)) {
+            img.addEventListener('load',  () => requestAnimationFrame(measure), { once: true });
+            img.addEventListener('error', () => requestAnimationFrame(measure), { once: true });
+        } else {
+            requestAnimationFrame(measure);
+        }
+    }
+
+    function resetToDefault() {
+        if (state.quizTimer) {
+            clearTimeout(state.quizTimer);
+            state.quizTimer = null;
+        }
+        if (state.reactionTimer) {
+            clearTimeout(state.reactionTimer);
+            state.reactionTimer = null;
+        }
+        elements.reactionOverlay.classList.remove('active');
+        elements.cardContainer.classList.remove('screen-shake');
+
+        if (state.quizActive) {
+            endQuiz(false);
+        }
+
+        if (!state.manifest || state.manifest.length === 0) {
+            fetchCards();
+            return;
+        }
+
+        selectSet(state.manifest[0].id);
+    }
+
+    function toggleLanguage() {
+        state.mode = state.mode === 'en-ru' ? 'ru-en' : 'en-ru';
+        localStorage.setItem('vocabMode', state.mode);
+        state.currentSetId = null;
+        state.cardsData = {};
+        state.manifest = [];
+        updateLangButtonUI();
+        endQuiz(false);
+        fetchCards();
+        showToast(`Switched to ${state.mode === 'en-ru' ? 'English' : 'Russian'}`, 'info');
+    }
+
+    function updateLangButtonUI() {
+        elements.langFlagFrom.src = state.mode === 'en-ru' ? 'us.png' : 'ru.png';
+        elements.langFlagTo.src = state.mode === 'en-ru' ? 'ru.png' : 'us.png';
+    }
+
+    function showToast(message, type = 'success') {
+        const toast = document.createElement('div');
+        toast.className = `toast toast-${type}`;
+        const icons = { success: 'fa-check', warning: 'fa-exclamation', error: 'fa-times', info: 'fa-info' };
+        toast.innerHTML = `<div class="toast-icon"><i class="fas ${icons[type]}"></i></div><span class="toast-message">${message}</span>`;
+        elements.toastContainer.appendChild(toast);
+        setTimeout(() => {
+            toast.classList.add('toast-exit');
+            setTimeout(() => toast.remove(), 300);
+        }, 3000);
+    }
+
+    const WRONG_REVIEW_MS = 10000;
+
+    function showWastedReaction(callback) {
+        if (state.reactionTimer) {
+            clearTimeout(state.reactionTimer);
+            state.reactionTimer = null;
+        }
+
+        elements.reactionOverlay.innerHTML = `
+            <div class="reaction-wasted">
+                <div class="wasted-text">WASTED</div>
+                <div class="wasted-subtitle">Wrong answer...</div>
+            </div>
+        `;
+        elements.reactionOverlay.classList.add('active');
+        elements.cardContainer.classList.add('screen-shake');
+        setTimeout(() => elements.cardContainer.classList.remove('screen-shake'), 500);
+
+        state.reactionTimer = setTimeout(() => {
+            state.reactionTimer = null;
+            elements.reactionOverlay.classList.remove('active');
+            setTimeout(() => {
+                elements.reactionOverlay.innerHTML = '';
+                if (callback) callback();
+            }, 400);
+        }, 2500);
+    }
+
+    function showVictoryReaction(callback) {
+        if (state.reactionTimer) {
+            clearTimeout(state.reactionTimer);
+            state.reactionTimer = null;
+        }
+
+        const confetti = generateConfetti();
+        elements.reactionOverlay.innerHTML = `
+            <div class="reaction-victory">
+                <div class="victory-text">VICTORY!</div>
+                <div class="victory-subtitle">Well done, champion!</div>
+            </div>
+            ${confetti}
+        `;
+        elements.reactionOverlay.classList.add('active');
+
+        state.reactionTimer = setTimeout(() => {
+            state.reactionTimer = null;
+            elements.reactionOverlay.classList.remove('active');
+            setTimeout(() => {
+                elements.reactionOverlay.innerHTML = '';
+                if (callback) callback();
+            }, 400);
+        }, 4000);
+    }
+
+    function generateConfetti() {
+        let confetti = '';
+        const colors = ['#f43f5e', '#8b5cf6', '#06b6d4', '#10b981', '#f59e0b', '#ef4444'];
+        for (let i = 0; i < 100; i++) {
+            const color = colors[Math.floor(Math.random() * colors.length)];
+            const left = (Math.random() * 100).toFixed(2) + '%';
+            const delay = (Math.random() * 2).toFixed(2) + 's';
+            const duration = (2 + Math.random() * 2).toFixed(2) + 's';
+            const size = 8 + Math.random() * 8;
+            const width = size.toFixed(1) + 'px';
+            const height = (size * 0.6).toFixed(1) + 'px';
+            confetti += `<div class="confetti-piece" style="left:${left};animation-delay:${delay};animation-duration:${duration};width:${width};height:${height};background:${color};"></div>`;
+        }
+        return confetti;
+    }
+
+    function shuffleArray(array) {
+        const shuffled = [...array];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    }
+
+    function setTheme(theme) {
+        state.theme = theme;
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('vocabTheme', theme);
+        elements.themeToggle.querySelector('i').className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+    }
+
+    function getQuizCount(totalCards) {
+        if (totalCards <= 4) return totalCards;
+        return Math.max(5, Math.ceil(totalCards / 4));
+    }
+
+    async function fetchCards() {
+        try {
+            showLoadingState();
+            const manifestFile = state.mode === 'en-ru' ? 'manifest.enrus.json' : 'manifest.rusen.json';
+            const response = await fetch(manifestFile);
+            if (!response.ok) throw new Error(`Failed to load ${manifestFile}`);
+            state.manifest = await response.json();
+            generateSetList();
+            if (state.manifest.length > 0) selectSet(state.manifest[0].id);
+            calculateAllCounts();
+            updateLangButtonUI();
+        } catch (error) {
+            console.error('Error loading manifest:', error);
+            showErrorState(error.message);
+        }
+    }
+
+    async function calculateAllCounts() {
+        const promises = state.manifest.map(async (setInfo) => {
+            const setId = setInfo.id;
+            if (!state.cardsData[setId] && setInfo.file) {
+                try {
+                    const response = await fetch(setInfo.file);
+                    if (response.ok) {
+                        state.cardsData[setId] = await response.json();
+                        refreshSetItemCount(setId);
+                        updateSidebarStats();
+                    }
+                } catch (e) {
+                    console.warn(`Could not pre-calculate for ${setId}`);
+                }
+            }
+        });
+        await Promise.all(promises);
+        updateSidebarStats();
+    }
+
+    function showLoadingState() {
+        elements.cardContainer.innerHTML = Array(6).fill(0).map(() => `<div class="card-skeleton"></div>`).join('');
+    }
+
+    function showErrorState(message) {
+        elements.cardContainer.innerHTML = `
+        <div class="empty-state">
+            <div class="empty-state-icon"><i class="fas fa-exclamation-triangle"></i></div>
+            <h3 class="empty-state-title">Failed to Load</h3>
+            <p class="empty-state-text">${message}</p>
+            <button class="btn-primary" onclick="fetchCards()"><i class="fas fa-redo"></i> Try Again</button>
+        </div>`;
+    }
+
+    function generateSetList() {
+        const passedSets = getPassedSets();
+        elements.setsCount.textContent = `${state.manifest.length} sets`;
+        elements.setList.innerHTML = state.manifest.map((setInfo) => {
+            const setId = setInfo.id;
+            const cefr = setInfo.cefr || 'A1';
+            const totalCards = state.cardsData[setId] ? state.cardsData[setId].length : 0;
+            const countDisplay = totalCards > 0 ? `${totalCards} words` : `<i class="fas fa-spinner fa-spin"></i>`;
+            const slug = setId.replace(/\s+/g, '-');
+            const isActive = state.currentSetId === setId && !state.quizActive;
+            const isPassed = passedSets.has(setId);
+            const isJustUnlocked = (justMasteredSetId === setId);
+
+            return `
+            <li class="set-item ${isActive ? 'active' : ''} ${isPassed ? 'passed' : ''}" data-set="${setId}" data-cefr="${cefr}">
+                <div class="set-info">
+                    <div class="set-text-group">
+                        <div class="set-name">${setId}</div>
+                        <div class="set-meta" id="count-meta-${slug}">${countDisplay}</div>
+                    </div>
+                    ${isPassed ? `
+                    <div class="set-passed-badge ${isJustUnlocked ? 'just-unlocked' : ''}" title="Crown of Mastery - Set Completed!">
+                        <i class="fas fa-crown"></i>
+                    </div>` : ''}
+                </div>
+                ${isActive ? `<button class="set-play-btn" data-set="${setId}" title="Start quiz for this set">
+                    <i class="fas fa-play"></i>
+                </button>` : ''}
+            </li>`;
+        }).join('');
+
+        updateSidebarStats();
+
+        document.querySelectorAll('.set-item').forEach(item => {
+            item.addEventListener('click', (e) => {
+                if (e.target.closest('.set-play-btn')) return;
+                selectSet(item.dataset.set);
+            });
+        });
+
+        document.querySelectorAll('.set-play-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                startSetQuiz(btn.dataset.set);
+            });
+        });
+    }
+
+    function refreshSetItemCount(setId) {
+        const slug = setId.replace(/\s+/g, '-');
+        const countEl = document.getElementById(`count-meta-${slug}`);
+        if (state.cardsData[setId]) {
+            const total = state.cardsData[setId].length;
+            if (countEl) countEl.textContent = `${total} words`;
+        }
+    }
+
+    function updateSidebarStats() {
+        let totalGlobal = 0;
+        state.manifest.forEach(setInfo => {
+            if (state.cardsData[setInfo.id]) totalGlobal += state.cardsData[setInfo.id].length;
+        });
+        elements.totalWords.textContent = totalGlobal;
+    }
+
+    async function selectSet(setId) {
+        if (state.quizActive) endQuiz(false);
+        state.currentSetId = setId;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        generateSetList();
+
+        document.querySelectorAll('.set-item').forEach(item => {
+            const isActive = item.dataset.set === setId;
+            item.classList.toggle('active', isActive);
+            if (isActive) item.style.setProperty('--cefr-color', CEFR_COLORS[item.dataset.cefr] || '#64748b');
+        });
+
+        const setInfo = state.manifest.find(s => s.id === setId);
+        if (setInfo && setInfo.cefr) {
+            elements.cefrBadge.textContent = setInfo.cefr;
+            elements.cefrBadge.setAttribute('data-level', setInfo.cefr);
+            elements.cefrBadge.style.display = 'inline-flex';
+        } else {
+            elements.cefrBadge.style.display = 'none';
+        }
+
+        if (!state.cardsData[setId]) {
+            try {
+                elements.setTitle.textContent = setId;
+                elements.cardsBadge.textContent = "Loading...";
+                elements.cardContainer.innerHTML = '<div class="empty-state"><div class="empty-state-icon"><i class="fas fa-spinner fa-spin"></i></div><p class="empty-state-text">Loading cards...</p></div>';
+                if (!setInfo || !setInfo.file) throw new Error('File not found');
+                const response = await fetch(setInfo.file);
+                state.cardsData[setId] = await response.json();
+                refreshSetItemCount(setId);
+            } catch (e) {
+                console.error(e);
+                elements.cardContainer.innerHTML = '<div class="empty-state"><p>Error loading set</p></div>';
+                return;
+            }
+        }
+
+        renderCards();
+        updateSidebarStats();
+    }
+
+    function startSetQuiz(setId) {
+        if (!state.cardsData[setId]) return;
+        const setInfo = state.manifest.find(s => s.id === setId);
+        const cefr = setInfo?.cefr || 'A1';
+
+        const allCards = state.cardsData[setId].map(card => ({
+            ...card,
+            _setId: setId,
+            _cefr: cefr
+        }));
+
+        const quizCount = getQuizCount(allCards.length);
+        const quizCards = shuffleArray(allCards).slice(0, quizCount);
+
+        state.quizActive = true;
+        state.quizCards = quizCards;
+        state.quizIndex = 0;
+        state.quizSource = 'set';
+        state.quizSetId = setId;
+
+        document.documentElement.style.setProperty('--quiz-color', CEFR_COLORS[cefr] || '#64748b');
+
+        const playBtn = document.querySelector(`.set-play-btn[data-set="${setId}"]`);
+        if (playBtn) playBtn.classList.add('pressed');
+
+        elements.cardsActions.style.display = 'none';
+        elements.quizProgress.style.display = 'flex';
+        elements.quizInputArea.style.display = 'flex';
+        elements.cardContainer.classList.add('quiz-mode');
+
+        renderQuizCard();
+        setTimeout(() => elements.quizInput.focus(), 50);
+    }
+
+    function startGlobalQuiz() {
+        let allCards = [];
+        state.manifest.forEach(setInfo => {
+            const setId = setInfo.id;
+            const cefr = setInfo.cefr || 'A1';
+            if (state.cardsData[setId]) {
+                state.cardsData[setId].forEach(card => allCards.push({
+                    ...card,
+                    _setId: setId,
+                    _cefr: cefr
+                }));
+            }
+        });
+
+        if (allCards.length === 0) {
+            showToast('No cards available yet', 'warning');
+            return;
+        }
+
+        const quizCount = Math.min(50, allCards.length);
+        const quizCards = shuffleArray(allCards).slice(0, quizCount);
+
+        state.quizActive = true;
+        state.quizCards = quizCards;
+        state.quizIndex = 0;
+        state.quizSource = 'global';
+        state.quizSetId = null;
+
+        document.documentElement.style.setProperty('--quiz-color', 'var(--accent)');
+        elements.statsPlayBtn.classList.add('pressed');
+
+        elements.cardsHeader.style.display = 'none';
+        elements.quizProgress.style.display = 'flex';
+        elements.quizInputArea.style.display = 'flex';
+        elements.cardContainer.classList.add('quiz-mode');
+
+        renderQuizCard();
+        setTimeout(() => elements.quizInput.focus(), 50);
+    }
+
+    let easterEggTimer = null;
+
+    function showEasterEgg(card) {
+        if (easterEggTimer) {
+            clearTimeout(easterEggTimer);
+            easterEggTimer = null;
+        }
+        const old = card.querySelector('.speech-bubble');
+        if (old) old.remove();
+
+        card.classList.remove('easter-egg-active');
+        void card.offsetWidth;
+        card.classList.add('easter-egg-active');
+
+        const bubble = document.createElement('div');
+        bubble.className = 'speech-bubble';
+        bubble.textContent = 'What are you doing, mate?';
+        card.appendChild(bubble);
+
+        easterEggTimer = setTimeout(() => {
+            easterEggTimer = null;
+            card.classList.remove('easter-egg-active');
+            if (bubble.parentNode) bubble.remove();
+        }, 4000);
+    }
+
+    function renderQuizCard() {
+        if (state.quizIndex >= state.quizCards.length) {
+            showVictoryReaction(() => {
+                if (state.quizSource === 'set') {
+                    markSetAsPassed(state.quizSetId);
+                    endQuiz(false);
+                } else {
+                    endQuiz(true);
+                }
+            });
+            return;
+        }
+
+        const card = state.quizCards[state.quizIndex];
+        const total = state.quizCards.length;
+        const current = state.quizIndex + 1;
+
+        elements.quizProgressFill.style.width = `${(current / total) * 100}%`;
+        elements.quizProgressText.textContent = `${current} / ${total}`;
+
+        const setId = card._setId || state.currentSetId;
+        const cardImageHtml = buildCardImageHtml(card, setId);
+
+        const wordsRaw = card.word.split(' ');
+        const processedWords = wordsRaw.map(w => w.length > 14 ? w.replace(/(.{3})/g, "$1&shy;") : w);
+        const displayWord = processedWords.join(' ');
+        let fontSize = card.word.length > 50 ? '24px' : '30px';
+
+        elements.cardContainer.innerHTML = `
+            <div class="card quiz-card" data-word="${card.word.replace(/"/g, '&quot;')}" style="opacity:1; animation:none;">
+                <div class="card-inner">
+                    <div class="card-face card-front">
+                        <div class="card-content">
+                            <div class="card-word" style="font-size: ${fontSize};">${displayWord}</div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="card-btn speak-btn" type="button" title="Pronounce word">
+                                <i class="fas fa-volume-high"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-face card-back">
+                        <div class="card-image">
+                            ${cardImageHtml}
+                        </div>
+                        <div class="card-details">
+                            <div class="card-transcription">${card.transcription || ''}</div>
+                            <div class="card-translation">${card.translation}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>`;
+
+        elements.quizInput.value = '';
+        elements.quizInput.disabled = false;
+        elements.quizFeedback.textContent = '';
+        elements.quizFeedback.className = 'quiz-feedback';
+
+        updateCheckButtonState();
+
+        let quizCardClickCount = 0;
+
+        const quizCard = elements.cardContainer.querySelector('.card');
+        quizCard.addEventListener('click', (e) => {
+            const speakBtn = e.target.closest('.speak-btn');
+            if (speakBtn) {
+                e.stopPropagation();
+                speakWord(card.word);
+                return;
+            }
+            if (quizCard.classList.contains('flipped')) return;
+
+            quizCardClickCount++;
+
+            if (quizCardClickCount >= 5) {
+                showEasterEgg(quizCard);
+                quizCardClickCount = 0;
+            } else {
+                quizCard.classList.add('card-denied-shake');
+                setTimeout(() => quizCard.classList.remove('card-denied-shake'), 500);
+            }
+        });
+
+        fitCardWords();
+    }
+
+    function checkQuizAnswer() {
+        const userAnswer = elements.quizInput.value.trim().toLowerCase();
+        const currentCard = state.quizCards[state.quizIndex];
+
+        const correctAnswers = currentCard.translation
+            .split(',')
+            .map(t => t.trim().toLowerCase())
+            .filter(t => t.length > 0);
+
+        if (!userAnswer) {
+            elements.quizFeedback.textContent = 'Please type your answer';
+            elements.quizFeedback.className = 'quiz-feedback feedback-warning';
+            return;
+        }
+
+        const isCorrect = correctAnswers.includes(userAnswer);
+
+        if (isCorrect) {
+            elements.quizFeedback.textContent = '✓ Correct!';
+            elements.quizFeedback.className = 'quiz-feedback feedback-correct';
+
+            elements.quizInput.disabled = true;
+            updateCheckButtonState();
+
+            state.quizTimer = setTimeout(() => {
+                state.quizTimer = null;
+                state.quizIndex++;
+                renderQuizCard();
+                elements.quizInput.focus();
+            }, 600);
+        } else {
+            const quizCard = elements.cardContainer.querySelector('.card');
+            if (quizCard) {
+                quizCard.classList.add('flipped');
+                loadCardImages(quizCard);
+                expandCardForAnswer(quizCard);
+            }
+
+            elements.quizFeedback.textContent = '✗ Wrong!';
+            elements.quizFeedback.className = 'quiz-feedback feedback-wrong';
+
+            elements.quizInput.disabled = true;
+            updateCheckButtonState();
+
+            // CEFR Ladder Reset on failure
+            const failedSetId = currentCard._setId || state.quizSetId;
+            const setInfo = state.manifest.find(s => s.id === failedSetId);
+            const failedCefr = currentCard._cefr || setInfo?.cefr || 'A1';
+
+            resetProgressFromCefr(failedCefr);
+
+            showWastedReaction(() => {
+                state.quizTimer = setTimeout(() => {
+                    state.quizTimer = null;
+                    if (state.quizSource === 'set') {
+                        const setId = state.quizSetId;
+                        endQuiz(false);
+                        selectSet(setId);
+                    } else {
+                        endQuiz(true);
+                    }
+                }, WRONG_REVIEW_MS);
+            });
+        }
+    }
+
+    function endQuiz(reset = false) {
+        if (state.quizTimer) {
+            clearTimeout(state.quizTimer);
+            state.quizTimer = null;
+        }
+        if (state.reactionTimer) {
+            clearTimeout(state.reactionTimer);
+            state.reactionTimer = null;
+        }
+        if (easterEggTimer) {
+            clearTimeout(easterEggTimer);
+            easterEggTimer = null;
+        }
+        elements.reactionOverlay.classList.remove('active');
+        elements.cardContainer.classList.remove('screen-shake');
+
+        state.quizActive = false;
+        state.quizCards = [];
+        state.quizIndex = 0;
+
+        document.querySelectorAll('.set-play-btn').forEach(btn => btn.classList.remove('pressed'));
+        elements.statsPlayBtn.classList.remove('pressed');
+
+        elements.cardContainer.style.display = '';
+        elements.cardContainer.classList.remove('quiz-mode');
+        elements.cardsHeader.style.display = '';
+        elements.cardsActions.style.display = '';
+        elements.quizProgress.style.display = 'none';
+        elements.quizInputArea.style.display = 'none';
+        elements.quizInput.value = '';
+        elements.quizInput.disabled = false;
+        elements.quizFeedback.textContent = '';
+        elements.quizFeedback.className = 'quiz-feedback';
+        document.documentElement.style.removeProperty('--quiz-color');
+
+        updateCheckButtonState();
+
+        if (reset) {
+            if (state.manifest.length > 0) {
+                const firstSetId = state.manifest[0].id;
+                state.currentSetId = null;
+                selectSet(firstSetId);
+            }
+        } else {
+            if (state.currentSetId) renderCards();
+        }
+    }
+
+    function renderCards(shuffle = false) {
+        const setId = state.currentSetId;
+        if (!setId || !state.cardsData[setId]) return;
+
+        let cards = [...state.cardsData[setId]];
+        if (shuffle) cards = shuffleArray(cards);
+
+        elements.setTitle.textContent = setId;
+        elements.cardsBadge.textContent = `${cards.length} cards`;
+
+        if (cards.length === 0) {
+            showEmptyState('No cards available in this set');
+            return;
+        }
+
+        elements.cardContainer.innerHTML = cards.map((card, index) => {
+            const cardImageHtml = buildCardImageHtml(card, setId);
+
+            const wordsRaw = card.word.split(' ');
+            const processedWords = wordsRaw.map(w => w.length > 14 ? w.replace(/(.{3})/g, "$1&shy;") : w);
+            const displayWord = processedWords.join(' ');
+            let fontSize = card.word.length > 50 ? '24px' : '30px';
+
+            const translationDisplay = card.translation.split(',')[0].trim();
+
+            return `
+            <div class="card" data-word="${card.word.replace(/"/g, '&quot;')}">
+                <div class="card-inner">
+                    <div class="card-face card-front">
+                        <div class="card-content">
+                            <div class="card-word" style="font-size: ${fontSize};">${displayWord}</div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="card-btn speak-btn" type="button" title="Pronounce word">
+                                <i class="fas fa-volume-high"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-face card-back">
+                        <div class="card-image">
+                            ${cardImageHtml}
+                        </div>
+                        <div class="card-details">
+                            <div class="card-transcription">${card.transcription || ''}</div>
+                            <div class="card-translation">${translationDisplay}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>`;
+        }).join('');
+
+        fitCardWords();
+        fitCardBackText();
+        applyCardAnimationDelays();
+    }
+
+    function applyCardAnimationDelays() {
+        const cards = Array.from(elements.cardContainer.querySelectorAll('.card:not(.quiz-card)'));
+
+        cards.forEach((card, index) => {
+            const delay = (index * 0.05).toFixed(3);
+            card.style.setProperty('--card-delay', `${delay}s`);
+            card.style.animationDelay = `${delay}s`;
+        });
+
+        requestAnimationFrame(() => {
+            cards.forEach(card => card.classList.add('animate'));
+        });
+    }
+
+    function fitCardWords(root = document) {
+        root.querySelectorAll('.card').forEach(card => {
+            const box  = card.querySelector('.card-front .card-content');
+            const word = card.querySelector('.card-front .card-word');
+            if (!box || !word) return;
+            const cs = getComputedStyle(box);
+            const maxH = box.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
+            let size = window.innerWidth <= 480 ? 34 : 30;
+            word.style.fontSize = size + 'px';
+            while (size > 14 && word.scrollHeight > maxH) {
+                word.style.fontSize = --size + 'px';
+            }
+        });
+    }
+
+    function fitCardBackText(root = document) {
+        const cards = (root.classList && root.classList.contains('card'))
+            ? [root]
+            : Array.from(root.querySelectorAll('.card'));
+
+        cards.forEach(card => {
+            if (card.classList.contains('quiz-card')) return;
+            const back = card.querySelector('.card-back');
+            if (!back) return;
+            const image = back.querySelector('.card-image');
+            const details = back.querySelector('.card-details');
+            const transl = back.querySelector('.card-translation');
+            const transcr = back.querySelector('.card-transcription');
+            if (!details || !transl) return;
+
+            let tSize = 18;
+            transl.style.fontSize = tSize + 'px';
+            if (transcr) transcr.style.fontSize = '13px';
+
+            const available = card.clientHeight - (image ? image.offsetHeight : 0);
+            const limit = available - 6;
+
+            while (details.scrollHeight > limit && tSize > 12) {
+                tSize -= 1;
+                transl.style.fontSize = tSize + 'px';
+                if (transcr) transcr.style.fontSize = Math.max(10, Math.round(tSize * 13 / 18)) + 'px';
+            }
+        });
+    }
+
+    function refitBackAfterImages(card) {
+        fitCardBackText(card);
+        const img = card.querySelector('.card-image img');
+        if (img && !(img.complete && img.naturalWidth > 0)) {
+            const refit = () => requestAnimationFrame(() => fitCardBackText(card));
+            img.addEventListener('load', refit, { once: true });
+            img.addEventListener('error', refit, { once: true });
+        }
+    }
+
+    function showEmptyState(message) {
+        elements.cardContainer.innerHTML = `
+        <div class="empty-state">
+            <div class="empty-state-icon"><i class="fas fa-folder-open"></i></div>
+            <h3 class="empty-state-title">${message}</h3>
+        </div>`;
+    }
+
+    let voicesCache = [];
+    let synthPrimed = false;
+    let lastSpeakTime = 0;
+    const SYNTH_SLEEP_MS = 20000;
+
+    function refreshVoices() {
+        voicesCache = window.speechSynthesis.getVoices() || [];
+    }
+
+    function pickVoice(langPrefix) {
+        const pool = voicesCache.filter(v => v.lang.toLowerCase().startsWith(langPrefix));
+        if (!pool.length) return null;
+        const local = pool.filter(v => v.localService);
+        const candidates = local.length ? local : pool;
+        return candidates.find(v => v.default) || candidates[0];
+    }
+
+    function makeUtterance(text, { silent = false } = {}) {
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = state.mode === 'en-ru' ? 'en-US' : 'ru-RU';
+        u.rate = 0.9;
+        const voice = pickVoice(state.mode === 'en-ru' ? 'en' : 'ru');
+        if (voice) u.voice = voice;
+        if (silent) u.volume = 0;
+        return u;
+    }
+
+    function primeSynth() {
+        window.speechSynthesis.speak(makeUtterance('ok', { silent: true }));
+        synthPrimed = true;
+        lastSpeakTime = Date.now();
+    }
+
+    function speakWord(word) {
+        if (!('speechSynthesis' in window)) {
+            showToast('Speech synthesis not supported', 'warning');
+            return;
+        }
+        const synth = window.speechSynthesis;
+
+        if (synth.paused) synth.resume();
+
+        const wasBusy = synth.speaking || synth.pending;
+        if (wasBusy) synth.cancel();
+
+        const utterance = makeUtterance(word);
+        utterance.onend = () => { lastSpeakTime = Date.now(); };
+        utterance.onerror = (e) => console.warn('[TTS] error:', e.error, '| word:', word);
+
+        const start = () => {
+            if (!synthPrimed || Date.now() - lastSpeakTime > SYNTH_SLEEP_MS) {
+                primeSynth();
+            }
+            synth.speak(utterance);
+            lastSpeakTime = Date.now();
+        };
+
+        if (wasBusy) {
+            setTimeout(start, 80);
+        } else {
+            start();
+        }
+    }
+
+    function flipAllCards() {
+        const cards = document.querySelectorAll('#cardContainer .card');
+        const allFlipped = Array.from(cards).every(card => card.classList.contains('flipped'));
+        cards.forEach((card, index) => {
+            setTimeout(() => {
+                card.classList.toggle('flipped', !allFlipped);
+                if (!allFlipped) {
+                    loadCardImages(card);
+                    refitBackAfterImages(card);
+                }
+            }, index * 30);
+        });
+    }
+
+    function setupEventListeners() {
+        elements.logoHome.addEventListener('click', (e) => {
+            e.preventDefault();
+            resetToDefault();
+        });
+
+        elements.langToggle.addEventListener('click', toggleLanguage);
+        elements.themeToggle.addEventListener('click', () => setTheme(state.theme === 'dark' ? 'light' : 'dark'));
+        elements.shuffleBtn.addEventListener('click', () => renderCards(true));
+        elements.flipAllBtn.addEventListener('click', flipAllCards);
+
+        elements.statsPlayBtn.addEventListener('click', () => {
+            if (state.quizActive) endQuiz(true);
+            else startGlobalQuiz();
+        });
+
+        elements.quizCheckBtn.addEventListener('click', checkQuizAnswer);
+
+        elements.quizInput.addEventListener('input', updateCheckButtonState);
+
+        elements.quizInput.addEventListener('keydown', (e) => {
+            if (e.key !== 'Enter') return;
+
+            if (!elements.quizInput.value.trim()) {
+                elements.quizFeedback.textContent = 'Please type your answer';
+                elements.quizFeedback.className = 'quiz-feedback feedback-warning';
+                return;
+            }
+
+            checkQuizAnswer();
+        });
+
+        elements.cardContainer.addEventListener('click', (e) => {
+            if (state.quizActive) return;
+
+            const speakBtn = e.target.closest('.speak-btn');
+            if (speakBtn) {
+                e.stopPropagation();
+                const card = speakBtn.closest('.card');
+                if (card && card.dataset.word) speakWord(card.dataset.word);
+                return;
+            }
+
+            const card = e.target.closest('.card');
+            if (card) {
+                card.classList.toggle('flipped');
+                if (card.classList.contains('flipped')) {
+                    loadCardImages(card);
+                    refitBackAfterImages(card);
+                }
+            }
+        });
+    }
+
+    function init() {
+        if ('speechSynthesis' in window) {
+            refreshVoices();
+            if (speechSynthesis.onvoiceschanged !== undefined) {
+                speechSynthesis.onvoiceschanged = refreshVoices;
+            }
+
+            const primeOnce = () => {
+                if (!synthPrimed) primeSynth();
+                window.removeEventListener('pointerdown', primeOnce);
+            };
+            window.addEventListener('pointerdown', primeOnce);
+        }
+
+        setTheme(state.theme);
+        updateLangButtonUI();
+        setupEventListeners();
+        updateCheckButtonState();
+        fetchCards();
+
+        let resizeTimer;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => {
+                fitCardWords();
+                fitCardBackText();
+            }, 150);
+        });
+
+        if (document.fonts && document.fonts.ready) {
+            document.fonts.ready.then(() => {
+                fitCardWords();
+                fitCardBackText();
+            });
+        }
+    }
+
+    init();
+</script>
+</body>
+</html>

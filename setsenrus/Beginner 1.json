@@ -1,0 +1,352 @@
+[
+  {
+    "word": "unrest",
+    "transcription": "анрЕст",
+    "translation": "беспорядки",
+    "image": "images/Unrest.png",
+    "level": "B1"
+  },
+  {
+    "word": "gauge",
+    "transcription": "гЕйдж",
+    "translation": "измерительный прибор, оценивать",
+    "image": "images/Gauge.png",
+    "level": "B1"
+  },
+  {
+    "word": "reluctant",
+    "transcription": "рилАктэнт",
+    "translation": "неохотный",
+    "image": "images/Reluctant.png",
+    "level": "B1"
+  },
+  {
+    "word": "ripple",
+    "transcription": "рИпл",
+    "translation": "рябь",
+    "image": "images/Ripple.png",
+    "level": "B1"
+  },
+  {
+    "word": "soar",
+    "transcription": "сор",
+    "translation": "парить",
+    "image": "images/Soar.png",
+    "level": "B1"
+  },
+  {
+    "word": "startling",
+    "transcription": "стАртлинг",
+    "translation": "поразительный",
+    "image": "images/Startling.png",
+    "level": "B1"
+  },
+  {
+    "word": "moat",
+    "transcription": "мОут",
+    "translation": "ров",
+    "image": "images/Moat.png",
+    "level": "B1"
+  },
+  {
+    "word": "blaze",
+    "transcription": "блЕйз",
+    "translation": "пламя",
+    "image": "images/Blaze.png",
+    "level": "B1"
+  },
+  {
+    "word": "compound",
+    "transcription": "кАмпаунд",
+    "translation": "составной, соединение",
+    "image": "images/Compound.png",
+    "level": "B1"
+  },
+  {
+    "word": "eerie",
+    "transcription": "Ири",
+    "translation": "жуткий",
+    "image": "images/Eerie.png",
+    "level": "B1"
+  },
+  {
+    "word": "scold",
+    "transcription": "скоулд",
+    "translation": "бранить",
+    "image": "images/Scold.png",
+    "level": "B1"
+  },
+  {
+    "word": "groove",
+    "transcription": "грув",
+    "translation": "паз, желобок",
+    "image": "images/Groove.png",
+    "level": "B1"
+  },
+  {
+    "word": "incentive",
+    "transcription": "инсЕнтив",
+    "translation": "стимул",
+    "image": "images/Incentive.png",
+    "level": "B1"
+  },
+  {
+    "word": "poaching",
+    "transcription": "пОучин",
+    "translation": "браконьерство",
+    "image": "images/Poaching.png",
+    "level": "B1"
+  },
+  {
+    "word": "nozzle",
+    "transcription": "нОзл",
+    "translation": "сопло, насадка",
+    "image": "images/Nozzle.png",
+    "level": "B1"
+  },
+  {
+    "word": "halt",
+    "transcription": "хОлт",
+    "translation": "остановка, останавливать",
+    "image": "images/Halt.png",
+    "level": "B1"
+  },
+  {
+    "word": "shrugged",
+    "transcription": "шрагд",
+    "translation": "пожал плечами",
+    "image": "images/Shrugged.png",
+    "level": "B1"
+  },
+  {
+    "word": "fringe",
+    "transcription": "фриндж",
+    "translation": "бахрома, край",
+    "image": "images/Fringe.png",
+    "level": "B1"
+  },
+  {
+    "word": "pep",
+    "transcription": "пеп",
+    "translation": "энергия, бодрость",
+    "image": "images/Pep.png",
+    "level": "B1"
+  },
+  {
+    "word": "tint",
+    "transcription": "тинт",
+    "translation": "оттенок, тонировать",
+    "image": "images/Tint.png",
+    "level": "B1"
+  },
+  {
+    "word": "stench",
+    "transcription": "стэнч",
+    "translation": "зловоние",
+    "image": "images/Stench.png",
+    "level": "B1"
+  },
+  {
+    "word": "potent",
+    "transcription": "пОутэнт",
+    "translation": "мощный, сильнодействующий",
+    "image": "images/Potent.png",
+    "level": "B1"
+  },
+  {
+    "word": "vulture",
+    "transcription": "вАлчэ",
+    "translation": "гриф",
+    "image": "images/Vulture.png",
+    "level": "B1"
+  },
+  {
+    "word": "haul",
+    "transcription": "хОл",
+    "translation": "тащить, перевозить",
+    "image": "images/Haul.png",
+    "level": "B1"
+  },
+  {
+    "word": "vow",
+    "transcription": "вАу",
+    "translation": "клятва, давать обет",
+    "image": "images/Vow.png",
+    "level": "B1"
+  },
+  {
+    "word": "nimble",
+    "transcription": "нИмбл",
+    "translation": "проворный, ловкий",
+    "image": "images/Nimble.png",
+    "level": "B1"
+  },
+  {
+    "word": "gutter",
+    "transcription": "гАтр",
+    "translation": "водосточный желоб",
+    "image": "images/Gutter.png",
+    "level": "B1"
+  },
+  {
+    "word": "prudent",
+    "transcription": "прУдэнт",
+    "translation": "благоразумный",
+    "image": "images/Prudent.png",
+    "level": "B1"
+  },
+  {
+    "word": "grudge",
+    "transcription": "градж",
+    "translation": "обида, неохотно давать",
+    "image": "images/Grudge.png",
+    "level": "B1"
+  },
+  {
+    "word": "hedge",
+    "transcription": "хэдж",
+    "translation": "живая изгородь",
+    "image": "images/Hedge.png",
+    "level": "B1"
+  },
+  {
+    "word": "mundane",
+    "transcription": "мандЕйн",
+    "translation": "будничный, обыденный",
+    "image": "images/Mundane.png",
+    "level": "B1"
+  },
+  {
+    "word": "mourn",
+    "transcription": "морн",
+    "translation": "оплакивать",
+    "image": "images/Mourn.png",
+    "level": "B1"
+  },
+  {
+    "word": "leapt up",
+    "transcription": "лэпт Ап",
+    "translation": "вскочил",
+    "image": "images/Leapt_Up.png",
+    "level": "B1"
+  },
+  {
+    "word": "bothersome",
+    "transcription": "бАзэрсом",
+    "translation": "надоедливый, докучливый",
+    "image": "images/Bothersome.png",
+    "level": "B1"
+  },
+  {
+    "word": "racket",
+    "transcription": "рЭкит",
+    "translation": "ракетка, шум, вымогательство",
+    "image": "images/Racket.png",
+    "level": "B1"
+  },
+  {
+    "word": "fumble",
+    "transcription": "фАмбл",
+    "translation": "рыться наощупь, медлить",
+    "image": "images/Fumble.png",
+    "level": "B1"
+  },
+  {
+    "word": "grope",
+    "transcription": "гроуп",
+    "translation": "щупать вслепую",
+    "image": "images/Grope.png",
+    "level": "B1"
+  },
+  {
+    "word": "adversity",
+    "transcription": "адвЁрсити",
+    "translation": "невзгоды, несчастья",
+    "image": "images/Adversity.png",
+    "level": "B1"
+  },
+  {
+    "word": "stroll in",
+    "transcription": "строул Ин",
+    "translation": "зайти прогуливаясь",
+    "image": "images/Stroll_In.png",
+    "level": "B1"
+  },
+  {
+    "word": "swayed",
+    "transcription": "свейд",
+    "translation": "качался, склонялся",
+    "image": "images/Swayed.png",
+    "level": "B1"
+  },
+  {
+    "word": "creed",
+    "transcription": "крид",
+    "translation": "вероисповедание, кредо, вера, символ веры",
+    "image": "images/Creed.png",
+    "level": "B1"
+  },
+  {
+    "word": "smear",
+    "transcription": "смир",
+    "translation": "мазать, пачкать, клеветать",
+    "image": "images/Smear.png",
+    "level": "B1"
+  },
+  {
+    "word": "prudent",
+    "transcription": "прУдэнт",
+    "translation": "благоразумный",
+    "image": "images/Prudent.png",
+    "level": "B1"
+  },
+  {
+    "word": "flinch",
+    "transcription": "флинч",
+    "translation": "вздрагивать",
+    "image": "images/Flinch.png",
+    "level": "B1"
+  },
+  {
+    "word": "aching",
+    "transcription": "Эйкин",
+    "translation": "ноющий, болящий",
+    "image": "images/Aching.png",
+    "level": "B1"
+  },
+  {
+    "word": "drizzle",
+    "transcription": "дрИзл",
+    "translation": "морось",
+    "image": "images/Drizzle.png",
+    "level": "B1"
+  },
+  {
+    "word": "poacher",
+    "transcription": "пОучэр",
+    "translation": "браконьер",
+    "image": "images/Poacher.png",
+    "level": "B1"
+  },
+  {
+    "word": "scolding",
+    "transcription": "скОулдинг",
+    "translation": "выговор, ругань",
+    "image": "images/Scolding.png",
+    "level": "B1"
+  },
+  {
+    "word": "fussing",
+    "transcription": "фАсинг",
+    "translation": "суетиться, возиться",
+    "image": "images/Fussing.png",
+    "level": "B1"
+  },
+  {
+    "word": "immense",
+    "transcription": "имЕнс",
+    "translation": "огромный",
+    "image": "images/Immense.png",
+    "level": "B1"
+  }
+]

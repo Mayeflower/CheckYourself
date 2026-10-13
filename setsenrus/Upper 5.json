@@ -1,0 +1,352 @@
+[
+  {
+    "word": "Streak",
+    "transcription": "стрик",
+    "translation": "полоса (везения/невезения), серия",
+    "image": "images/Streak.png",
+    "level": "C1"
+  },
+  {
+    "word": "Grimy",
+    "transcription": "грАйми",
+    "translation": "грязный, засаленный",
+    "image": "images/Grimy.png",
+    "level": "C1"
+  },
+  {
+    "word": "Scarcity",
+    "transcription": "скЭрсити",
+    "translation": "нехватка, дефицит",
+    "image": "images/Scarcity.png",
+    "level": "C1"
+  },
+  {
+    "word": "Keen as mustard",
+    "transcription": "кин эз мАстэрд",
+    "translation": "полный энтузиазма, рьяный (идиома)",
+    "image": "images/Keen_as_mustard.png",
+    "level": "C1"
+  },
+  {
+    "word": "Torment",
+    "transcription": "тОрмэнт",
+    "translation": "мучение, терзать",
+    "image": "images/Torment.png",
+    "level": "C1"
+  },
+  {
+    "word": "His first lapse in 2 years of thereabouts",
+    "transcription": "хиз фёрст лэпс ин ту йИрз ов зэрэбАутс",
+    "translation": "его первый промах за 2 года или около того",
+    "image": "images/His_first_lapse_in_2_years_of_thereabouts.png",
+    "level": "C1"
+  },
+  {
+    "word": "Enema",
+    "transcription": "Энимэ",
+    "translation": "клизма",
+    "image": "images/Enema.png",
+    "level": "C1"
+  },
+  {
+    "word": "Dread",
+    "transcription": "дрэд",
+    "translation": "страх, ужас, бояться",
+    "image": "images/Dread.png",
+    "level": "C1"
+  },
+  {
+    "word": "Aptitude",
+    "transcription": "Эптэтьюд",
+    "translation": "способность, склонность",
+    "image": "images/Aptitude.png",
+    "level": "C1"
+  },
+  {
+    "word": "Snuggle",
+    "transcription": "снАгл",
+    "translation": "прижиматься, уютно устраиваться",
+    "image": "images/Snuggle.png",
+    "level": "C1"
+  },
+  {
+    "word": "Rectify",
+    "transcription": "рЕктифай",
+    "translation": "исправлять, устранять",
+    "image": "images/Rectify.png",
+    "level": "C1"
+  },
+  {
+    "word": "Loathe",
+    "transcription": "лоуд",
+    "translation": "ненавидеть, питать отвращение",
+    "image": "images/Loathe.png",
+    "level": "C1"
+  },
+  {
+    "word": "Ingenious",
+    "transcription": "инджИнйэс",
+    "translation": "изобретательный, находчивый",
+    "image": "images/Ingenious.png",
+    "level": "C1"
+  },
+  {
+    "word": "Apex",
+    "transcription": "Эйпекс",
+    "translation": "вершина, пик, апекс",
+    "image": "images/Apex.png",
+    "level": "C1"
+  },
+  {
+    "word": "Plummet",
+    "transcription": "плАмит",
+    "translation": "стремительно падать, обрушиваться",
+    "image": "images/Plummet.png",
+    "level": "C1"
+  },
+  {
+    "word": "Hustle",
+    "transcription": "хАсл",
+    "translation": "суетиться, подработка, жульничество",
+    "image": "images/Hustle.png",
+    "level": "C1"
+  },
+  {
+    "word": "Grind",
+    "transcription": "грайнд",
+    "translation": "молоть, рутина, тяжелый труд",
+    "image": "images/Grind.png",
+    "level": "C1"
+  },
+  {
+    "word": "Rigorously",
+    "transcription": "рИгэрасли",
+    "translation": "строго, тщательно, сурово",
+    "image": "images/Rigorously.png",
+    "level": "C1"
+  },
+  {
+    "word": "Take precedence",
+    "transcription": "тэйк прЕсэдэнс",
+    "translation": "иметь приоритет, преобладать",
+    "image": "images/Take_precedence.png",
+    "level": "C1"
+  },
+  {
+    "word": "Discretion",
+    "transcription": "дискрЕшн",
+    "translation": "осмотрительность, благоразумие",
+    "image": "images/Discretion.png",
+    "level": "C1"
+  },
+  {
+    "word": "Opt",
+    "transcription": "опт",
+    "translation": "выбирать, предпочитать",
+    "image": "images/Opt.png",
+    "level": "C1"
+  },
+  {
+    "word": "Incinerated",
+    "transcription": "инсИнэрэйтэд",
+    "translation": "сожженный, уничтоженный огнем",
+    "image": "images/Incinerated.png",
+    "level": "C1"
+  },
+  {
+    "word": "General vicinity",
+    "transcription": "джЕнэрэл висИнити",
+    "translation": "общая округа, окрестности",
+    "image": "images/General_vicinity.png",
+    "level": "C1"
+  },
+  {
+    "word": "Quirks",
+    "transcription": "куЁркс",
+    "translation": "причуды, странности, особенности",
+    "image": "images/Quirks.png",
+    "level": "C1"
+  },
+  {
+    "word": "Anvil",
+    "transcription": "Энвил",
+    "translation": "наковальня",
+    "image": "images/Anvil.png",
+    "level": "C1"
+  },
+  {
+    "word": "Bewildered",
+    "transcription": "бивИлдэрд",
+    "translation": "сбитый с толку, озадаченный",
+    "image": "images/Bewildered.png",
+    "level": "C1"
+  },
+  {
+    "word": "Daring heist",
+    "transcription": "дЭрин хайст",
+    "translation": "дерзкое ограбление",
+    "image": "images/Daring_heist.png",
+    "level": "C1"
+  },
+  {
+    "word": "Flank",
+    "transcription": "флэнк",
+    "translation": "фланг, бок",
+    "image": "images/Flank.png",
+    "level": "C1"
+  },
+  {
+    "word": "Installments",
+    "transcription": "инстОлмэнтс",
+    "translation": "взносы, рассрочка, части сериала",
+    "image": "images/Installments.png",
+    "level": "C1"
+  },
+  {
+    "word": "Chuck it away",
+    "transcription": "чак ит эуэй",
+    "translation": "выкинь это, выброси",
+    "image": "images/Chuck_it_away.png",
+    "level": "C1"
+  },
+  {
+    "word": "Crept",
+    "transcription": "крэпт",
+    "translation": "крался, полз",
+    "image": "images/Crept.png",
+    "level": "C1"
+  },
+  {
+    "word": "Mahogany",
+    "transcription": "махОгэни",
+    "translation": "красное дерево, махагони",
+    "image": "images/Mahogany.png",
+    "level": "C1"
+  },
+  {
+    "word": "Boasted",
+    "transcription": "бОстид",
+    "translation": "хвастался",
+    "image": "images/Boasted.png",
+    "level": "C1"
+  },
+  {
+    "word": "Lark",
+    "transcription": "ларк",
+    "translation": "жаворонок, шалость, забава",
+    "image": "images/Lark.png",
+    "level": "C1"
+  },
+  {
+    "word": "Detachments",
+    "transcription": "детАчмэнтс",
+    "translation": "отряды, отделения, отчужденность",
+    "image": "images/Detachments.png",
+    "level": "C1"
+  },
+  {
+    "word": "Residue",
+    "transcription": "рЕзидью",
+    "translation": "остаток, осадок",
+    "image": "images/Residue.png",
+    "level": "C1"
+  },
+  {
+    "word": "Rubble",
+    "transcription": "рабл",
+    "translation": "щебень, обломки, развалины",
+    "image": "images/Rubble.png",
+    "level": "C1"
+  },
+  {
+    "word": "They are endowed with reason",
+    "transcription": "зэй ар индАуд уиз ризн",
+    "translation": "они наделены разумом",
+    "image": "images/They_are_endowed_with_reason.png",
+    "level": "C1"
+  },
+  {
+    "word": "Barren",
+    "transcription": "бЭрэн",
+    "translation": "бесплодный, пустой",
+    "image": "images/Barren.png",
+    "level": "C1"
+  },
+  {
+    "word": "Eccentricity",
+    "transcription": "эксэнтрИсити",
+    "translation": "эксцентричность, чудачество",
+    "image": "images/Eccentricity.png",
+    "level": "C1"
+  },
+  {
+    "word": "Dispel",
+    "transcription": "диспЭл",
+    "translation": "рассеивать, развеивать (страхи, сомнения)",
+    "image": "images/Dispel.png",
+    "level": "C1"
+  },
+  {
+    "word": "Fumble",
+    "transcription": "фАмбл",
+    "translation": "рыться наощупь, медлить, ронять",
+    "image": "images/Fumble.png",
+    "level": "C1"
+  },
+  {
+    "word": "Gulp",
+    "transcription": "галп",
+    "translation": "глоток, жадно глотать",
+    "image": "images/Gulp.png",
+    "level": "C1"
+  },
+  {
+    "word": "Large intestine",
+    "transcription": "лардж интЕстин",
+    "translation": "толстая кишка",
+    "image": "images/Large_intestine.png",
+    "level": "C1"
+  },
+  {
+    "word": "Mingling",
+    "transcription": "мИнглин",
+    "translation": "смешивание, общение, хождение среди людей",
+    "image": "images/Mingling.png",
+    "level": "C1"
+  },
+  {
+    "word": "Tarnished",
+    "transcription": "тАрништ",
+    "translation": "потускневший, запятнанный",
+    "image": "images/Tarnished.png",
+    "level": "C1"
+  },
+  {
+    "word": "Slurp",
+    "transcription": "слёрп",
+    "translation": "хлебать, чавкать",
+    "image": "images/Slurp.png",
+    "level": "C1"
+  },
+  {
+    "word": "Smug",
+    "transcription": "смаг",
+    "translation": "самодовольный, самонадеянный",
+    "image": "images/Smug.png",
+    "level": "C1"
+  },
+  {
+    "word": "Sling",
+    "transcription": "слин",
+    "translation": "перевязь, рогатка, швырять",
+    "image": "images/Sling.png",
+    "level": "C1"
+  },
+  {
+    "word": "Within confines of",
+    "transcription": "уизИн кОнфайнс ов",
+    "translation": "в пределах, в рамках",
+    "image": "images/Within_confines_of.png",
+    "level": "C1"
+  }
+]

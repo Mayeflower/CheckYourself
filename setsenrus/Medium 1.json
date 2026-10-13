@@ -1,0 +1,352 @@
+[
+  {
+    "word": "baller",
+    "transcription": "бОлэр",
+    "translation": "крутой игрок, мажор, баскетболист",
+    "image": "images/Baller.png",
+    "level": "B2"
+  },
+  {
+    "word": "defiant",
+    "transcription": "дифАйэнт",
+    "translation": "неповинующийся, вызывающий",
+    "image": "images/Defiant.png",
+    "level": "B2"
+  },
+  {
+    "word": "Usher",
+    "transcription": "Ашэр",
+    "translation": "билетер, проводник, сопровождать",
+    "image": "images/Usher.png",
+    "level": "B2"
+  },
+  {
+    "word": "Follow-through",
+    "transcription": "фОлоу-сру",
+    "translation": "доведение до конца, завершающее движение",
+    "image": "images/Follow_through.png",
+    "level": "B2"
+  },
+  {
+    "word": "Diligence",
+    "transcription": "дИлиджэнс",
+    "translation": "усердие, прилежание",
+    "image": "images/Diligence.png",
+    "level": "B2"
+  },
+  {
+    "word": "Call off",
+    "transcription": "кол оф",
+    "translation": "отменять",
+    "image": "images/Call_off.png",
+    "level": "B2"
+  },
+  {
+    "word": "Retain",
+    "transcription": "ритЕйн",
+    "translation": "сохранять, удерживать",
+    "image": "images/Retain.png",
+    "level": "B2"
+  },
+  {
+    "word": "Rash",
+    "transcription": "рэш",
+    "translation": "сыпь, опрометчивый",
+    "image": "images/Rash.png",
+    "level": "B2"
+  },
+  {
+    "word": "Pantry",
+    "transcription": "пЭнтри",
+    "translation": "кладовая",
+    "image": "images/Pantry.png",
+    "level": "B2"
+  },
+  {
+    "word": "Abundance",
+    "transcription": "абАндэнс",
+    "translation": "изобилие, избыток",
+    "image": "images/Abundance.png",
+    "level": "B2"
+  },
+  {
+    "word": "Contagious",
+    "transcription": "контЕйджэс",
+    "translation": "заразный, заразительный",
+    "image": "images/Contagious.png",
+    "level": "B2"
+  },
+  {
+    "word": "Give off",
+    "transcription": "гив оф",
+    "translation": "излучать, выделять",
+    "image": "images/Give_off.png",
+    "level": "B2"
+  },
+  {
+    "word": "Fondness",
+    "transcription": "фОнднис",
+    "translation": "привязанность, любовь",
+    "image": "images/Fondness.png",
+    "level": "B2"
+  },
+  {
+    "word": "Lavatory",
+    "transcription": "лЭвэтори",
+    "translation": "уборная, туалет",
+    "image": "images/Lavatory.png",
+    "level": "B2"
+  },
+  {
+    "word": "Thigh",
+    "transcription": "сай",
+    "translation": "бедро",
+    "image": "images/Thigh.png",
+    "level": "B2"
+  },
+  {
+    "word": "Clearing",
+    "transcription": "клИрин",
+    "translation": "поляна, расчистка",
+    "image": "images/Clearing.png",
+    "level": "B2"
+  },
+  {
+    "word": "Make out",
+    "transcription": "мэйк аут",
+    "translation": "различать, понимать, целоваться",
+    "image": "images/Make_out.png",
+    "level": "B2"
+  },
+  {
+    "word": "Twig",
+    "transcription": "туиг",
+    "translation": "веточка, прут",
+    "image": "images/Twig.png",
+    "level": "B2"
+  },
+  {
+    "word": "Pinch",
+    "transcription": "пинч",
+    "translation": "щипать, щепотка",
+    "image": "images/Pinch.png",
+    "level": "B2"
+  },
+  {
+    "word": "Splinter",
+    "transcription": "сплИнтэр",
+    "translation": "заноза, осколок",
+    "image": "images/Splinter.png",
+    "level": "B2"
+  },
+  {
+    "word": "Sack",
+    "transcription": "сэк",
+    "translation": "мешок, увольнять, разграбить",
+    "image": "images/Sack.png",
+    "level": "B2"
+  },
+  {
+    "word": "Hoof",
+    "transcription": "хуф",
+    "translation": "копыто",
+    "image": "images/Hoof.png",
+    "level": "B2"
+  },
+  {
+    "word": "Retreat",
+    "transcription": "ритрИт",
+    "translation": "отступление, уединение",
+    "image": "images/Retreat.png",
+    "level": "B2"
+  },
+  {
+    "word": "The supply had given out",
+    "transcription": "зэ сэплАй хэд гивн аут",
+    "translation": "запасы иссякли",
+    "image": "images/The_supply_had_given_out.png",
+    "level": "B2"
+  },
+  {
+    "word": "Discontented",
+    "transcription": "дисконтЕнтид",
+    "translation": "недовольный",
+    "image": "images/Discontented.png",
+    "level": "B2"
+  },
+  {
+    "word": "Vague",
+    "transcription": "вэйг",
+    "translation": "расплывчатый, неясный",
+    "image": "images/Vague.png",
+    "level": "B2"
+  },
+  {
+    "word": "Boarded up",
+    "transcription": "бОрдид ап",
+    "translation": "заколоченный досками",
+    "image": "images/Boarded_up.png",
+    "level": "B2"
+  },
+  {
+    "word": "Apron",
+    "transcription": "Эйпрэн",
+    "translation": "фартук, передник",
+    "image": "images/Apron.png",
+    "level": "B2"
+  },
+  {
+    "word": "Gutter",
+    "transcription": "гАтэр",
+    "translation": "водосточный желоб, канава",
+    "image": "images/Gutter.png",
+    "level": "B2"
+  },
+  {
+    "word": "Bowels",
+    "transcription": "бАулз",
+    "translation": "внутренности, кишки",
+    "image": "images/Bowels.png",
+    "level": "B2"
+  },
+  {
+    "word": "Dissatisfied",
+    "transcription": "диссЭтисфайд",
+    "translation": "неудовлетворенный",
+    "image": "images/Dissatisfied.png",
+    "level": "B2"
+  },
+  {
+    "word": "Stiff",
+    "transcription": "стИф",
+    "translation": "жесткий, тугой, окоченевший",
+    "image": "images/Stiff.png",
+    "level": "B2"
+  },
+  {
+    "word": "Fiercely",
+    "transcription": "фИрсли",
+    "translation": "яростно, свирепо",
+    "image": "images/Fiercely.png",
+    "level": "B2"
+  },
+  {
+    "word": "Chewing a lump of sugar",
+    "transcription": "чУин э ламп оф шУгэр",
+    "translation": "жуя кусок сахара",
+    "image": "images/Chewing_a_lump_of_sugar.png",
+    "level": "B2"
+  },
+  {
+    "word": "White mane",
+    "transcription": "уайт мэйн",
+    "translation": "белая грива",
+    "image": "images/White_mane.png",
+    "level": "B2"
+  },
+  {
+    "word": "Stall",
+    "transcription": "стол",
+    "translation": "стойло, кабина, глохнуть",
+    "image": "images/Stall.png",
+    "level": "B2"
+  },
+  {
+    "word": "Hatched into",
+    "transcription": "хэтчд Инту",
+    "translation": "вылупился в, вынашивал план",
+    "image": "images/Hatched_into.png",
+    "level": "B2"
+  },
+  {
+    "word": "Grumble",
+    "transcription": "грАмбл",
+    "translation": "ворчать, бурчать",
+    "image": "images/Grumble.png",
+    "level": "B2"
+  },
+  {
+    "word": "Celestial",
+    "transcription": "сэлЕсчэл",
+    "translation": "небесный, космический",
+    "image": "images/Celestial.png",
+    "level": "B2"
+  },
+  {
+    "word": "Terrestrial",
+    "transcription": "терЕстриэл",
+    "translation": "земной, наземный",
+    "image": "images/Terrestrial.png",
+    "level": "B2"
+  },
+  {
+    "word": "Bonfire",
+    "transcription": "бОнфайэр",
+    "translation": "костер",
+    "image": "images/Bonfire.png",
+    "level": "B2"
+  },
+  {
+    "word": "Lantern",
+    "transcription": "лЭнтэрн",
+    "translation": "фонарь",
+    "image": "images/Lantern.png",
+    "level": "B2"
+  },
+  {
+    "word": "Stirring",
+    "transcription": "стЁрин",
+    "translation": "перемешивание, волнующий",
+    "image": "images/Stirring.png",
+    "level": "B2"
+  },
+  {
+    "word": "Under a lantern which hang from a beam",
+    "transcription": "Андэр э лЭнтэрн уич хэн фром э бим",
+    "translation": "под фонарем, который висит на балке",
+    "image": "images/Under_a_lantern_which_hang_from_a_beam.png",
+    "level": "B2"
+  },
+  {
+    "word": "Beak",
+    "transcription": "бик",
+    "translation": "клюв",
+    "image": "images/Beak.png",
+    "level": "B2"
+  },
+  {
+    "word": "I don't want to come off rude",
+    "transcription": "ай донт уонт ту кам оф руд",
+    "translation": "я не хочу показаться грубым",
+    "image": "images/I_dont_want_to_come_off_rude.png",
+    "level": "B2"
+  },
+  {
+    "word": "Smith",
+    "transcription": "смит",
+    "translation": "кузнец, Смит",
+    "image": "images/Smith.png",
+    "level": "B2"
+  },
+  {
+    "word": "Frail",
+    "transcription": "фрэйл",
+    "translation": "хрупкий, слабый",
+    "image": "images/Frail.png",
+    "level": "B2"
+  },
+  {
+    "word": "Blue overalls",
+    "transcription": "блю Оувэр-олз",
+    "translation": "синий комбинезон",
+    "image": "images/Blue_overalls.png",
+    "level": "B2"
+  },
+  {
+    "word": "Coarse",
+    "transcription": "корс",
+    "translation": "грубый, шероховатый",
+    "image": "images/Coarse.png",
+    "level": "B2"
+  }
+]

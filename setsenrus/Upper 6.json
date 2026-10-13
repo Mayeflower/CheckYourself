@@ -1,0 +1,352 @@
+[
+  {
+    "word": "zinger",
+    "transcription": "зИнгэр",
+    "translation": "колкость, острая шутка, нечто энергичное",
+    "image": "images/Zinger.png",
+    "level": "C1"
+  },
+  {
+    "word": "liken it to",
+    "transcription": "лАйкэн ит ту",
+    "translation": "уподоблять это, сравнивать с",
+    "image": "images/LikenItTo.png",
+    "level": "C1"
+  },
+  {
+    "word": "exasperation",
+    "transcription": "игзаспэрЕйшн",
+    "translation": "крайнее раздражение, негодование",
+    "image": "images/Exasperation.png",
+    "level": "C1"
+  },
+  {
+    "word": "unhinged",
+    "transcription": "анхИнджд",
+    "translation": "неуравновешенный, психически нестабильный",
+    "image": "images/Unhinged.png",
+    "level": "C1"
+  },
+  {
+    "word": "stoat",
+    "transcription": "стоут",
+    "translation": "горностай",
+    "image": "images/Stoat.png",
+    "level": "C1"
+  },
+  {
+    "word": "thrust into poverty",
+    "transcription": "сраст Инту пОвэрти",
+    "translation": "брошенный в нищету, ввергнутый в нищету",
+    "image": "images/ThrustIntoPoverty.png",
+    "level": "C1"
+  },
+  {
+    "word": "convoluted",
+    "transcription": "кОнволютид",
+    "translation": "запутанный, сложный",
+    "image": "images/Convoluted.png",
+    "level": "C1"
+  },
+  {
+    "word": "riff",
+    "transcription": "риф",
+    "translation": "рифф (муз.), импровизация, вариант",
+    "image": "images/Riff.png",
+    "level": "C1"
+  },
+  {
+    "word": "gurney",
+    "transcription": "гЁрни",
+    "translation": "больничная каталка",
+    "image": "images/Gurney.png",
+    "level": "C1"
+  },
+  {
+    "word": "deterrence",
+    "transcription": "детЕррэнс",
+    "translation": "сдерживание, устрашение",
+    "image": "images/Deterrence.png",
+    "level": "C1"
+  },
+  {
+    "word": "searingly",
+    "transcription": "сИринли",
+    "translation": "жгуче, пронзительно",
+    "image": "images/Searingly.png",
+    "level": "C1"
+  },
+  {
+    "word": "heckler",
+    "transcription": "хЕклэр",
+    "translation": "выкрикивающий с места, провокатор",
+    "image": "images/Heckler.png",
+    "level": "C1"
+  },
+  {
+    "word": "appendage",
+    "transcription": "апЕндиж",
+    "translation": "придаток, приложение",
+    "image": "images/Appendage.png",
+    "level": "C1"
+  },
+  {
+    "word": "To matriculate",
+    "transcription": "ту мАтрикьюлейт",
+    "translation": "поступать в университет, зачислять",
+    "image": "images/Matriculate.png",
+    "level": "C1"
+  },
+  {
+    "word": "Willful",
+    "transcription": "уИлфул",
+    "translation": "упрямый, своенравный, умышленный",
+    "image": "images/Willful.png",
+    "level": "C1"
+  },
+  {
+    "word": "Angst",
+    "transcription": "ангст",
+    "translation": "тревога, страх, тоска",
+    "image": "images/Angst.png",
+    "level": "C1"
+  },
+  {
+    "word": "Lap dog",
+    "transcription": "лЭп дог",
+    "translation": "карманная собачка, подхалим",
+    "image": "images/Lap_dog.png",
+    "level": "C1"
+  },
+  {
+    "word": "Shenanigans",
+    "transcription": "шэнЭнигэнз",
+    "translation": "проделки, махинации, шалости",
+    "image": "images/Shenanigans.png",
+    "level": "C1"
+  },
+  {
+    "word": "Immaculate",
+    "transcription": "имАкьюлэт",
+    "translation": "безупречный, незапятнанный",
+    "image": "images/Immaculate.png",
+    "level": "C1"
+  },
+  {
+    "word": "Bonding bag",
+    "transcription": "бОндин бэг",
+    "translation": "сумка для связей (или мешок для скрепления)",
+    "image": "images/Bonding_bag.png",
+    "level": "C1"
+  },
+  {
+    "word": "That success hinges on",
+    "transcription": "зэт саксЕс хИнжиз он",
+    "translation": "что успех зависит от (досл. висит на петлях)",
+    "image": "images/That_success_hinges_on.png",
+    "level": "C1"
+  },
+  {
+    "word": "Conscientiousness",
+    "transcription": "коншиЕншэснэс",
+    "translation": "добросовестность, сознательность",
+    "image": "images/Conscientiousness.png",
+    "level": "C1"
+  },
+  {
+    "word": "Dine-and-dasher",
+    "transcription": "дАйн энд дэшэр",
+    "translation": "человек, убегающий не заплатив в ресторане",
+    "image": "images/Dine_and_dasher.png",
+    "level": "C1"
+  },
+  {
+    "word": "I've got a tote",
+    "transcription": "айв гот э тоут",
+    "translation": "у меня есть сумка-тоут (хозяйственная сумка)",
+    "image": "images/Ive_got_a_tote.png",
+    "level": "C1"
+  },
+  {
+    "word": "Eminent",
+    "transcription": "Эминэнт",
+    "translation": "выдающийся, известный",
+    "image": "images/Eminent.png",
+    "level": "C1"
+  },
+  {
+    "word": "In lieu",
+    "transcription": "ин лью",
+    "translation": "вместо, взамен",
+    "image": "images/In_lieu.png",
+    "level": "C1"
+  },
+  {
+    "word": "Bummer",
+    "transcription": "бАмэр",
+    "translation": "облом, разочарование",
+    "image": "images/Bummer.png",
+    "level": "C1"
+  },
+  {
+    "word": "Deemed",
+    "transcription": "димд",
+    "translation": "сочтенный, признанный",
+    "image": "images/Deemed.png",
+    "level": "C1"
+  },
+  {
+    "word": "Rattled",
+    "transcription": "рЭтлд",
+    "translation": "взволнованный, сбитый с толку, гремящий",
+    "image": "images/Rattled.png",
+    "level": "C1"
+  },
+  {
+    "word": "Ascertained",
+    "transcription": "эсэртЕйнд",
+    "translation": "выясненный, установленный",
+    "image": "images/Ascertained.png",
+    "level": "C1"
+  },
+  {
+    "word": "Gauge",
+    "transcription": "гейдж",
+    "translation": "измерять, оценивать, калибр",
+    "image": "images/Gauge.png",
+    "level": "C1"
+  },
+  {
+    "word": "Litigator",
+    "transcription": "лИтигейтэр",
+    "translation": "адвокат, судебный юрист",
+    "image": "images/Litigator.png",
+    "level": "C1"
+  },
+  {
+    "word": "Helm",
+    "transcription": "хелм",
+    "translation": "руль, штурвал, руководство",
+    "image": "images/Helm.png",
+    "level": "C1"
+  },
+  {
+    "word": "Overruled",
+    "transcription": "оувэррУлд",
+    "translation": "отклоненный (возражение), пересиленный",
+    "image": "images/Overruled.png",
+    "level": "C1"
+  },
+  {
+    "word": "Omnipotent",
+    "transcription": "омнИпотэнт",
+    "translation": "всемогущий",
+    "image": "images/Omnipotent.png",
+    "level": "C1"
+  },
+  {
+    "word": "Census",
+    "transcription": "сЕнсэс",
+    "translation": "перепись населения",
+    "image": "images/Census.png",
+    "level": "C1"
+  },
+  {
+    "word": "Incentives",
+    "transcription": "инсЕнтивз",
+    "translation": "стимулы, поощрения",
+    "image": "images/Incentives.png",
+    "level": "C1"
+  },
+  {
+    "word": "Vetting process",
+    "transcription": "вЕтин прОсэс",
+    "translation": "процесс проверки (кандидата)",
+    "image": "images/Vetting_process.png",
+    "level": "C1"
+  },
+  {
+    "word": "Intricacies",
+    "transcription": "Интрикэсиз",
+    "translation": "сложности, тонкости",
+    "image": "images/Intricacies.png",
+    "level": "C1"
+  },
+  {
+    "word": "Frugal",
+    "transcription": "фрУгл",
+    "translation": "бережливый, экономный",
+    "image": "images/Frugal.png",
+    "level": "C1"
+  },
+  {
+    "word": "Tow",
+    "transcription": "тоу",
+    "translation": "буксировать, буксир",
+    "image": "images/Tow.png",
+    "level": "C1"
+  },
+  {
+    "word": "Extremity",
+    "transcription": "экстрЕмити",
+    "translation": "конечность, крайность",
+    "image": "images/Extremity.png",
+    "level": "C1"
+  },
+  {
+    "word": "Sling",
+    "transcription": "слин",
+    "translation": "перевязь, рогатка, швырять",
+    "image": "images/Sling.png",
+    "level": "C1"
+  },
+  {
+    "word": "Jolted",
+    "transcription": "джоултид",
+    "translation": "потрясенный, дернувшийся",
+    "image": "images/Jolted.png",
+    "level": "C1"
+  },
+  {
+    "word": "Thrush",
+    "transcription": "сраш",
+    "translation": "молочница (болезнь), дрозд",
+    "image": "images/Thrush.png",
+    "level": "C1"
+  },
+  {
+    "word": "Torrent",
+    "transcription": "тОрэнт",
+    "translation": "поток, ливень",
+    "image": "images/Torrent.png",
+    "level": "C1"
+  },
+  {
+    "word": "They are not so holy as they make out",
+    "transcription": "зэй ар нот соу хОли эз зэй мэйк аут",
+    "translation": "они не так святы, как себя выдают",
+    "image": "images/They_are_not_so_holy_as_they_make_out.png",
+    "level": "C1"
+  },
+  {
+    "word": "Encampment",
+    "transcription": "инкЭмпмэнт",
+    "translation": "лагерь, стоянка",
+    "image": "images/Encampment.png",
+    "level": "C1"
+  },
+  {
+    "word": "Nefarious",
+    "transcription": "нефЕриэс",
+    "translation": "гнусный, злодейский",
+    "image": "images/Nefarious.png",
+    "level": "C1"
+  },
+  {
+    "word": "Parsley",
+    "transcription": "пАрсли",
+    "translation": "петрушка",
+    "image": "images/Parsley.png",
+    "level": "C1"
+  }
+]

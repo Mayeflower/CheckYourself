@@ -1,0 +1,331 @@
+[
+  {
+    "word": "Muttering",
+    "transcription": "мАтэрин",
+    "translation": "бормотание, ворчание",
+    "image": "images/Muttering.png",
+    "level": "B2"
+  },
+  {
+    "word": "Abnormally",
+    "transcription": "эбнОрмали",
+    "translation": "ненормально, аномально",
+    "image": "images/Abnormally.png",
+    "level": "B2"
+  },
+  {
+    "word": "Stem",
+    "transcription": "стэм",
+    "translation": "стебель, происходить от, препятствовать",
+    "image": "images/Stem.png",
+    "level": "B2"
+  },
+  {
+    "word": "Beggar",
+    "transcription": "бЕгэр",
+    "translation": "нищий, попрошайка",
+    "image": "images/Beggar.png",
+    "level": "B2"
+  },
+  {
+    "word": "He drew in his breath",
+    "transcription": "хи дрю ин хиз брэс",
+    "translation": "он втянул воздух, он перевел дух",
+    "image": "images/He_drew_in_his_breath.png",
+    "level": "B2"
+  },
+  {
+    "word": "Stray",
+    "transcription": "стрэй",
+    "translation": "блуждать, сбиваться с пути, бродячий",
+    "image": "images/Stray.png",
+    "level": "B2"
+  },
+  {
+    "word": "Viciously",
+    "transcription": "вИшэсли",
+    "translation": "злобно, жестоко",
+    "image": "images/Viciously.png",
+    "level": "B2"
+  },
+  {
+    "word": "Wear off",
+    "transcription": "уэр оф",
+    "translation": "проходить, стираться, выветриваться",
+    "image": "images/Wear_off.png",
+    "level": "B2"
+  },
+  {
+    "word": "Generosity",
+    "transcription": "джэнэрОусэти",
+    "translation": "щедрость, великодушие",
+    "image": "images/Generosity.png",
+    "level": "B2"
+  },
+  {
+    "word": "Totes",
+    "transcription": "тоутс",
+    "translation": "сумки, пакеты; абсолютно (сленг)",
+    "image": "images/Totes.png",
+    "level": "B2"
+  },
+  {
+    "word": "A little numb",
+    "transcription": "э лИтл нам",
+    "translation": "немного онемевший",
+    "image": "images/A_little_numb.png",
+    "level": "B2"
+  },
+  {
+    "word": "Exposure",
+    "transcription": "экспОужэр",
+    "translation": "воздействие, подвергание, экспозиция",
+    "image": "images/Exposure.png",
+    "level": "B2"
+  },
+  {
+    "word": "Collide",
+    "transcription": "кэлАйд",
+    "translation": "сталкиваться, врезаться",
+    "image": "images/Collide.png",
+    "level": "B2"
+  },
+  {
+    "word": "Grit powder",
+    "transcription": "грит пАудэр",
+    "translation": "абразивный порошок, песчаная пыль",
+    "image": "images/Grit_powder.png",
+    "level": "B2"
+  },
+  {
+    "word": "Wandering from side to side",
+    "transcription": "уАндэрин фром сАйд ту сАйд",
+    "translation": "блуждая из стороны в сторону",
+    "image": "images/Wandering_from_side_to_side.png",
+    "level": "B2"
+  },
+  {
+    "word": "Motherly mare",
+    "transcription": "мАзэрли мэр",
+    "translation": "заботливая кобыла",
+    "image": "images/Motherly_mare.png",
+    "level": "B2"
+  },
+  {
+    "word": "Denim",
+    "transcription": "дЭним",
+    "translation": "джинсовая ткань, деним",
+    "image": "images/Denim.png",
+    "level": "B2"
+  },
+  {
+    "word": "hollow out",
+    "transcription": "хОлоу аут",
+    "translation": "выдалбливать, опустошать",
+    "image": "images/HollowOut.png",
+    "level": "B2"
+  },
+  {
+    "word": "mangled",
+    "transcription": "мЭнглд",
+    "translation": "изуродованный, искореженный",
+    "image": "images/Mangled.png",
+    "level": "B2"
+  },
+  {
+    "word": "seltzer",
+    "transcription": "сЕлтсэр",
+    "translation": "сельтерская вода, газировка",
+    "image": "images/Seltzer.png",
+    "level": "B2"
+  },
+  {
+    "word": "vicous",
+    "transcription": "вИскэс",
+    "translation": "вязкий, тягучий",
+    "image": "images/Vicous.png",
+    "level": "B2"
+  },
+  {
+    "word": "smudge",
+    "transcription": "смАдж",
+    "translation": "пятно, мазня, размазывать",
+    "image": "images/Smudge.png",
+    "level": "B2"
+  },
+  {
+    "word": "tarnish",
+    "transcription": "тАрнИш",
+    "translation": "тускнеть, порочить, тусклость",
+    "image": "images/Tarnish.png",
+    "level": "B2"
+  },
+  {
+    "word": "encore",
+    "transcription": "Онкор",
+    "translation": "на бис, выход на бис",
+    "image": "images/Encore.png",
+    "level": "B2"
+  },
+  {
+    "word": "standoff",
+    "transcription": "стЭнд-оф",
+    "translation": "противостояние, тупик",
+    "image": "images/Standoff.png",
+    "level": "B2"
+  },
+  {
+    "word": "adversary",
+    "transcription": "Эдвэрсэри",
+    "translation": "противник, враг",
+    "image": "images/Adversary.png",
+    "level": "B2"
+  },
+  {
+    "word": "hurdle",
+    "transcription": "хЁрдл",
+    "translation": "препятствие, барьер",
+    "image": "images/Hurdle.png",
+    "level": "B2"
+  },
+  {
+    "word": "tinker",
+    "transcription": "тИнкэр",
+    "translation": "ковыряться, лудильщик",
+    "image": "images/Tinker.png",
+    "level": "B2"
+  },
+  {
+    "word": "dasher",
+    "transcription": "дэшэр",
+    "translation": "лихач, доставщик, толкач",
+    "image": "images/Dasher.png",
+    "level": "B2"
+  },
+  {
+    "word": "splurging",
+    "transcription": "сплЁрджин",
+    "translation": "транжирство, шикование",
+    "image": "images/Splurging.png",
+    "level": "B2"
+  },
+  {
+    "word": "grout",
+    "transcription": "граут",
+    "translation": "затирка, жидкий цемент",
+    "image": "images/Grout.png",
+    "level": "B2"
+  },
+  {
+    "word": "unravel",
+    "transcription": "анрЭвл",
+    "translation": "распутывать, разгадывать",
+    "image": "images/Unravel.png",
+    "level": "B2"
+  },
+  {
+    "word": "walloped",
+    "transcription": "уОлэпт",
+    "translation": "сильно ударил, разгромил",
+    "image": "images/Walloped.png",
+    "level": "B2"
+  },
+  {
+    "word": "snap back",
+    "transcription": "снэп бэк",
+    "translation": "огрызаться, быстро приходить в норму",
+    "image": "images/SnapBack.png",
+    "level": "B2"
+  },
+  {
+    "word": "holster",
+    "transcription": "хОлстэр",
+    "translation": "кобура",
+    "image": "images/Holster.png",
+    "level": "B2"
+  },
+  {
+    "word": "sorcery",
+    "transcription": "сОрсэри",
+    "translation": "колдовство, магия",
+    "image": "images/Sorcery.png",
+    "level": "B2"
+  },
+  {
+    "word": "gutter tunnel",
+    "transcription": "гАтэр тунл",
+    "translation": "водосточный туннель, ливневка",
+    "image": "images/GutterTunnel.png",
+    "level": "B2"
+  },
+  {
+    "word": "snorting",
+    "transcription": "снОртин",
+    "translation": "фырканье, втягивание носом",
+    "image": "images/Snorting.png",
+    "level": "B2"
+  },
+  {
+    "word": "strip out",
+    "transcription": "стрип аут",
+    "translation": "снимать, зачищать (провода)",
+    "image": "images/StripOut.png",
+    "level": "B2"
+  },
+  {
+    "word": "pickleball court",
+    "transcription": "пиклбол корт",
+    "translation": "корт для пиклбола",
+    "image": "images/PickleballCourt.png",
+    "level": "B2"
+  },
+  {
+    "word": "equestrian center",
+    "transcription": "иквЕстриан сЕнтэр",
+    "translation": "конноспортивный центр",
+    "image": "images/EquestrianCenter.png",
+    "level": "B2"
+  },
+  {
+    "word": "Shuffled around",
+    "transcription": "шАфлд эрАунд",
+    "translation": "шаркал вокруг, тасовал",
+    "image": "images/Shuffled_around.png",
+    "level": "B2"
+  },
+  {
+    "word": "Artisan",
+    "transcription": "Артызэн",
+    "translation": "ремесленник, мастер",
+    "image": "images/Artisan.png",
+    "level": "B2"
+  },
+  {
+    "word": "Featured in",
+    "transcription": "фИчюрд ин",
+    "translation": "представлен в, фигурирует в",
+    "image": "images/Featured_in.png",
+    "level": "B2"
+  },
+  {
+    "word": "Scales",
+    "transcription": "скэйлс",
+    "translation": "весы, чешуя, гаммы",
+    "image": "images/Scales.png",
+    "level": "B2"
+  },
+  {
+    "word": "Tuck in",
+    "transcription": "так ин",
+    "translation": "заправлять, укрывать, налегать на еду",
+    "image": "images/Tuck_in.png",
+    "level": "B2"
+  },
+  {
+    "word": "Tusks",
+    "transcription": "таскс",
+    "translation": "бивни, клыки",
+    "image": "images/Tusks.png",
+    "level": "B2"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "word": "Apprehended",
+    "transcription": "эприхЕндид",
+    "translation": "задержанный, арестованный, постигнутый",
+    "image": "images/Apprehended.png",
+    "level": "C1"
+  },
+  {
+    "word": "Habitual",
+    "transcription": "хабИчуэл",
+    "translation": "привычный, обычный, заядлый",
+    "image": "images/Habitual.png",
+    "level": "C1"
+  },
+  {
+    "word": "I beg to differ",
+    "transcription": "ай бэг ту дИфэр",
+    "translation": "позволю себе не согласиться, вынужден не согласиться",
+    "image": "images/I_beg_to_differ.png",
+    "level": "C1"
+  },
+  {
+    "word": "Fringe",
+    "transcription": "фриндж",
+    "translation": "бахрома, край, периферия, маргинальный",
+    "image": "images/Fringe.png",
+    "level": "C1"
+  },
+  {
+    "word": "Impartial",
+    "transcription": "импАршэл",
+    "translation": "беспристрастный, объективный",
+    "image": "images/Impartial.png",
+    "level": "C1"
+  },
+  {
+    "word": "It is not my custom to go where I'm not wanted",
+    "transcription": "ит из нот май кАстом ту гоу уЭр ай эм нот уОнтид",
+    "translation": "не в моих правилах ходить туда, где меня не ждут",
+    "image": "images/It_is_not_my_custom.png",
+    "level": "C1"
+  },
+  {
+    "word": "Crippling",
+    "transcription": "крИплин",
+    "translation": "калечащий, разрушительный, парализующий",
+    "image": "images/Crippling.png",
+    "level": "C1"
+  },
+  {
+    "word": "Verge",
+    "transcription": "вЁрдж",
+    "translation": "грань, край, быть на грани",
+    "image": "images/Verge.png",
+    "level": "C1"
+  },
+  {
+    "word": "Heed",
+    "transcription": "хид",
+    "translation": "внимание, прислушиваться, учитывать",
+    "image": "images/Heed.png",
+    "level": "C1"
+  },
+  {
+    "word": "Copyright infringement",
+    "transcription": "кОпирайт инфрИнджмэнт",
+    "translation": "нарушение авторских прав",
+    "image": "images/Copyright_infringement.png",
+    "level": "C1"
+  },
+  {
+    "word": "Hunch",
+    "transcription": "ханч",
+    "translation": "предчувствие, догадка, горбиться",
+    "image": "images/Hunch.png",
+    "level": "C1"
+  },
+  {
+    "word": "Swirl",
+    "transcription": "свЁрл",
+    "translation": "вихрь, кружиться, водоворот",
+    "image": "images/Swirl.png",
+    "level": "C1"
+  },
+  {
+    "word": "Rag mats",
+    "transcription": "рэг мэтс",
+    "translation": "тряпичные коврики",
+    "image": "images/Rag_mats.png",
+    "level": "C1"
+  },
+  {
+    "word": "Ruggedly",
+    "transcription": "рАгидли",
+    "translation": "грубо, сурово, неровно",
+    "image": "images/Ruggedly.png",
+    "level": "C1"
+  },
+  {
+    "word": "Ulcer",
+    "transcription": "Алсэр",
+    "translation": "язва",
+    "image": "images/Ulcer.png",
+    "level": "C1"
+  },
+  {
+    "word": "Dulled mirror",
+    "transcription": "далд мИрэр",
+    "translation": "тусклое зеркало",
+    "image": "images/Dulled_mirror.png",
+    "level": "C1"
+  },
+  {
+    "word": "Dimmed",
+    "transcription": "димд",
+    "translation": "затемненный, тусклый",
+    "image": "images/Dimmed.png",
+    "level": "C1"
+  },
+  {
+    "word": "Bluebottle",
+    "transcription": "блЮботл",
+    "translation": "мясная муха, бутыль из синего стекла",
+    "image": "images/Bluebottle.png",
+    "level": "C1"
+  },
+  {
+    "word": "Conceivable",
+    "transcription": "кенсИвабл",
+    "translation": "мыслимый, постижимый",
+    "image": "images/Conceivable.png",
+    "level": "C1"
+  },
+  {
+    "word": "Sagging",
+    "transcription": "сЭгин",
+    "translation": "провисание, обвисший",
+    "image": "images/Sagging.png",
+    "level": "C1"
+  },
+  {
+    "word": "Unintelligible",
+    "transcription": "анинтЕлиджибл",
+    "translation": "невразумительный, непонятный",
+    "image": "images/Unintelligible.png",
+    "level": "C1"
+  },
+  {
+    "word": "Fad",
+    "transcription": "фэд",
+    "translation": "мимолетное увлечение, причуда, тренд",
+    "image": "images/Fad.png",
+    "level": "C1"
+  },
+  {
+    "word": "Wedge",
+    "transcription": "уэдж",
+    "translation": "клин, втискивать",
+    "image": "images/Wedge.png",
+    "level": "C1"
+  },
+  {
+    "word": "They snagged him",
+    "transcription": "зэй снэгд хим",
+    "translation": "они подцепили его, поймали его",
+    "image": "images/They_snagged_him.png",
+    "level": "C1"
+  },
+  {
+    "word": "Snap payment",
+    "transcription": "снэп пЕймэнт",
+    "translation": "быстрая оплата, мгновенный платеж",
+    "image": "images/Snap_payment.png",
+    "level": "C1"
+  },
+  {
+    "word": "Stride",
+    "transcription": "страйд",
+    "translation": "широкий шаг, шагать, уверенно развиваться",
+    "image": "images/Stride.png",
+    "level": "C1"
+  },
+  {
+    "word": "Dire",
+    "transcription": "дАйэр",
+    "translation": "ужасный, страшный, крайний",
+    "image": "images/Dire.png",
+    "level": "C1"
+  },
+  {
+    "word": "Deflected",
+    "transcription": "дифлЕктид",
+    "translation": "отклоненный, отраженный",
+    "image": "images/Deflected.png",
+    "level": "C1"
+  },
+  {
+    "word": "Sooth",
+    "transcription": "суф",
+    "translation": "истина, правда (устар.)",
+    "image": "images/Sooth.png",
+    "level": "C1"
+  },
+  {
+    "word": "Constipation",
+    "transcription": "канстипЕйшн",
+    "translation": "запор",
+    "image": "images/Constipation.png",
+    "level": "C1"
+  },
+  {
+    "word": "Upholding",
+    "transcription": "апхОлдин",
+    "translation": "поддержание, соблюдение, отстаивание",
+    "image": "images/Upholding.png",
+    "level": "C1"
+  },
+  {
+    "word": "Deter",
+    "transcription": "дитЁр",
+    "translation": "удерживать, отпугивать",
+    "image": "images/Deter.png",
+    "level": "C1"
+  },
+  {
+    "word": "Aptitudes",
+    "transcription": "Эптэтьудз",
+    "translation": "способности, склонности",
+    "image": "images/Aptitudes.png",
+    "level": "C1"
+  },
+  {
+    "word": "This view may be skewed by",
+    "transcription": "зис вью мэй би скьюд бай",
+    "translation": "этот взгляд может быть искажен из-за",
+    "image": "images/This_view_may_be_skewed_by.png",
+    "level": "C1"
+  },
+  {
+    "word": "Exerts",
+    "transcription": "игзЁртс",
+    "translation": "оказывает, напрягает",
+    "image": "images/Exerts.png",
+    "level": "C1"
+  },
+  {
+    "word": "Foes",
+    "transcription": "фоуз",
+    "translation": "враги, недруги",
+    "image": "images/Foes.png",
+    "level": "C1"
+  },
+  {
+    "word": "Wager",
+    "transcription": "уЕйджэр",
+    "translation": "пари, ставка, держать пари",
+    "image": "images/Wager.png",
+    "level": "C1"
+  },
+  {
+    "word": "Refurbish",
+    "transcription": "рифЁрбиш",
+    "translation": "ремонтировать, обновлять, реставрировать",
+    "image": "images/Refurbish.png",
+    "level": "C1"
+  },
+  {
+    "word": "Resolute",
+    "transcription": "рЕзалют",
+    "translation": "решительный, непреклонный",
+    "image": "images/Resolute.png",
+    "level": "C1"
+  },
+  {
+    "word": "Brace for",
+    "transcription": "брэйс фор",
+    "translation": "приготовиться к, собраться перед",
+    "image": "images/Brace_for.png",
+    "level": "C1"
+  },
+  {
+    "word": "Good riddance",
+    "transcription": "гуд рИдэнс",
+    "translation": "скатертью дорога, туда ему и дорога, избавление",
+    "image": "images/Good_riddance.png",
+    "level": "C1"
+  },
+  {
+    "word": "Sprawl",
+    "transcription": "спрол",
+    "translation": "разрастание, растягиваться, раскидываться",
+    "image": "images/Sprawl.png",
+    "level": "C1"
+  },
+  {
+    "word": "Run an errand",
+    "transcription": "ран эн Эрэнд",
+    "translation": "сбегать по делу, выполнить поручение",
+    "image": "images/Run_an_errand.png",
+    "level": "C1"
+  },
+  {
+    "word": "calamity",
+    "transcription": "кэлЭмити",
+    "translation": "бедствие, катастрофа",
+    "image": "images/calamity.png",
+    "level": "C1"
+  },
+  {
+    "word": "intermittently",
+    "transcription": "интэрмИтэнтли",
+    "translation": "время от времени, периодически",
+    "image": "images/intermittently.png",
+    "level": "C1"
+  },
+  {
+    "word": "Contempt",
+    "transcription": "кэнтЕмпт",
+    "translation": "презрение, неуважение",
+    "image": "images/Contempt.png",
+    "level": "C1"
+  },
+  {
+    "word": "Undermine",
+    "transcription": "андэрмАйн",
+    "translation": "подрывать, ослаблять",
+    "image": "images/Undermine.png",
+    "level": "C1"
+  },
+  {
+    "word": "Peg out",
+    "transcription": "пэг аут",
+    "translation": "скончаться, загнуться, выдохнуться",
+    "image": "images/Peg_out.png",
+    "level": "C1"
+  },
+  {
+    "word": "loin",
+    "transcription": "лойн",
+    "translation": "поясница, филейная часть",
+    "image": "images/loin.png",
+    "level": "C1"
+  },
+  {
+    "word": "Thrust",
+    "transcription": "сраст",
+    "translation": "толчок, удар, втыкать, thrust",
+    "image": "images/Thrust.png",
+    "level": "C1"
+  }
+]
