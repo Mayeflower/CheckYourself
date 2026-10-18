@@ -3,5 +3,100 @@
     "id": "Начальный уровень",
     "file": "setsrusen/Начальный уровень.json",
     "cefr": "A2"
+  },
+  {
+    "id": "Базовый 1",
+    "file": "setsrusen/Базовый 1.json",
+    "cefr": "B1"
+  },
+  {
+    "id": "Базовый 2",
+    "file": "setsrusen/Базовый 2.json",
+    "cefr": "B1"
+  },
+  {
+    "id": "Средний 1",
+    "file": "setsrusen/Средний 1.json",
+    "cefr": "B2"
+  },
+  {
+    "id": "Средний 2",
+    "file": "setsrusen/Средний 2.json",
+    "cefr": "B2"
+  },
+  {
+    "id": "Средний 3",
+    "file": "setsrusen/Средний 3.json",
+    "cefr": "B2"
+  },
+  {
+    "id": "Средний 4",
+    "file": "setsrusen/Средний 4.json",
+    "cefr": "B2"
+  },
+  {
+    "id": "Продвинутый 1",
+    "file": "setsrusen/Продвинутый 1.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Продвинутый 2",
+    "file": "setsrusen/Продвинутый 2.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Продвинутый 3",
+    "file": "setsrusen/Продвинутый 3.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Продвинутый 4",
+    "file": "setsrusen/Продвинутый 4.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Продвинутый 5",
+    "file": "setsrusen/Продвинутый 5.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Продвинутый 6",
+    "file": "setsrusen/Продвинутый 6.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Продвинутый 7",
+    "file": "setsrusen/Продвинутый 7.json",
+    "cefr": "C1"
+  },
+  {
+    "id": "Сложный 1",
+    "file": "setsrusen/Сложный 1.json",
+    "cefr": "C2"
+  },
+  {
+    "id": "Сложный 2",
+    "file": "setsrusen/Сложный 2.json",
+    "cefr": "C2"
+  },
+  {
+    "id": "Сложный 3",
+    "file": "setsrusen/Сложный 3.json",
+    "cefr": "C2"
+  },
+  {
+    "id": "Сложный 4",
+    "file": "setsrusen/Сложный 4.json",
+    "cefr": "C2"
+  },
+  {
+    "id": "Сложный 5",
+    "file": "setsrusen/Сложный 5.json",
+    "cefr": "C2"
+  },
+  {
+    "id": "Экспертный 1",
+    "file": "setsrusen/Экспертный 1.json",
+    "cefr": "C2+"
   }
 ]

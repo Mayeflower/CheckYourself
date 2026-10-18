@@ -1,0 +1,345 @@
+[
+  {
+    "word": "стремительно умчался",
+    "transcription": "дАртид эуэй",
+    "translation": "Darted away",
+    "image": "images/Darted_away.png",
+    "level": "B2"
+  },
+  {
+    "word": "взмывающий вверх",
+    "transcription": "сОрин ап",
+    "translation": "Soaring up",
+    "image": "images/Soaring_up.png",
+    "level": "B2"
+  },
+  {
+    "word": "блестящий",
+    "transcription": "глИтэрин",
+    "translation": "Glittering",
+    "image": "images/Glittering.png",
+    "level": "B2"
+  },
+  {
+    "word": "современный",
+    "transcription": "контЭмпэрэри",
+    "translation": "Contemporary",
+    "image": "images/Contemporary.png",
+    "level": "B2"
+  },
+  {
+    "word": "горб",
+    "transcription": "хамп",
+    "translation": "Hump",
+    "image": "images/Hump.png",
+    "level": "B2"
+  },
+  {
+    "word": "был выхвачен",
+    "transcription": "уоз снэтчд",
+    "translation": "Was snatched",
+    "image": "images/Was_snatched.png",
+    "level": "B2"
+  },
+  {
+    "word": "был унесен (по воздуху)",
+    "transcription": "уоз флоун эуэй",
+    "translation": "Was flown away",
+    "image": "images/Was_flown_away.png",
+    "level": "B2"
+  },
+  {
+    "word": "дать задний ход",
+    "transcription": "бэк аут",
+    "translation": "Back out",
+    "image": "images/Back_out.png",
+    "level": "B2"
+  },
+  {
+    "word": "окраина",
+    "transcription": "аутскЁрт оф",
+    "translation": "Outskirt of",
+    "image": "images/Outskirt_of.png",
+    "level": "B2"
+  },
+  {
+    "word": "пищеварение",
+    "transcription": "дАйджесчэн",
+    "translation": "Digestion",
+    "image": "images/Digestion.png",
+    "level": "B2"
+  },
+  {
+    "word": "щель",
+    "transcription": "слит",
+    "translation": "slit",
+    "image": "images/slit.png",
+    "level": "B2"
+  },
+  {
+    "word": "бросился",
+    "transcription": "флан химсЕлф",
+    "translation": "flung himself",
+    "image": "images/flung_himself.png",
+    "level": "B2"
+  },
+  {
+    "word": "голени",
+    "transcription": "шинз",
+    "translation": "shins",
+    "image": "images/shins.png",
+    "level": "B2"
+  },
+  {
+    "word": "циферблаты",
+    "transcription": "дАйэлз",
+    "translation": "dials",
+    "image": "images/dials.png",
+    "level": "B2"
+  },
+  {
+    "word": "измотанный",
+    "transcription": "уорн даун",
+    "translation": "worn down",
+    "image": "images/worn_down.png",
+    "level": "B2"
+  },
+  {
+    "word": "прогуливаясь туда-сюда",
+    "transcription": "стрОулин ап энд даун",
+    "translation": "strolling up and down",
+    "image": "images/strolling_up_and_down.png",
+    "level": "B2"
+  },
+  {
+    "word": "грохот",
+    "transcription": "клЭтэр",
+    "translation": "clatter",
+    "image": "images/clatter.png",
+    "level": "B2"
+  },
+  {
+    "word": "проход",
+    "transcription": "айл",
+    "translation": "Aisle",
+    "image": "images/Aisle.png",
+    "level": "B2"
+  },
+  {
+    "word": "карлику вручили цветные карандаши",
+    "transcription": "дуорф хЭндид крЭйонз",
+    "translation": "Dwarf handed Crayons",
+    "image": "images/Dwarf_handed_Crayons.png",
+    "level": "B2"
+  },
+  {
+    "word": "округлять",
+    "transcription": "раунд ап",
+    "translation": "Round up",
+    "image": "images/Round_up.png",
+    "level": "B2"
+  },
+  {
+    "word": "уклоняться",
+    "transcription": "ивЭйд",
+    "translation": "Evade",
+    "image": "images/Evade.png",
+    "level": "B2"
+  },
+  {
+    "word": "вывел его из равновесия",
+    "transcription": "ансЕтлд хим",
+    "translation": "Unsettled him",
+    "image": "images/Unsettled_him.png",
+    "level": "B2"
+  },
+  {
+    "word": "составной",
+    "transcription": "кАмпаунд",
+    "translation": "Compound",
+    "image": "images/Compound.png",
+    "level": "B2"
+  },
+  {
+    "word": "едва ли",
+    "transcription": "скЕрсли",
+    "translation": "Scarcely",
+    "image": "images/Scarcely.png",
+    "level": "B2"
+  },
+  {
+    "word": "взрывы",
+    "transcription": "бЁрстс",
+    "translation": "Bursts",
+    "image": "images/Bursts.png",
+    "level": "B2"
+  },
+  {
+    "word": "катушка",
+    "transcription": "рил",
+    "translation": "Reel",
+    "image": "images/Reel.png",
+    "level": "B2"
+  },
+  {
+    "word": "перемирие",
+    "transcription": "трус",
+    "translation": "Truce",
+    "image": "images/Truce.png",
+    "level": "B2"
+  },
+  {
+    "word": "крошечный",
+    "transcription": "минИскьюл",
+    "translation": "Miniscule",
+    "image": "images/Miniscule.png",
+    "level": "B2"
+  },
+  {
+    "word": "тонкий",
+    "transcription": "сАтл",
+    "translation": "Subtle",
+    "image": "images/Subtle.png",
+    "level": "B2"
+  },
+  {
+    "word": "хранитель",
+    "transcription": "кастОдиэн",
+    "translation": "Custodian",
+    "image": "images/Custodian.png",
+    "level": "B2"
+  },
+  {
+    "word": "связь",
+    "transcription": "бонд",
+    "translation": "Bond",
+    "image": "images/Bond.png",
+    "level": "B2"
+  },
+  {
+    "word": "палуба",
+    "transcription": "дэк",
+    "translation": "Deck",
+    "image": "images/Deck.png",
+    "level": "B2"
+  },
+  {
+    "word": "фляга",
+    "transcription": "флэск",
+    "translation": "Flask",
+    "image": "images/Flask.png",
+    "level": "B2"
+  },
+  {
+    "word": "испуганный",
+    "transcription": "стАртлд",
+    "translation": "Startled",
+    "image": "images/Startled.png",
+    "level": "B2"
+  },
+  {
+    "word": "люк",
+    "transcription": "хэтч",
+    "translation": "Hatch",
+    "image": "images/Hatch.png",
+    "level": "B2"
+  },
+  {
+    "word": "конечности",
+    "transcription": "лимз",
+    "translation": "Limbs",
+    "image": "images/Limbs.png",
+    "level": "B2"
+  },
+  {
+    "word": "амбар",
+    "transcription": "барн",
+    "translation": "Barn",
+    "image": "images/Barn.png",
+    "level": "B2"
+  },
+  {
+    "word": "кувалда",
+    "transcription": "слЕджхамэр",
+    "translation": "Sledgehammer",
+    "image": "images/Sledgehammer.png",
+    "level": "B2"
+  },
+  {
+    "word": "лотерейный билет",
+    "transcription": "рЭфл тИкит",
+    "translation": "Raffle ticket",
+    "image": "images/Raffle_ticket.png",
+    "level": "B2"
+  },
+  {
+    "word": "шланг",
+    "transcription": "хоуз",
+    "translation": "Hose",
+    "image": "images/Hose.png",
+    "level": "B2"
+  },
+  {
+    "word": "ископаемое",
+    "transcription": "фОсл",
+    "translation": "Fossil",
+    "image": "images/Fossil.png",
+    "level": "B2"
+  },
+  {
+    "word": "колода для рубки",
+    "transcription": "чОпин блок",
+    "translation": "Chopping block",
+    "image": "images/Chopping_block.png",
+    "level": "B2"
+  },
+  {
+    "word": "ромашка",
+    "transcription": "дЭйзи",
+    "translation": "Daisy",
+    "image": "images/Daisy.png",
+    "level": "B2"
+  },
+  {
+    "word": "починка",
+    "transcription": "мЕндин",
+    "translation": "Mending",
+    "image": "images/Mending.png",
+    "level": "B2"
+  },
+  {
+    "word": "ковш",
+    "transcription": "лэйдл",
+    "translation": "Ladle",
+    "image": "images/Ladle.png",
+    "level": "B2"
+  },
+  {
+    "word": "лужица рагу",
+    "transcription": "пАдл ов стью",
+    "translation": "Puddle of stew",
+    "image": "images/Puddle_of_stew.png",
+    "level": "B2"
+  },
+  {
+    "word": "сырость",
+    "transcription": "дЭмпнэс",
+    "translation": "Dampness",
+    "image": "images/Dampness.png",
+    "level": "B2"
+  },
+  {
+    "word": "капать",
+    "transcription": "дрИбл",
+    "translation": "Dribble",
+    "image": "images/Dribble.png",
+    "level": "B2"
+  },
+  {
+    "word": "с обидой",
+    "transcription": "ризЕнтфули",
+    "translation": "Resentfully",
+    "image": "images/Resentfully.png",
+    "level": "B2"
+  }
+]

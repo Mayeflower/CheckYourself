@@ -1,0 +1,352 @@
+[
+  {
+    "word": "полоса (везения/невезения)",
+    "transcription": "стрик",
+    "translation": "Streak",
+    "image": "images/Streak.png",
+    "level": "C1"
+  },
+  {
+    "word": "грязный",
+    "transcription": "грАйми",
+    "translation": "Grimy",
+    "image": "images/Grimy.png",
+    "level": "C1"
+  },
+  {
+    "word": "нехватка",
+    "transcription": "скЭрсити",
+    "translation": "Scarcity",
+    "image": "images/Scarcity.png",
+    "level": "C1"
+  },
+  {
+    "word": "полный энтузиазма",
+    "transcription": "кин эз мАстэрд",
+    "translation": "Keen as mustard",
+    "image": "images/Keen_as_mustard.png",
+    "level": "C1"
+  },
+  {
+    "word": "мучение",
+    "transcription": "тОрмэнт",
+    "translation": "Torment",
+    "image": "images/Torment.png",
+    "level": "C1"
+  },
+  {
+    "word": "его первый промах за 2 года или около того",
+    "transcription": "хиз фёрст лэпс ин ту йИрз ов зэрэбАутс",
+    "translation": "His first lapse in 2 years of thereabouts",
+    "image": "images/His_first_lapse_in_2_years_of_thereabouts.png",
+    "level": "C1"
+  },
+  {
+    "word": "клизма",
+    "transcription": "Энимэ",
+    "translation": "Enema",
+    "image": "images/Enema.png",
+    "level": "C1"
+  },
+  {
+    "word": "страх",
+    "transcription": "дрэд",
+    "translation": "Dread",
+    "image": "images/Dread.png",
+    "level": "C1"
+  },
+  {
+    "word": "способность",
+    "transcription": "Эптэтьюд",
+    "translation": "Aptitude",
+    "image": "images/Aptitude.png",
+    "level": "C1"
+  },
+  {
+    "word": "прижиматься",
+    "transcription": "снАгл",
+    "translation": "Snuggle",
+    "image": "images/Snuggle.png",
+    "level": "C1"
+  },
+  {
+    "word": "исправлять",
+    "transcription": "рЕктифай",
+    "translation": "Rectify",
+    "image": "images/Rectify.png",
+    "level": "C1"
+  },
+  {
+    "word": "ненавидеть",
+    "transcription": "лоуд",
+    "translation": "Loathe",
+    "image": "images/Loathe.png",
+    "level": "C1"
+  },
+  {
+    "word": "изобретательный",
+    "transcription": "инджИнйэс",
+    "translation": "Ingenious",
+    "image": "images/Ingenious.png",
+    "level": "C1"
+  },
+  {
+    "word": "вершина",
+    "transcription": "Эйпекс",
+    "translation": "Apex",
+    "image": "images/Apex.png",
+    "level": "C1"
+  },
+  {
+    "word": "стремительно падать",
+    "transcription": "плАмит",
+    "translation": "Plummet",
+    "image": "images/Plummet.png",
+    "level": "C1"
+  },
+  {
+    "word": "суетиться",
+    "transcription": "хАсл",
+    "translation": "Hustle",
+    "image": "images/Hustle.png",
+    "level": "C1"
+  },
+  {
+    "word": "молоть",
+    "transcription": "грайнд",
+    "translation": "Grind",
+    "image": "images/Grind.png",
+    "level": "C1"
+  },
+  {
+    "word": "строго",
+    "transcription": "рИгэрасли",
+    "translation": "Rigorously",
+    "image": "images/Rigorously.png",
+    "level": "C1"
+  },
+  {
+    "word": "иметь приоритет",
+    "transcription": "тэйк прЕсэдэнс",
+    "translation": "Take precedence",
+    "image": "images/Take_precedence.png",
+    "level": "C1"
+  },
+  {
+    "word": "осмотрительность",
+    "transcription": "дискрЕшн",
+    "translation": "Discretion",
+    "image": "images/Discretion.png",
+    "level": "C1"
+  },
+  {
+    "word": "выбирать",
+    "transcription": "опт",
+    "translation": "Opt",
+    "image": "images/Opt.png",
+    "level": "C1"
+  },
+  {
+    "word": "сожженный",
+    "transcription": "инсИнэрэйтэд",
+    "translation": "Incinerated",
+    "image": "images/Incinerated.png",
+    "level": "C1"
+  },
+  {
+    "word": "общая округа",
+    "transcription": "джЕнэрэл висИнити",
+    "translation": "General vicinity",
+    "image": "images/General_vicinity.png",
+    "level": "C1"
+  },
+  {
+    "word": "причуды",
+    "transcription": "куЁркс",
+    "translation": "Quirks",
+    "image": "images/Quirks.png",
+    "level": "C1"
+  },
+  {
+    "word": "наковальня",
+    "transcription": "Энвил",
+    "translation": "Anvil",
+    "image": "images/Anvil.png",
+    "level": "C1"
+  },
+  {
+    "word": "сбитый с толку",
+    "transcription": "бивИлдэрд",
+    "translation": "Bewildered",
+    "image": "images/Bewildered.png",
+    "level": "C1"
+  },
+  {
+    "word": "дерзкое ограбление",
+    "transcription": "дЭрин хайст",
+    "translation": "Daring heist",
+    "image": "images/Daring_heist.png",
+    "level": "C1"
+  },
+  {
+    "word": "фланг",
+    "transcription": "флэнк",
+    "translation": "Flank",
+    "image": "images/Flank.png",
+    "level": "C1"
+  },
+  {
+    "word": "взносы",
+    "transcription": "инстОлмэнтс",
+    "translation": "Installments",
+    "image": "images/Installments.png",
+    "level": "C1"
+  },
+  {
+    "word": "выкинь это",
+    "transcription": "чак ит эуэй",
+    "translation": "Chuck it away",
+    "image": "images/Chuck_it_away.png",
+    "level": "C1"
+  },
+  {
+    "word": "крался",
+    "transcription": "крэпт",
+    "translation": "Crept",
+    "image": "images/Crept.png",
+    "level": "C1"
+  },
+  {
+    "word": "красное дерево",
+    "transcription": "махОгэни",
+    "translation": "Mahogany",
+    "image": "images/Mahogany.png",
+    "level": "C1"
+  },
+  {
+    "word": "хвастался",
+    "transcription": "бОстид",
+    "translation": "Boasted",
+    "image": "images/Boasted.png",
+    "level": "C1"
+  },
+  {
+    "word": "жаворонок",
+    "transcription": "ларк",
+    "translation": "Lark",
+    "image": "images/Lark.png",
+    "level": "C1"
+  },
+  {
+    "word": "отряды",
+    "transcription": "детАчмэнтс",
+    "translation": "Detachments",
+    "image": "images/Detachments.png",
+    "level": "C1"
+  },
+  {
+    "word": "остаток",
+    "transcription": "рЕзидью",
+    "translation": "Residue",
+    "image": "images/Residue.png",
+    "level": "C1"
+  },
+  {
+    "word": "щебень",
+    "transcription": "рабл",
+    "translation": "Rubble",
+    "image": "images/Rubble.png",
+    "level": "C1"
+  },
+  {
+    "word": "они наделены разумом",
+    "transcription": "зэй ар индАуд уиз ризн",
+    "translation": "They are endowed with reason",
+    "image": "images/They_are_endowed_with_reason.png",
+    "level": "C1"
+  },
+  {
+    "word": "бесплодный",
+    "transcription": "бЭрэн",
+    "translation": "Barren",
+    "image": "images/Barren.png",
+    "level": "C1"
+  },
+  {
+    "word": "эксцентричность",
+    "transcription": "эксэнтрИсити",
+    "translation": "Eccentricity",
+    "image": "images/Eccentricity.png",
+    "level": "C1"
+  },
+  {
+    "word": "рассеивать",
+    "transcription": "диспЭл",
+    "translation": "Dispel",
+    "image": "images/Dispel.png",
+    "level": "C1"
+  },
+  {
+    "word": "рыться наощупь",
+    "transcription": "фАмбл",
+    "translation": "Fumble",
+    "image": "images/Fumble.png",
+    "level": "C1"
+  },
+  {
+    "word": "глоток",
+    "transcription": "галп",
+    "translation": "Gulp",
+    "image": "images/Gulp.png",
+    "level": "C1"
+  },
+  {
+    "word": "толстая кишка",
+    "transcription": "лардж интЕстин",
+    "translation": "Large intestine",
+    "image": "images/Large_intestine.png",
+    "level": "C1"
+  },
+  {
+    "word": "смешивание",
+    "transcription": "мИнглин",
+    "translation": "Mingling",
+    "image": "images/Mingling.png",
+    "level": "C1"
+  },
+  {
+    "word": "потускневший",
+    "transcription": "тАрништ",
+    "translation": "Tarnished",
+    "image": "images/Tarnished.png",
+    "level": "C1"
+  },
+  {
+    "word": "хлебать",
+    "transcription": "слёрп",
+    "translation": "Slurp",
+    "image": "images/Slurp.png",
+    "level": "C1"
+  },
+  {
+    "word": "самодовольный",
+    "transcription": "смаг",
+    "translation": "Smug",
+    "image": "images/Smug.png",
+    "level": "C1"
+  },
+  {
+    "word": "перевязь",
+    "transcription": "слин",
+    "translation": "Sling",
+    "image": "images/Sling.png",
+    "level": "C1"
+  },
+  {
+    "word": "в пределах",
+    "transcription": "уизИн кОнфайнс ов",
+    "translation": "Within confines of",
+    "image": "images/Within_confines_of.png",
+    "level": "C1"
+  }
+]

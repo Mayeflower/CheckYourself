@@ -1,0 +1,352 @@
+[
+  {
+    "word": "негласный",
+    "transcription": "тАсит",
+    "translation": "tacit",
+    "image": "images/Tacit.png",
+    "level": "C1"
+  },
+  {
+    "word": "уступающий",
+    "transcription": "сИдин",
+    "translation": "ceding",
+    "image": "images/Ceding.png",
+    "level": "C1"
+  },
+  {
+    "word": "скрупулезный",
+    "transcription": "метИкьюлэс",
+    "translation": "meticulous",
+    "image": "images/Meticulous.png",
+    "level": "C1"
+  },
+  {
+    "word": "бродяжничество",
+    "transcription": "вЕйгрэнси",
+    "translation": "vagrancy",
+    "image": "images/Vagrancy.png",
+    "level": "C1"
+  },
+  {
+    "word": "подавлять",
+    "transcription": "ту куэл",
+    "translation": "to quell",
+    "image": "images/ToQuell.png",
+    "level": "C1"
+  },
+  {
+    "word": "провал",
+    "transcription": "дебАкл",
+    "translation": "debacle",
+    "image": "images/Debacle.png",
+    "level": "C1"
+  },
+  {
+    "word": "истощение",
+    "transcription": "атрИшн",
+    "translation": "attrition",
+    "image": "images/Attrition.png",
+    "level": "C1"
+  },
+  {
+    "word": "распространение",
+    "transcription": "дисЭминЕйшн",
+    "translation": "dissemination",
+    "image": "images/Dissemination.png",
+    "level": "C1"
+  },
+  {
+    "word": "кража",
+    "transcription": "лАрсэни",
+    "translation": "larceny",
+    "image": "images/Larceny.png",
+    "level": "C1"
+  },
+  {
+    "word": "снова обсуждать предложение",
+    "transcription": "рихЭш зэ мОушн",
+    "translation": "rehash the motion",
+    "image": "images/RehashTheMotion.png",
+    "level": "C1"
+  },
+  {
+    "word": "денежный перевод",
+    "transcription": "римИтэнс",
+    "translation": "remittance",
+    "image": "images/Remittance.png",
+    "level": "C1"
+  },
+  {
+    "word": "ощутимый",
+    "transcription": "пАлпэбл",
+    "translation": "palpable",
+    "image": "images/Palpable.png",
+    "level": "C1"
+  },
+  {
+    "word": "пугливый",
+    "transcription": "скИтиш",
+    "translation": "skittish",
+    "image": "images/Skittish.png",
+    "level": "C1"
+  },
+  {
+    "word": "упадок",
+    "transcription": "блАйт",
+    "translation": "blight",
+    "image": "images/Blight.png",
+    "level": "C1"
+  },
+  {
+    "word": "расходы",
+    "transcription": "экспЕнсиз хи инкЁрд",
+    "translation": "expenses he incurred",
+    "image": "images/ExpensesHeIncurred.png",
+    "level": "C1"
+  },
+  {
+    "word": "пища для (например",
+    "transcription": "фОдэр фор",
+    "translation": "fodder for",
+    "image": "images/FodderFor.png",
+    "level": "C1"
+  },
+  {
+    "word": "должная осмотрительность",
+    "transcription": "дью дИлиджэнс",
+    "translation": "due diligence",
+    "image": "images/DueDiligence.png",
+    "level": "C1"
+  },
+  {
+    "word": "вспоминать прошлое",
+    "transcription": "рэмэнИс",
+    "translation": "reminisce",
+    "image": "images/Reminisce.png",
+    "level": "C1"
+  },
+  {
+    "word": "болезненный",
+    "transcription": "мОрбид",
+    "translation": "morbid",
+    "image": "images/Morbid.png",
+    "level": "C1"
+  },
+  {
+    "word": "нищета",
+    "transcription": "сквОлэр",
+    "translation": "squalor",
+    "image": "images/Squalor.png",
+    "level": "C1"
+  },
+  {
+    "word": "прогорклый",
+    "transcription": "рЭнсид",
+    "translation": "rancid",
+    "image": "images/Rancid.png",
+    "level": "C1"
+  },
+  {
+    "word": "тайный",
+    "transcription": "кОувэрт",
+    "translation": "covert",
+    "image": "images/Covert.png",
+    "level": "C1"
+  },
+  {
+    "word": "нелепость",
+    "transcription": "лУдикриси",
+    "translation": "ludicrousy",
+    "image": "images/Ludicrousy.png",
+    "level": "C1"
+  },
+  {
+    "word": "правонарушитель",
+    "transcription": "дилИнкуэнт",
+    "translation": "delinquent",
+    "image": "images/Delinquent.png",
+    "level": "C1"
+  },
+  {
+    "word": "средний класс был обобран до нитки",
+    "transcription": "зэ мИдл клэс хэз бин стрип майнд",
+    "translation": "the middle class has been strip mined",
+    "image": "images/TheMiddleClassHasBeenStripMined.png",
+    "level": "C1"
+  },
+  {
+    "word": "эйблеистский (дискриминация по признаку инвалидности)",
+    "transcription": "эйблист",
+    "translation": "ableist",
+    "image": "images/Ableist.png",
+    "level": "C1"
+  },
+  {
+    "word": "обращение взыскания на заложенное имущество",
+    "transcription": "форклОужэр",
+    "translation": "foreclosure",
+    "image": "images/Foreclosure.png",
+    "level": "C1"
+  },
+  {
+    "word": "обсадная труба (скважины)",
+    "transcription": "уэл пайп",
+    "translation": "well pipe",
+    "image": "images/WellPipe.png",
+    "level": "C1"
+  },
+  {
+    "word": "неминуемо",
+    "transcription": "Имминэнтли",
+    "translation": "imminently",
+    "image": "images/Imminently.png",
+    "level": "C1"
+  },
+  {
+    "word": "воинственный",
+    "transcription": "белИджэрэнт",
+    "translation": "belligerent",
+    "image": "images/Belligerent.png",
+    "level": "C1"
+  },
+  {
+    "word": "изобретательность",
+    "transcription": "инджэнУэти",
+    "translation": "ingenuity",
+    "image": "images/Ingenuity.png",
+    "level": "C1"
+  },
+  {
+    "word": "начисленный",
+    "transcription": "акрУд",
+    "translation": "accrued",
+    "image": "images/Accrued.png",
+    "level": "C1"
+  },
+  {
+    "word": "лжесвидетельство",
+    "transcription": "пЁрджури",
+    "translation": "perjury",
+    "image": "images/Perjury.png",
+    "level": "C1"
+  },
+  {
+    "word": "клевета",
+    "transcription": "дэфэмЕйшн",
+    "translation": "defamation",
+    "image": "images/Defamation.png",
+    "level": "C1"
+  },
+  {
+    "word": "размышление",
+    "transcription": "румэнЕйшн",
+    "translation": "rumination",
+    "image": "images/Rumination.png",
+    "level": "C1"
+  },
+  {
+    "word": "размышление",
+    "transcription": "мьЮзин",
+    "translation": "musing",
+    "image": "images/Musing.png",
+    "level": "C1"
+  },
+  {
+    "word": "обдумывание",
+    "transcription": "малИн",
+    "translation": "mulling",
+    "image": "images/Mulling.png",
+    "level": "C1"
+  },
+  {
+    "word": "истощение",
+    "transcription": "диплИшн",
+    "translation": "depletion",
+    "image": "images/Depletion.png",
+    "level": "C1"
+  },
+  {
+    "word": "свободные средства",
+    "transcription": "дискрЕшэнэри фандз",
+    "translation": "discretionary funds",
+    "image": "images/DiscretionaryFunds.png",
+    "level": "C1"
+  },
+  {
+    "word": "склонять чашу весов",
+    "transcription": "тИпин зэ скойлз",
+    "translation": "tipping the scales",
+    "image": "images/TippingTheScales.png",
+    "level": "C1"
+  },
+  {
+    "word": "тоска",
+    "transcription": "йЁрнин",
+    "translation": "yearning",
+    "image": "images/Yearning.png",
+    "level": "C1"
+  },
+  {
+    "word": "ясность (ума)",
+    "transcription": "лусИдити",
+    "translation": "lucidity",
+    "image": "images/Lucidity.png",
+    "level": "C1"
+  },
+  {
+    "word": "я с тобой краток (резок)",
+    "transcription": "айм кёрт уиз ю",
+    "translation": "i’m curt with you",
+    "image": "images/ImCurtWithYou.png",
+    "level": "C1"
+  },
+  {
+    "word": "оправданный",
+    "transcription": "игзОнэрэйтид",
+    "translation": "exonerated",
+    "image": "images/Exonerated.png",
+    "level": "C1"
+  },
+  {
+    "word": "принуждать",
+    "transcription": "коуЁрс",
+    "translation": "coerce",
+    "image": "images/Coerce.png",
+    "level": "C1"
+  },
+  {
+    "word": "самодовольство",
+    "transcription": "комплЕйсэнси",
+    "translation": "complacency",
+    "image": "images/Complacency.png",
+    "level": "C1"
+  },
+  {
+    "word": "расплата",
+    "transcription": "рЕкэнин",
+    "translation": "reckoning",
+    "image": "images/Reckoning.png",
+    "level": "C1"
+  },
+  {
+    "word": "колдовство",
+    "transcription": "кАнджурин",
+    "translation": "conjuring",
+    "image": "images/Conjuring.png",
+    "level": "C1"
+  },
+  {
+    "word": "соперничество",
+    "transcription": "кентЕншн",
+    "translation": "contention",
+    "image": "images/Contention.png",
+    "level": "C1"
+  },
+  {
+    "word": "отчужденный",
+    "transcription": "истрЕйнджд",
+    "translation": "estranged",
+    "image": "images/Estranged.png",
+    "level": "C1"
+  }
+]

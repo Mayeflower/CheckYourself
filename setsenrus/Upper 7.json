@@ -119,6 +119,20 @@
     "level": "C1"
   },
   {
+    "word": "loophole",
+    "transcription": "лУпхоул",
+    "translation": "лазейка, уловка",
+    "image": "images/Loophole.png",
+    "level": "C1"
+  },
+  {
+    "word": "family bailout",
+    "transcription": "фЭмили бЕйлаут",
+    "translation": "финансовая помощь семье, спасение от долгов семьей",
+    "image": "images/Family_bailout.png",
+    "level": "C1"
+  },
+  {
     "word": "ruse",
     "transcription": "руз",
     "translation": "уловка, хитрость",

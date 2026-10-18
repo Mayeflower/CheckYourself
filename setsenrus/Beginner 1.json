@@ -9,7 +9,7 @@
   {
     "word": "gauge",
     "transcription": "гЕйдж",
-    "translation": "измерительный прибор, оценивать",
+    "translation": "измерительный прибор, оценивать, калибровочный",
     "image": "images/Gauge.png",
     "level": "B1"
   },
@@ -72,7 +72,7 @@
   {
     "word": "scold",
     "transcription": "скоулд",
-    "translation": "бранить",
+    "translation": "бранить, ругать, ругань, брань",
     "image": "images/Scold.png",
     "level": "B1"
   },
@@ -331,14 +331,14 @@
   {
     "word": "scolding",
     "transcription": "скОулдинг",
-    "translation": "выговор, ругань",
+    "translation": "выговор, ругань, брань, ругать, бранить",
     "image": "images/Scolding.png",
     "level": "B1"
   },
   {
     "word": "fussing",
     "transcription": "фАсинг",
-    "translation": "суетиться, возиться",
+    "translation": "суетиться, возиться, суета",
     "image": "images/Fussing.png",
     "level": "B1"
   },

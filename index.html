@@ -113,9 +113,45 @@
         quizIndex: 0,
         quizSource: null,
         quizSetId: null,
-        quizTimer: null,
-        reactionTimer: null
+        quizSession: 0,
+        answerLocked: false,
+        quizFinishing: false
     };
+
+    /* ================= QUIZ TIMERS =================
+       Every delayed action of a quiz goes through quizLater(). A timer remembers the quiz
+       session it was created in; newQuizSession() (called on quiz start and on endQuiz)
+       clears all timers and bumps the session, so a leftover callback from an old quiz
+       can never touch a new one (this used to cause a phantom VICTORY). */
+    const quizTimers = new Set();
+
+    function quizLater(fn, ms) {
+        const session = state.quizSession;
+        const id = setTimeout(() => {
+            quizTimers.delete(id);
+            if (session !== state.quizSession) return;
+            fn();
+        }, ms);
+        quizTimers.add(id);
+        return id;
+    }
+
+    function cancelQuizTimers() {
+        quizTimers.forEach(id => clearTimeout(id));
+        quizTimers.clear();
+    }
+
+    function newQuizSession() {
+        cancelQuizTimers();
+        state.quizSession++;
+        state.answerLocked = false;
+        state.quizFinishing = false;
+        elements.reactionOverlay.classList.remove('active');
+        elements.reactionOverlay.innerHTML = '';
+        elements.cardContainer.classList.remove('screen-shake');
+        document.querySelectorAll('.set-play-btn').forEach(btn => btn.classList.remove('pressed'));
+        elements.statsPlayBtn.classList.remove('pressed');
+    }
 
     const CEFR_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'C2+'];
 
@@ -260,19 +296,10 @@
     }
 
     function resetToDefault() {
-        if (state.quizTimer) {
-            clearTimeout(state.quizTimer);
-            state.quizTimer = null;
-        }
-        if (state.reactionTimer) {
-            clearTimeout(state.reactionTimer);
-            state.reactionTimer = null;
-        }
-        elements.reactionOverlay.classList.remove('active');
-        elements.cardContainer.classList.remove('screen-shake');
-
         if (state.quizActive) {
             endQuiz(false);
+        } else {
+            newQuizSession();
         }
 
         if (!state.manifest || state.manifest.length === 0) {
@@ -315,11 +342,6 @@
     const WRONG_REVIEW_MS = 10000;
 
     function showWastedReaction(callback) {
-        if (state.reactionTimer) {
-            clearTimeout(state.reactionTimer);
-            state.reactionTimer = null;
-        }
-
         elements.reactionOverlay.innerHTML = `
             <div class="reaction-wasted">
                 <div class="wasted-text">WASTED</div>
@@ -330,10 +352,9 @@
         elements.cardContainer.classList.add('screen-shake');
         setTimeout(() => elements.cardContainer.classList.remove('screen-shake'), 500);
 
-        state.reactionTimer = setTimeout(() => {
-            state.reactionTimer = null;
+        quizLater(() => {
             elements.reactionOverlay.classList.remove('active');
-            setTimeout(() => {
+            quizLater(() => {
                 elements.reactionOverlay.innerHTML = '';
                 if (callback) callback();
             }, 400);
@@ -341,11 +362,6 @@
     }
 
     function showVictoryReaction(callback) {
-        if (state.reactionTimer) {
-            clearTimeout(state.reactionTimer);
-            state.reactionTimer = null;
-        }
-
         const confetti = generateConfetti();
         elements.reactionOverlay.innerHTML = `
             <div class="reaction-victory">
@@ -356,10 +372,9 @@
         `;
         elements.reactionOverlay.classList.add('active');
 
-        state.reactionTimer = setTimeout(() => {
-            state.reactionTimer = null;
+        quizLater(() => {
             elements.reactionOverlay.classList.remove('active');
-            setTimeout(() => {
+            quizLater(() => {
                 elements.reactionOverlay.innerHTML = '';
                 if (callback) callback();
             }, 400);
@@ -574,6 +589,8 @@
         const quizCount = getQuizCount(allCards.length);
         const quizCards = shuffleArray(allCards).slice(0, quizCount);
 
+        newQuizSession();
+
         state.quizActive = true;
         state.quizCards = quizCards;
         state.quizIndex = 0;
@@ -585,13 +602,14 @@
         const playBtn = document.querySelector(`.set-play-btn[data-set="${setId}"]`);
         if (playBtn) playBtn.classList.add('pressed');
 
+        elements.cardsHeader.style.display = '';
         elements.cardsActions.style.display = 'none';
         elements.quizProgress.style.display = 'flex';
         elements.quizInputArea.style.display = 'flex';
         elements.cardContainer.classList.add('quiz-mode');
 
         renderQuizCard();
-        setTimeout(() => elements.quizInput.focus(), 50);
+        quizLater(() => elements.quizInput.focus(), 50);
     }
 
     function startGlobalQuiz() {
@@ -616,6 +634,8 @@
         const quizCount = Math.min(50, allCards.length);
         const quizCards = shuffleArray(allCards).slice(0, quizCount);
 
+        newQuizSession();
+
         state.quizActive = true;
         state.quizCards = quizCards;
         state.quizIndex = 0;
@@ -626,12 +646,13 @@
         elements.statsPlayBtn.classList.add('pressed');
 
         elements.cardsHeader.style.display = 'none';
+        elements.cardsActions.style.display = '';
         elements.quizProgress.style.display = 'flex';
         elements.quizInputArea.style.display = 'flex';
         elements.cardContainer.classList.add('quiz-mode');
 
         renderQuizCard();
-        setTimeout(() => elements.quizInput.focus(), 50);
+        quizLater(() => elements.quizInput.focus(), 50);
     }
 
     let easterEggTimer = null;
@@ -661,17 +682,24 @@
     }
 
     function renderQuizCard() {
+        // No running quiz / no questions -> nothing to show (and certainly no victory)
+        if (!state.quizActive || state.quizCards.length === 0) return;
+
         if (state.quizIndex >= state.quizCards.length) {
+            if (state.quizFinishing) return;
+            state.quizFinishing = true;
             showVictoryReaction(() => {
                 if (state.quizSource === 'set') {
-                    markSetAsPassed(state.quizSetId);
+                    const finishedSetId = state.quizSetId;
                     endQuiz(false);
+                    markSetAsPassed(finishedSetId);
                 } else {
                     endQuiz(true);
                 }
             });
             return;
         }
+        state.answerLocked = false;
 
         const card = state.quizCards[state.quizIndex];
         const total = state.quizCards.length;
@@ -686,7 +714,7 @@
         const wordsRaw = card.word.split(' ');
         const processedWords = wordsRaw.map(w => w.length > 14 ? w.replace(/(.{3})/g, "$1&shy;") : w);
         const displayWord = processedWords.join(' ');
-        let fontSize = card.word.length > 50 ? '24px' : '30px';
+        let fontSize = state.mode === 'ru-en' ? '24px' : (card.word.length > 50 ? '24px' : '30px');
 
         elements.cardContainer.innerHTML = `
             <div class="card quiz-card" data-word="${card.word.replace(/"/g, '&quot;')}" style="opacity:1; animation:none;">
@@ -747,8 +775,11 @@
     }
 
     function checkQuizAnswer() {
-        const userAnswer = elements.quizInput.value.trim().toLowerCase();
+        if (!state.quizActive || state.answerLocked) return;
         const currentCard = state.quizCards[state.quizIndex];
+        if (!currentCard) return;
+
+        const userAnswer = elements.quizInput.value.trim().toLowerCase();
 
         const correctAnswers = currentCard.translation
             .split(',')
@@ -762,6 +793,7 @@
         }
 
         const isCorrect = correctAnswers.includes(userAnswer);
+        state.answerLocked = true;
 
         if (isCorrect) {
             elements.quizFeedback.textContent = '✓ Correct!';
@@ -770,8 +802,7 @@
             elements.quizInput.disabled = true;
             updateCheckButtonState();
 
-            state.quizTimer = setTimeout(() => {
-                state.quizTimer = null;
+            quizLater(() => {
                 state.quizIndex++;
                 renderQuizCard();
                 elements.quizInput.focus();
@@ -798,8 +829,7 @@
             resetProgressFromCefr(failedCefr);
 
             showWastedReaction(() => {
-                state.quizTimer = setTimeout(() => {
-                    state.quizTimer = null;
+                quizLater(() => {
                     if (state.quizSource === 'set') {
                         const setId = state.quizSetId;
                         endQuiz(false);
@@ -813,27 +843,15 @@
     }
 
     function endQuiz(reset = false) {
-        if (state.quizTimer) {
-            clearTimeout(state.quizTimer);
-            state.quizTimer = null;
-        }
-        if (state.reactionTimer) {
-            clearTimeout(state.reactionTimer);
-            state.reactionTimer = null;
-        }
+        newQuizSession();   // cancels every pending quiz timer and invalidates stale callbacks
         if (easterEggTimer) {
             clearTimeout(easterEggTimer);
             easterEggTimer = null;
         }
-        elements.reactionOverlay.classList.remove('active');
-        elements.cardContainer.classList.remove('screen-shake');
 
         state.quizActive = false;
         state.quizCards = [];
         state.quizIndex = 0;
-
-        document.querySelectorAll('.set-play-btn').forEach(btn => btn.classList.remove('pressed'));
-        elements.statsPlayBtn.classList.remove('pressed');
 
         elements.cardContainer.style.display = '';
         elements.cardContainer.classList.remove('quiz-mode');
@@ -881,7 +899,7 @@
             const wordsRaw = card.word.split(' ');
             const processedWords = wordsRaw.map(w => w.length > 14 ? w.replace(/(.{3})/g, "$1&shy;") : w);
             const displayWord = processedWords.join(' ');
-            let fontSize = card.word.length > 50 ? '24px' : '30px';
+            let fontSize = state.mode === 'ru-en' ? '24px' : (card.word.length > 50 ? '24px' : '30px');
 
             const translationDisplay = card.translation.split(',')[0].trim();
 
@@ -937,7 +955,10 @@
             if (!box || !word) return;
             const cs = getComputedStyle(box);
             const maxH = box.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
-            let size = window.innerWidth <= 480 ? 34 : 30;
+            // Russian prompts are visually wider; start smaller only in Russian → English mode.
+            let size = state.mode === 'ru-en'
+                ? (window.innerWidth <= 480 ? 28 : 24)
+                : (window.innerWidth <= 480 ? 34 : 30);
             word.style.fontSize = size + 'px';
             while (size > 14 && word.scrollHeight > maxH) {
                 word.style.fontSize = --size + 'px';

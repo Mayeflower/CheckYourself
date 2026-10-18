@@ -1,0 +1,226 @@
+[
+  {
+    "word": "вздрагивать",
+    "transcription": "уИнс",
+    "translation": "Wince",
+    "image": "images/Wince.png",
+    "level": "C2"
+  },
+  {
+    "word": "сжимать",
+    "transcription": "клАспин",
+    "translation": "Clasping",
+    "image": "images/Clasping.png",
+    "level": "C2"
+  },
+  {
+    "word": "готовность",
+    "transcription": "алЭкрити",
+    "translation": "Alacrity",
+    "image": "images/Alacrity.png",
+    "level": "C2"
+  },
+  {
+    "word": "яростно ведущийся спор",
+    "transcription": "фИрсли уЭйджд дибЭйт",
+    "translation": "Fiercely waged debate",
+    "image": "images/Fiercely_waged_debate.png",
+    "level": "C2"
+  },
+  {
+    "word": "малодушный",
+    "transcription": "пьюсилАнимэс",
+    "translation": "Pusillanimous",
+    "image": "images/Pusillanimous.png",
+    "level": "C2"
+  },
+  {
+    "word": "непостижимый",
+    "transcription": "инскрУтабл",
+    "translation": "Inscrutable",
+    "image": "images/Inscrutable.png",
+    "level": "C2"
+  },
+  {
+    "word": "несистематический",
+    "transcription": "дЕсалтори",
+    "translation": "Desultory",
+    "image": "images/Desultory.png",
+    "level": "C2"
+  },
+  {
+    "word": "гибельный",
+    "transcription": "пёрнИшэс",
+    "translation": "Pernicious",
+    "image": "images/Pernicious.png",
+    "level": "C2"
+  },
+  {
+    "word": "двухпартийный",
+    "transcription": "байпАртизэн",
+    "translation": "Bipartisan",
+    "image": "images/Bipartisan.png",
+    "level": "C2"
+  },
+  {
+    "word": "оскорблять",
+    "transcription": "ривАйл",
+    "translation": "Revile",
+    "image": "images/Revile.png",
+    "level": "C2"
+  },
+  {
+    "word": "ненадежный",
+    "transcription": "прикЕриэс",
+    "translation": "Precarious",
+    "image": "images/Precarious.png",
+    "level": "C2"
+  },
+  {
+    "word": "отказываться от",
+    "transcription": "рилИнкуиш",
+    "translation": "Relinquish",
+    "image": "images/Relinquish.png",
+    "level": "C2"
+  },
+  {
+    "word": "выговор",
+    "transcription": "рибьЮк",
+    "translation": "Rebuke",
+    "image": "images/Rebuke.png",
+    "level": "C2"
+  },
+  {
+    "word": "уязвимость в защите",
+    "transcription": "дифЕнсив лайабИлити",
+    "translation": "Defensive liability",
+    "image": "images/Defensive_liability.png",
+    "level": "C2"
+  },
+  {
+    "word": "раболепный",
+    "transcription": "обсИквиэс",
+    "translation": "Obsequious",
+    "image": "images/Obsequious.png",
+    "level": "C2"
+  },
+  {
+    "word": "подстрекательство",
+    "transcription": "абЕтин",
+    "translation": "Abetting",
+    "image": "images/Abetting.png",
+    "level": "C2"
+  },
+  {
+    "word": "мириться с",
+    "transcription": "кандОун",
+    "translation": "Condone",
+    "image": "images/Condone.png",
+    "level": "C2"
+  },
+  {
+    "word": "хранить как реликвию",
+    "transcription": "иншрАйн",
+    "translation": "Enshrine",
+    "image": "images/Enshrine.png",
+    "level": "C2"
+  },
+  {
+    "word": "конфискованный",
+    "transcription": "импАундид",
+    "translation": "Impounded",
+    "image": "images/Impounded.png",
+    "level": "C2"
+  },
+  {
+    "word": "нарушение",
+    "transcription": "инфрЭкшн",
+    "translation": "Infraction",
+    "image": "images/Infraction.png",
+    "level": "C2"
+  },
+  {
+    "word": "благоразумный",
+    "transcription": "прУдэнт",
+    "translation": "Prudent",
+    "image": "images/Prudent.png",
+    "level": "C2"
+  },
+  {
+    "word": "предосудительный",
+    "transcription": "рЭприхЕнсибл",
+    "translation": "Reprehensible",
+    "image": "images/Reprehensible.png",
+    "level": "C2"
+  },
+  {
+    "word": "скука",
+    "transcription": "тИдиэм",
+    "translation": "Tedium",
+    "image": "images/Tedium.png",
+    "level": "C2"
+  },
+  {
+    "word": "удирать",
+    "transcription": "скАтл",
+    "translation": "Scuttle",
+    "image": "images/Scuttle.png",
+    "level": "C2"
+  },
+  {
+    "word": "инертный",
+    "transcription": "инЁрт",
+    "translation": "Inert",
+    "image": "images/Inert.png",
+    "level": "C2"
+  },
+  {
+    "word": "единственный несогласный присяжный",
+    "transcription": "лОун хОулдаут джУрэр",
+    "translation": "lone holdout juror",
+    "image": "images/Lone_holdout_juror.png",
+    "level": "C2"
+  },
+  {
+    "word": "графин",
+    "transcription": "дикАнтэр",
+    "translation": "Decanter",
+    "image": "images/Decanter.png",
+    "level": "C2"
+  },
+  {
+    "word": "веки опустились на его глаза",
+    "transcription": "лидз флИтид даун Оувэр хиз айз",
+    "translation": "Lids flitted down over his eyes",
+    "image": "images/Lids_flitted_down_over_his_eyes.png",
+    "level": "C2"
+  },
+  {
+    "word": "непримиримый",
+    "transcription": "ирЕконсАйлабл",
+    "translation": "Irreconcilable",
+    "image": "images/Irreconcilable.png",
+    "level": "C2"
+  },
+  {
+    "word": "явный",
+    "transcription": "оувЁрт",
+    "translation": "Overt",
+    "image": "images/Overt.png",
+    "level": "C2"
+  },
+  {
+    "word": "рекламные щиты",
+    "transcription": "хОрдингз",
+    "translation": "Hoardings",
+    "image": "images/Hoardings.png",
+    "level": "C2"
+  },
+  {
+    "word": "укоренившийся",
+    "transcription": "ингРэйнд",
+    "translation": "Ingrained",
+    "image": "images/Ingrained.png",
+    "level": "C2"
+  }
+]

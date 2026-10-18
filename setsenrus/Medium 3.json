@@ -140,10 +140,10 @@
     "level": "B2"
   },
   {
-    "word": "vicous",
+    "word": "viscous",
     "transcription": "вИскэс",
     "translation": "вязкий, тягучий",
-    "image": "images/Vicous.png",
+    "image": "images/Viscous.png",
     "level": "B2"
   },
   {
@@ -256,6 +256,13 @@
     "transcription": "гАтэр тунл",
     "translation": "водосточный туннель, ливневка",
     "image": "images/GutterTunnel.png",
+    "level": "B2"
+  },
+  {
+    "word": "angler",
+    "transcription": "Энглэр",
+    "translation": "рыболов, удильщик",
+    "image": "images/Angler.png",
     "level": "B2"
   },
   {

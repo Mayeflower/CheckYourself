@@ -77,13 +77,6 @@
     "level": "B2"
   },
   {
-    "word": "Lap",
-    "transcription": "лэп",
-    "translation": "колени, круг, хлюпать",
-    "image": "images/Lap.png",
-    "level": "B2"
-  },
-  {
     "word": "flung himself",
     "transcription": "флан химсЕлф",
     "translation": "бросился, ринулся",
@@ -128,14 +121,14 @@
   {
     "word": "Aisle",
     "transcription": "айл",
-    "translation": "проход (между рядами)",
+    "translation": "проход",
     "image": "images/Aisle.png",
     "level": "B2"
   },
   {
     "word": "Dwarf handed Crayons",
     "transcription": "дуорф хЭндид крЭйонз",
-    "translation": "карлик передал цветные карандаши",
+    "translation": "карлику вручили цветные карандаши",
     "image": "images/Dwarf_handed_Crayons.png",
     "level": "B2"
   },

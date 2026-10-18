@@ -1,0 +1,352 @@
+[
+  {
+    "word": "колкость",
+    "transcription": "зИнгэр",
+    "translation": "zinger",
+    "image": "images/Zinger.png",
+    "level": "C1"
+  },
+  {
+    "word": "уподоблять это",
+    "transcription": "лАйкэн ит ту",
+    "translation": "liken it to",
+    "image": "images/LikenItTo.png",
+    "level": "C1"
+  },
+  {
+    "word": "крайнее раздражение",
+    "transcription": "игзаспэрЕйшн",
+    "translation": "exasperation",
+    "image": "images/Exasperation.png",
+    "level": "C1"
+  },
+  {
+    "word": "неуравновешенный",
+    "transcription": "анхИнджд",
+    "translation": "unhinged",
+    "image": "images/Unhinged.png",
+    "level": "C1"
+  },
+  {
+    "word": "горностай",
+    "transcription": "стоут",
+    "translation": "stoat",
+    "image": "images/Stoat.png",
+    "level": "C1"
+  },
+  {
+    "word": "брошенный в нищету",
+    "transcription": "сраст Инту пОвэрти",
+    "translation": "thrust into poverty",
+    "image": "images/ThrustIntoPoverty.png",
+    "level": "C1"
+  },
+  {
+    "word": "запутанный",
+    "transcription": "кОнволютид",
+    "translation": "convoluted",
+    "image": "images/Convoluted.png",
+    "level": "C1"
+  },
+  {
+    "word": "рифф (муз.)",
+    "transcription": "риф",
+    "translation": "riff",
+    "image": "images/Riff.png",
+    "level": "C1"
+  },
+  {
+    "word": "больничная каталка",
+    "transcription": "гЁрни",
+    "translation": "gurney",
+    "image": "images/Gurney.png",
+    "level": "C1"
+  },
+  {
+    "word": "сдерживание",
+    "transcription": "детЕррэнс",
+    "translation": "deterrence",
+    "image": "images/Deterrence.png",
+    "level": "C1"
+  },
+  {
+    "word": "жгуче",
+    "transcription": "сИринли",
+    "translation": "searingly",
+    "image": "images/Searingly.png",
+    "level": "C1"
+  },
+  {
+    "word": "выкрикивающий с места",
+    "transcription": "хЕклэр",
+    "translation": "heckler",
+    "image": "images/Heckler.png",
+    "level": "C1"
+  },
+  {
+    "word": "придаток",
+    "transcription": "апЕндиж",
+    "translation": "appendage",
+    "image": "images/Appendage.png",
+    "level": "C1"
+  },
+  {
+    "word": "поступать в университет",
+    "transcription": "ту мАтрикьюлейт",
+    "translation": "To matriculate",
+    "image": "images/Matriculate.png",
+    "level": "C1"
+  },
+  {
+    "word": "упрямый",
+    "transcription": "уИлфул",
+    "translation": "Willful",
+    "image": "images/Willful.png",
+    "level": "C1"
+  },
+  {
+    "word": "тревога",
+    "transcription": "ангст",
+    "translation": "Angst",
+    "image": "images/Angst.png",
+    "level": "C1"
+  },
+  {
+    "word": "карманная собачка",
+    "transcription": "лЭп дог",
+    "translation": "Lap dog",
+    "image": "images/Lap_dog.png",
+    "level": "C1"
+  },
+  {
+    "word": "проделки",
+    "transcription": "шэнЭнигэнз",
+    "translation": "Shenanigans",
+    "image": "images/Shenanigans.png",
+    "level": "C1"
+  },
+  {
+    "word": "безупречный",
+    "transcription": "имАкьюлэт",
+    "translation": "Immaculate",
+    "image": "images/Immaculate.png",
+    "level": "C1"
+  },
+  {
+    "word": "сумка для связей (или мешок для скрепления)",
+    "transcription": "бОндин бэг",
+    "translation": "Bonding bag",
+    "image": "images/Bonding_bag.png",
+    "level": "C1"
+  },
+  {
+    "word": "что успех зависит от (досл. висит на петлях)",
+    "transcription": "зэт саксЕс хИнжиз он",
+    "translation": "That success hinges on",
+    "image": "images/That_success_hinges_on.png",
+    "level": "C1"
+  },
+  {
+    "word": "добросовестность",
+    "transcription": "коншиЕншэснэс",
+    "translation": "Conscientiousness",
+    "image": "images/Conscientiousness.png",
+    "level": "C1"
+  },
+  {
+    "word": "человек",
+    "transcription": "дАйн энд дэшэр",
+    "translation": "Dine-and-dasher",
+    "image": "images/Dine_and_dasher.png",
+    "level": "C1"
+  },
+  {
+    "word": "у меня есть сумка-тоут (хозяйственная сумка)",
+    "transcription": "айв гот э тоут",
+    "translation": "I've got a tote",
+    "image": "images/Ive_got_a_tote.png",
+    "level": "C1"
+  },
+  {
+    "word": "выдающийся",
+    "transcription": "Эминэнт",
+    "translation": "Eminent",
+    "image": "images/Eminent.png",
+    "level": "C1"
+  },
+  {
+    "word": "вместо",
+    "transcription": "ин лью",
+    "translation": "In lieu",
+    "image": "images/In_lieu.png",
+    "level": "C1"
+  },
+  {
+    "word": "облом",
+    "transcription": "бАмэр",
+    "translation": "Bummer",
+    "image": "images/Bummer.png",
+    "level": "C1"
+  },
+  {
+    "word": "сочтенный",
+    "transcription": "димд",
+    "translation": "Deemed",
+    "image": "images/Deemed.png",
+    "level": "C1"
+  },
+  {
+    "word": "взволнованный",
+    "transcription": "рЭтлд",
+    "translation": "Rattled",
+    "image": "images/Rattled.png",
+    "level": "C1"
+  },
+  {
+    "word": "выясненный",
+    "transcription": "эсэртЕйнд",
+    "translation": "Ascertained",
+    "image": "images/Ascertained.png",
+    "level": "C1"
+  },
+  {
+    "word": "измерять",
+    "transcription": "гейдж",
+    "translation": "Gauge",
+    "image": "images/Gauge.png",
+    "level": "C1"
+  },
+  {
+    "word": "адвокат",
+    "transcription": "лИтигейтэр",
+    "translation": "Litigator",
+    "image": "images/Litigator.png",
+    "level": "C1"
+  },
+  {
+    "word": "руль",
+    "transcription": "хелм",
+    "translation": "Helm",
+    "image": "images/Helm.png",
+    "level": "C1"
+  },
+  {
+    "word": "отклоненный (возражение)",
+    "transcription": "оувэррУлд",
+    "translation": "Overruled",
+    "image": "images/Overruled.png",
+    "level": "C1"
+  },
+  {
+    "word": "всемогущий",
+    "transcription": "омнИпотэнт",
+    "translation": "Omnipotent",
+    "image": "images/Omnipotent.png",
+    "level": "C1"
+  },
+  {
+    "word": "перепись населения",
+    "transcription": "сЕнсэс",
+    "translation": "Census",
+    "image": "images/Census.png",
+    "level": "C1"
+  },
+  {
+    "word": "стимулы",
+    "transcription": "инсЕнтивз",
+    "translation": "Incentives",
+    "image": "images/Incentives.png",
+    "level": "C1"
+  },
+  {
+    "word": "процесс проверки (кандидата)",
+    "transcription": "вЕтин прОсэс",
+    "translation": "Vetting process",
+    "image": "images/Vetting_process.png",
+    "level": "C1"
+  },
+  {
+    "word": "сложности",
+    "transcription": "Интрикэсиз",
+    "translation": "Intricacies",
+    "image": "images/Intricacies.png",
+    "level": "C1"
+  },
+  {
+    "word": "бережливый",
+    "transcription": "фрУгл",
+    "translation": "Frugal",
+    "image": "images/Frugal.png",
+    "level": "C1"
+  },
+  {
+    "word": "буксировать",
+    "transcription": "тоу",
+    "translation": "Tow",
+    "image": "images/Tow.png",
+    "level": "C1"
+  },
+  {
+    "word": "конечность",
+    "transcription": "экстрЕмити",
+    "translation": "Extremity",
+    "image": "images/Extremity.png",
+    "level": "C1"
+  },
+  {
+    "word": "перевязь",
+    "transcription": "слин",
+    "translation": "Sling",
+    "image": "images/Sling.png",
+    "level": "C1"
+  },
+  {
+    "word": "потрясенный",
+    "transcription": "джоултид",
+    "translation": "Jolted",
+    "image": "images/Jolted.png",
+    "level": "C1"
+  },
+  {
+    "word": "молочница (болезнь)",
+    "transcription": "сраш",
+    "translation": "Thrush",
+    "image": "images/Thrush.png",
+    "level": "C1"
+  },
+  {
+    "word": "поток",
+    "transcription": "тОрэнт",
+    "translation": "Torrent",
+    "image": "images/Torrent.png",
+    "level": "C1"
+  },
+  {
+    "word": "они не так святы",
+    "transcription": "зэй ар нот соу хОли эз зэй мэйк аут",
+    "translation": "They are not so holy as they make out",
+    "image": "images/They_are_not_so_holy_as_they_make_out.png",
+    "level": "C1"
+  },
+  {
+    "word": "лагерь",
+    "transcription": "инкЭмпмэнт",
+    "translation": "Encampment",
+    "image": "images/Encampment.png",
+    "level": "C1"
+  },
+  {
+    "word": "гнусный",
+    "transcription": "нефЕриэс",
+    "translation": "Nefarious",
+    "image": "images/Nefarious.png",
+    "level": "C1"
+  },
+  {
+    "word": "петрушка",
+    "transcription": "пАрсли",
+    "translation": "Parsley",
+    "image": "images/Parsley.png",
+    "level": "C1"
+  }
+]
